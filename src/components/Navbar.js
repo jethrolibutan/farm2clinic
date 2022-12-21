@@ -33,12 +33,8 @@ function Navbar() {
           </Typography>
 
           <Stack direction="row" spacing={2}>
-            <Button color="inherit">
-              {" "}
-              <Link underline="none" to="/">
-                {" "}
-                HOME{" "}
-              </Link>{" "}
+            <Button href="/" color="inherit">
+              Home
             </Button>
             <Button
               variant="contained"
@@ -62,7 +58,10 @@ function Navbar() {
               {" "}
               WHAT WE DO{" "}
             </MenuItem>
-            <MenuItem onClick={handleClose}> MEET THE TEAM </MenuItem>
+            <MenuItem component={Link} href="/about">
+              {/* <Button href="/about"> MEET THE TEAM</Button> */}
+              MEET THE TEAM
+            </MenuItem>
             <MenuItem onClick={handleClose}> SUPPORT </MenuItem>
             <MenuItem onClick={handleClose}> PARTNERS </MenuItem>
           </Menu>
