@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { makeStyles } from "@mui/material";
 import {
   AppBar,
   Toolbar,
@@ -9,10 +8,13 @@ import {
   Menu,
   MenuItem,
   Link,
+  IconButton,
+  makeStyles,
 } from "@mui/material";
+import AgricultureIcon from "@mui/icons-material/Agriculture";
 
 // const useStyles = makeStyles({
-//   navColor: {
+//   header: {
 //     backgroundColor: "green",
 //   },
 // });
@@ -66,29 +68,65 @@ function Navbar() {
 
   return (
     <div>
-      {" "}
-      <AppBar position="static" color="primary">
-        {" "}
+      <AppBar position="static" style={{ backgroundColor: "primary" }}>
         <Toolbar>
-          <Typography size="large" edge="start" marginRight="auto">
-            the logo will be here
+          <IconButton
+            size="medium"
+            edge="start"
+            color="inherit"
+            aria-label="logo"
+          >
+            <AgricultureIcon />
+          </IconButton>
+          <Typography size="large" edge="start" marginRight="auto" variant="h5">
+            FARM2CLINIC
           </Typography>
 
           <Stack direction="row" spacing={2}>
-            <Button href="/" color="inherit">
+            <Button
+              href="/"
+              color="inherit"
+              variant="text"
+              size="large"
+              sx={{ fontSize: "20px", fontWeight: "500" }}
+            >
               Home
             </Button>
-            <Button onClick={handleClick} color="inherit">
+            <Button
+              onClick={handleClick}
+              color="inherit"
+              variant="text"
+              size="large"
+              sx={{ fontSize: "20px", fontWeight: "500" }}
+            >
               ABOUT{" "}
             </Button>
-            <Button onClick={handleClickRes} color="inherit">
+            <Button
+              onClick={handleClickRes}
+              color="inherit"
+              variant="text"
+              size="large"
+              sx={{ fontSize: "20px", fontWeight: "500" }}
+            >
               RESOURCES
             </Button>
-            <Button onClick={handleClickImpact} color="inherit">
+            <Button
+              onClick={handleClickImpact}
+              color="inherit"
+              variant="text"
+              size="large"
+              sx={{ fontSize: "20px", fontWeight: "500" }}
+            >
               {" "}
               IMPACT{" "}
             </Button>
-            <Button onClick={handleClickContact} color="inherit">
+            <Button
+              onClick={handleClickContact}
+              color="inherit"
+              variant="text"
+              size="large"
+              sx={{ fontSize: "20px", fontWeight: "500" }}
+            >
               CONTACT US
             </Button>
           </Stack>
@@ -127,6 +165,7 @@ function Navbar() {
             anchorEl={anchorImpactElm}
             open={openImpact}
             onClose={handleCloseImpact}
+            backgroundColor="green"
           >
             <MenuItem component={Link} href="/publications">
               PUBLICATIONS

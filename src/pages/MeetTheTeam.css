@@ -1,0 +1,20 @@
+.exec-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.rows {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 100px;
+  padding: 20px 0px 20px 0px;
+}
+
+.director-img {
+  width: 150px;
+  height: 250px;
+  object-fit: cover;
+}
