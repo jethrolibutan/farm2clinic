@@ -1,21 +1,30 @@
-.navbar {
-}
+@import url("https://fonts.googleapis.com/css2?family=Unbounded:wght@500&display=swap");
 
 .section-1 {
+  font-family: "Unbounded", cursive;
+
   width: 100%;
   margin: auto;
 
-  height: 75vh;
+  height: 125vh;
+  flex-direction: column;
   display: flex;
   align-items: center;
   justify-content: center;
 
-  background-image: url(../images/farm2clinic.jpeg);
+  background-image: url(../images/volunteerpic2.jpg);
   background-size: cover;
   background-position: cover;
 }
 
 .section-1-title {
-  font-size: 100px;
+  padding-top: 200px;
+
+  font-size: 150px;
+  color: white;
+}
+
+.section-1-title-text {
+  font-size: 35px;
   color: white;
 }

@@ -38,7 +38,7 @@ function App() {
         <Route path="inTheNews" element={<InTheNews />} />
         <Route path="donate" element={<Donate />} />
         <Route path="volunteer" element={<Volunteer />} />
-        <Route path="getInvovled" element={<GetInvolved />} />
+        <Route path="getInvolved" element={<GetInvolved />} />
       </Routes>
     </div>
   );

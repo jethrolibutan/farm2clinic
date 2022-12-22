@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { makeStyles } from "@mui/material";
 import {
   AppBar,
   Toolbar,
@@ -9,6 +10,12 @@ import {
   MenuItem,
   Link,
 } from "@mui/material";
+
+// const useStyles = makeStyles({
+//   navColor: {
+//     backgroundColor: "green",
+//   },
+// });
 
 function Navbar() {
   const [anchorElm, setAnchorElm] = useState(null);
@@ -55,10 +62,12 @@ function Navbar() {
     setOpenContact(true);
   };
 
+  // const classes = useStyles();
+
   return (
     <div>
       {" "}
-      <AppBar position="static" color="transparent">
+      <AppBar position="static" color="primary">
         {" "}
         <Toolbar>
           <Typography size="large" edge="start" marginRight="auto">
@@ -69,35 +78,23 @@ function Navbar() {
             <Button href="/" color="inherit">
               Home
             </Button>
-            <Button variant="contained" onClick={handleClick}>
+            <Button onClick={handleClick} color="inherit">
               ABOUT{" "}
             </Button>
-            <Button
-              variant="contained"
-              onClick={handleClickRes}
-              color="inherit"
-            >
+            <Button onClick={handleClickRes} color="inherit">
               RESOURCES
             </Button>
-            <Button
-              variant="contained"
-              onClick={handleClickImpact}
-              color="inherit"
-            >
+            <Button onClick={handleClickImpact} color="inherit">
               {" "}
               IMPACT{" "}
             </Button>
-            <Button
-              variant="contained"
-              onClick={handleClickContact}
-              color="inherit"
-            >
+            <Button onClick={handleClickContact} color="inherit">
               CONTACT US
             </Button>
           </Stack>
 
           <Menu anchorEl={anchorElm} open={open} onClose={handleClose}>
-            <MenuItem component={Link} to="whatWeDo">
+            <MenuItem component={Link} href="/whatWeDo">
               WHAT WE DO
             </MenuItem>
             <MenuItem component={Link} href="/meetTheTeam">

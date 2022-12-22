@@ -1,7 +1,13 @@
 import React from "react";
+import Navbar from "../components/Navbar";
 
 function Resources() {
-  return <div>Resources</div>;
+  return (
+    <div>
+      <Navbar />
+      Resources
+    </div>
+  );
 }
 
 export default Resources;

@@ -1,7 +1,13 @@
 import React from "react";
+import Navbar from "../components/Navbar";
 
 function Programs() {
-  return <div>Programs</div>;
+  return (
+    <div>
+      <Navbar />
+      Programs
+    </div>
+  );
 }
 
 export default Programs;
