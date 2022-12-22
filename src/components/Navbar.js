@@ -22,6 +22,39 @@ function Navbar() {
     setOpen(true);
   };
 
+  const [anchorResElm, setAnchorResElm] = useState(null);
+  const [openRes, setOpenRes] = useState(false);
+  const handleCloseRes = () => {
+    setAnchorResElm(null);
+    setOpenRes(null);
+  };
+  const handleClickRes = (e) => {
+    setAnchorResElm(e.currentTarget);
+    setOpenRes(true);
+  };
+
+  const [anchorImpactElm, setAnchorImpactElm] = useState(null);
+  const [openImpact, setOpenImpact] = useState(null);
+  const handleCloseImpact = () => {
+    setAnchorImpactElm(null);
+    setOpenImpact(null);
+  };
+  const handleClickImpact = (e) => {
+    setAnchorImpactElm(e.currentTarget);
+    setOpenImpact(true);
+  };
+
+  const [anchorContactElm, setAnchorContactElm] = useState(null);
+  const [openContact, setOpenContact] = useState(null);
+  const handleCloseContact = () => {
+    setAnchorContactElm(null);
+    setOpenContact(null);
+  };
+  const handleClickContact = (e) => {
+    setAnchorContactElm(e.currentTarget);
+    setOpenContact(true);
+  };
+
   return (
     <div>
       {" "}
@@ -36,34 +69,95 @@ function Navbar() {
             <Button href="/" color="inherit">
               Home
             </Button>
-            <Button
-              variant="contained"
-              onClick={handleClick}
-              to="about"
-              key="about"
-            >
+            <Button variant="contained" onClick={handleClick}>
               ABOUT{" "}
             </Button>
-            <Button color="inherit"> RESOURCES </Button>
-            <Button color="inherit"> IMPACT </Button>
-            <Button color="inherit" key="contact">
-              <Link to="contact"> CONTACT US </Link>
+            <Button
+              variant="contained"
+              onClick={handleClickRes}
+              color="inherit"
+            >
+              RESOURCES
             </Button>
-
-            <Link to="contact">ContactMe</Link>
+            <Button
+              variant="contained"
+              onClick={handleClickImpact}
+              color="inherit"
+            >
+              {" "}
+              IMPACT{" "}
+            </Button>
+            <Button
+              variant="contained"
+              onClick={handleClickContact}
+              color="inherit"
+            >
+              CONTACT US
+            </Button>
           </Stack>
 
           <Menu anchorEl={anchorElm} open={open} onClose={handleClose}>
-            <MenuItem onClick={handleClose} to="about">
-              {" "}
-              WHAT WE DO{" "}
+            <MenuItem component={Link} to="whatWeDo">
+              WHAT WE DO
             </MenuItem>
-            <MenuItem component={Link} href="/about">
-              {/* <Button href="/about"> MEET THE TEAM</Button> */}
+            <MenuItem component={Link} href="/meetTheTeam">
               MEET THE TEAM
             </MenuItem>
-            <MenuItem onClick={handleClose}> SUPPORT </MenuItem>
-            <MenuItem onClick={handleClose}> PARTNERS </MenuItem>
+            <MenuItem component={Link} href="/support">
+              SUPPORT
+            </MenuItem>
+            <MenuItem component={Link} href="/partners">
+              PARTNERS
+            </MenuItem>
+            <MenuItem component={Link} href="/programs">
+              PROGRAMS
+            </MenuItem>
+          </Menu>
+
+          <Menu anchorEl={anchorResElm} open={openRes} onClose={handleCloseRes}>
+            <MenuItem component={Link} href="/recipes">
+              RECIPES
+            </MenuItem>
+            <MenuItem component={Link} href="/exercises">
+              EXERCISES
+            </MenuItem>
+            <MenuItem component={Link} href="/training">
+              TRAINING
+            </MenuItem>
+          </Menu>
+
+          <Menu
+            anchorEl={anchorImpactElm}
+            open={openImpact}
+            onClose={handleCloseImpact}
+          >
+            <MenuItem component={Link} href="/publications">
+              PUBLICATIONS
+            </MenuItem>
+            <MenuItem component={Link} href="/inTheNews">
+              IN THE NEWS
+            </MenuItem>
+          </Menu>
+
+          <Menu
+            anchorEl={anchorContactElm}
+            open={openContact}
+            onClose={handleCloseContact}
+          >
+            <MenuItem component={Link} href="/donate">
+              {" "}
+              DONATE
+            </MenuItem>
+
+            <MenuItem component={Link} href="/volunteer">
+              {" "}
+              VOLUNTEER{" "}
+            </MenuItem>
+
+            <MenuItem component={Link} href="/getInvolved">
+              {" "}
+              GET INVOLVED{" "}
+            </MenuItem>
           </Menu>
         </Toolbar>
       </AppBar>
