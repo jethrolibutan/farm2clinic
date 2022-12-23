@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import { Stack, Button } from "@mui/material";
+import Footer from "../components/Footer";
 import "./WhatWeDo.css";
 
 function WhatWeDo() {
@@ -11,16 +12,32 @@ function WhatWeDo() {
       <div className="section-2-text"> WHAT WE DO </div>
 
       <div className="main-content">
-        <h1 className="main-content-text"> Our Mission</h1>
-        <p>
-          rom kitchen to classroom, the Food-based Early Education (FEEd) Lab's
-          mission is to empower early childhood teachers', families, and
-          communities with evidence-based strategies to improve children’s (3-5
-          year) dietary quality and school readiness through early education,
-          exposure, and access to healthy foods and high-quality learning
-          environments.
-        </p>
+        <h1 className="our-mission-title"> Our Mission </h1>
+        <div className="rows">
+          <div className="our-mission-text">
+            <p>
+              The mission of F2C (Farm 2 Clinic) is to connect nutritious, local
+              food and nutrition education resources to patients to promote a
+              healthy lifestyle and optimize their quality of life while
+              reducing food waste.
+            </p>
+          </div>
+          <img src="../images/farm2ClinicLogo.png" className="logo-image"></img>
+        </div>
       </div>
+
+      <div className="main-content">
+        <div className="our-work-section">
+          <h1 className="our-work-title"> Our Work </h1>
+          <p className="our-work-text">
+            The mission of F2C (Farm 2 Clinic) is to connect nutritious, local
+            food and nutrition education resources to patients to promote a
+            healthy lifestyle and optimize their quality of life while reducing
+            food waste.
+          </p>
+        </div>
+      </div>
+      <Footer />
     </div>
   );
 }

@@ -1,5 +1,7 @@
 import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 import { Button } from "@mui/material";
+
 import "./Main.css";
 
 import React from "react";
@@ -20,13 +22,14 @@ function Main() {
         <div>
           <Button
             variant="contained"
-            href="/about"
+            href="/whatWeDo"
             sx={{ m: "2", mt: "25px", fontSize: "21px" }}
           >
             LEARN MORE
           </Button>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }

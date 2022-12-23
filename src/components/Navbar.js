@@ -9,15 +9,9 @@ import {
   MenuItem,
   Link,
   IconButton,
-  makeStyles,
 } from "@mui/material";
-import AgricultureIcon from "@mui/icons-material/Agriculture";
 
-// const useStyles = makeStyles({
-//   header: {
-//     backgroundColor: "green",
-//   },
-// });
+import AgricultureIcon from "@mui/icons-material/Agriculture";
 
 function Navbar() {
   const [anchorElm, setAnchorElm] = useState(null);
@@ -64,11 +58,9 @@ function Navbar() {
     setOpenContact(true);
   };
 
-  // const classes = useStyles();
-
   return (
     <div>
-      <AppBar position="static" style={{ backgroundColor: "primary" }}>
+      <AppBar position="static" backgroundColor="blue">
         <Toolbar>
           <IconButton
             size="medium"
