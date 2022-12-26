@@ -1,17 +1,53 @@
-import React from "react";
+import React, { useState } from "react";
 import Navbar from "../components/Navbar";
+import { images } from "../Helper/CarouselData";
+
+import ArrowBackIosIcon from "@mui/icons-material/ArrowBackIos";
+import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
+
 import "./Recipes.css";
 
 function Recipes() {
+  const [currImg, setCurrImg] = useState(0);
+
   return (
-    <div>
+    <div className="recipe-whole">
       <Navbar />
       <div className="recipe-pic">
         <div className="recipe-title">RECIPES</div>
       </div>
 
-      <div className="recipe-list">
-        <div className="intro">Check these recipes out!</div>
+      <div>
+        <div>broccoli</div>
+        <div className="carousel">
+          <div
+            src={images[currImg].img}
+            className="carouselInner"
+            style={{ backgroundImage: `url(${images[currImg].img})` }}
+          >
+            <div
+              className="left"
+              onClick={() => {
+                currImg > 0 && setCurrImg(currImg - 1);
+              }}
+            >
+              <ArrowBackIosIcon />
+            </div>
+            <div className="center"></div>
+            <div
+              className="right"
+              onClick={() => {
+                currImg < images.length - 1 && setCurrImg(currImg + 1);
+              }}
+            >
+              <ArrowForwardIosIcon />
+            </div>
+            <div />
+          </div>
+        </div>
+
+        <div className="recipe-list">
+          {/* <div className="intro">Check these recipes out!</div>
         <div className="brocoli-section">
           <div className="broccoli-list">
             <h2 className="vegetable-title"> Broccoli</h2>
@@ -32,16 +68,17 @@ function Recipes() {
             src="../images/broccolirecipe3.png"
             className="recipe-container"
           ></img>
-        </div>
+        </div> */}
 
-        <div className="cabbage-recipe">
+          {/* <div className="cabbage-recipe">
           <div className="cabbage-section">Cabbage</div>
         </div>
         <div className="carrots-recipe"> Carrots</div>
         <div className="cauliflower-recipe"> Cauliflower</div>
         <div className="cantaloupe-recipe"> Cantaloupe</div>
         <div className="collards-recipe"> Collards </div>
-        <div className="cucumber-recipe"> Cucumber </div>
+        <div className="cucumber-recipe"> Cucumber </div> */}
+        </div>
       </div>
     </div>
   );
