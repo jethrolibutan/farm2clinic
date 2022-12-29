@@ -5,7 +5,7 @@
   align-items: center;
 }
 
-.rows {
+.team-rows {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -13,8 +13,6 @@
   padding: 20px 0px 20px 0px;
 }
 
-.director-img {
-  width: 150px;
-  height: 250px;
-  object-fit: cover;
+.MuiCardMedia-img {
+  height: 100%;
 }
