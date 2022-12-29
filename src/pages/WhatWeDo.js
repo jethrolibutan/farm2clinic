@@ -30,10 +30,44 @@ function WhatWeDo() {
         <div className="our-work-section">
           <h1 className="our-work-title"> Our Work </h1>
           <p className="our-work-text">
-            The mission of F2C (Farm 2 Clinic) is to connect nutritious, local
-            food and nutrition education resources to patients to promote a
-            healthy lifestyle and optimize their quality of life while reducing
-            food waste.
+            The Farm to Clinic (F2C) Initiative is currently housed in the
+            Department of Nutrition Science at East Carolina University under
+            the direction of Lauren R. Sastre, PhD, RDN, LDN. Dr. Sastre engages
+            in research, teaching, and outreach/service. Current and past work
+            in The F2C Initiative has focused on:
+            <ul className="our-work-list">
+              <li>
+                {" "}
+                Patient’s preferences, needs, interest and experience
+                participating in a produce Rx program.{" "}
+              </li>
+              <li>
+                Impact of medically tailored emergency food bags on hospital
+                re-admissions.
+              </li>
+              <li>
+                Farmer’s perceptions and barriers to gleaning/salvaging efforts
+                in rural, Eastern North Carolina.
+              </li>
+              <li>
+                Development and evaluation of complimentary programming and
+                resources to produce Rx programming to maximize impact on
+                nutritional status, health outcomes and disparities.
+              </li>
+              <li>
+                Identifying best-practices for the implementation and evaluation
+                of preventative programming that intersects between agriculture,
+                academic, community and clinical organizations/partnerships to
+                address nutrition and lifestyle driven health disparities.
+              </li>
+              <li>
+                Investigating impact of preventative nutrition and lifestyle
+                programming on chronic disease related health disparities
+                (health outcomes, promotion health equity) and healthcare
+                expenditures (economic impact, health care cost-savings), with a
+                focus on under-served/under-resourced patient groups.
+              </li>
+            </ul>
           </p>
         </div>
       </div>

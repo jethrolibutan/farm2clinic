@@ -3,7 +3,7 @@
 .section-2 {
   font-family: "Unbounded", cursive;
 
-  height: 75vh;
+  height: 55vh;
   width: 100%;
 
   font-size: 100px;
@@ -43,7 +43,8 @@
   width: auto;
   margin: auto;
   max-width: 1020px;
-  padding: 0px 32px;
+  padding-top: 0px 32px;
+  padding-bottom: 55px;
 }
 
 .our-mission-title {
@@ -51,7 +52,7 @@
 
   box-sizing: border-box;
 
-  padding-left: 125px;
+  padding-left: 130px;
   text-align: left;
 
   font-size: 20px;
@@ -70,22 +71,11 @@
   line-height: 25px;
 
   width: 35%;
-  padding-right: 25px;
+  padding-right: 42.5px;
 }
 
 .logo-image {
   width: 25%;
-}
-
-.our-work-section {
-  vertical-align: middle;
-
-  box-sizing: border-box;
-
-  width: auto;
-  margin: auto;
-  max-width: 1020px;
-  padding: 0px 32px;
 }
 
 .our-work-title {
@@ -99,6 +89,17 @@
   font-size: 20px;
 }
 
+.our-work-section {
+  vertical-align: middle;
+
+  box-sizing: border-box;
+
+  width: auto;
+  margin: auto;
+  max-width: 1020px;
+  padding: 0px 32px;
+}
+
 .our-work-text {
   text-align: left;
 
@@ -108,4 +109,10 @@
   padding-left: 100px;
 
   width: 80%;
+}
+
+.our-work-list {
+  font-size: 15px;
+  line-height: 30px;
+  width: 90%;
 }
