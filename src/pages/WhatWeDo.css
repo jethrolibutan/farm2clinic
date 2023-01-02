@@ -2,21 +2,20 @@
 
 .section-2 {
   font-family: "Unbounded", cursive;
-
-  height: 55vh;
-  width: 100%;
-
   font-size: 100px;
   color: white;
-  filter: blur(2px);
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
 
   background-image: url(../images/farm2clinic.jpeg);
   background-size: cover;
   background-position: cover;
+
+  height: 55vh;
+  width: 100%;
+  margin: auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .section-2-text {
@@ -24,8 +23,6 @@
 
   font-size: 100px;
   color: white;
-
-  transform: translate(0px, -400px);
 }
 
 .nav {
@@ -52,6 +49,7 @@
 
   box-sizing: border-box;
 
+  padding-top: 50px;
   padding-left: 130px;
   text-align: left;
 

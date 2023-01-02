@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import { Stack, Button } from "@mui/material";
+import SubFooter from "../components/SubFooter";
 import Footer from "../components/Footer";
 import "./WhatWeDo.css";
 
@@ -8,8 +9,9 @@ function WhatWeDo() {
   return (
     <div>
       <Navbar />
-      <div className="section-2"></div>
-      <div className="section-2-text"> WHAT WE DO </div>
+      <div className="section-2">
+        <div className="section-2-text"> WHAT WE DO </div>
+      </div>
 
       <div className="main-content">
         <h1 className="our-mission-title"> Our Mission </h1>
@@ -71,6 +73,7 @@ function WhatWeDo() {
           </p>
         </div>
       </div>
+      <SubFooter />
       <Footer />
     </div>
   );

@@ -1,6 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Unbounded:wght@500&display=swap");
 
 .meet-the-team {
+  font-family: "Unbounded", cursive;
+  font-size: 50px;
+  color: white;
+
   background-image: url(../images/meetplease.jpg);
   background-size: cover;
   background-position: center;
@@ -12,10 +16,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-
-  font-family: "Unbounded", cursive;
-  font-size: 50px;
-  color: white;
 }
 
 .meet-the-team-title {

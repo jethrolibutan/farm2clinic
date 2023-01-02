@@ -60,7 +60,11 @@ function Navbar() {
 
   return (
     <div>
-      <AppBar position="static" backgroundColor="blue">
+      <AppBar
+        position="static"
+        backgroundColor="primary"
+        style={{ background: " #3c3c3c" }}
+      >
         <Toolbar>
           <IconButton
             size="medium"

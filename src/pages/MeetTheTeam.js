@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "../components/Navbar";
+import SubFooter from "../components/SubFooter";
 import Footer from "../components/Footer";
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
@@ -334,6 +335,7 @@ function MeetTheTeam() {
           </Card>
         </div>
       </div>
+      <SubFooter />
       <Footer />
     </div>
   );
