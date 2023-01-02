@@ -15,7 +15,7 @@ function SubFooter() {
         spacing={1}
         sx={{
           justifyContent: "center",
-          backgroundColor: "#3c3c3c",
+          backgroundColor: "#787878",
           paddingTop: "45px",
           paddingBottom: "45px",
         }}
