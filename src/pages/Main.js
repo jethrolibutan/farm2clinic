@@ -1,6 +1,7 @@
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import { Button } from "@mui/material";
+import SubFooter from "../components/SubFooter";
 
 import "./Main.css";
 
@@ -29,6 +30,7 @@ function Main() {
           </Button>
         </div>
       </div>
+      <SubFooter />
       <Footer />
     </div>
   );

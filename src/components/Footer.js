@@ -1,5 +1,5 @@
 import React from "react";
-import { AppBar, ToolBar } from "@mui/material";
+
 import "./Footer.css";
 function Footer() {
   return (

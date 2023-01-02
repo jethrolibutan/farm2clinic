@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "../components/Navbar";
-
+import Footer from "../components/Footer";
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
@@ -14,13 +14,12 @@ function MeetTheTeam() {
     <div className="cards-list">
       <Navbar />
       <div className="exec-container">
-        <div className="mett-the-team">
-          {" "}
+        <div className="meet-the-team">
           <h1 classsName="meet-the-team-title"> Meet The Team</h1>
         </div>
         <div className="team-rows">
           <Box>
-            <Card sx={{ maxWidth: 450 }}>
+            <Card sx={{ maxWidth: 250 }}>
               <CardActionArea>
                 <CardMedia
                   component="img"
@@ -33,7 +32,7 @@ function MeetTheTeam() {
                     Director
                   </Typography>
                   <Typography
-                    variant="body2"
+                    variant="body"
                     color="text.secondary"
                     sx={{ textAlign: "left" }}
                   >
@@ -76,7 +75,7 @@ function MeetTheTeam() {
             </Card>
           </Box>
 
-          <Card sx={{ maxWidth: 450 }}>
+          <Card sx={{ maxWidth: 250 }}>
             <CardActionArea>
               <CardMedia
                 component="img"
@@ -89,7 +88,7 @@ function MeetTheTeam() {
                   Assistant Director
                 </Typography>
                 <Typography
-                  variant="body2"
+                  variant="body"
                   color="text.secondary"
                   sx={{ textAlign: "left" }}
                 >
@@ -130,7 +129,7 @@ function MeetTheTeam() {
         </div>
 
         <div className="team-rows">
-          <Card sx={{ maxWidth: 450 }}>
+          <Card sx={{ maxWidth: 250 }}>
             <CardActionArea>
               <CardMedia
                 component="img"
@@ -143,7 +142,7 @@ function MeetTheTeam() {
                   Lead Consultant & Investigator
                 </Typography>
                 <Typography
-                  variant="body2"
+                  variant="body"
                   color="text.secondary"
                   sx={{ textAlign: "left" }}
                 >
@@ -180,12 +179,12 @@ function MeetTheTeam() {
             </CardActions>
           </Card>
 
-          <Card sx={{ maxWidth: 450 }}>
+          <Card sx={{ maxWidth: 250 }}>
             <CardActionArea>
               <CardMedia
                 component="img"
                 height="150"
-                image="../images/brooke.JPG"
+                image="../images/jessica1.jpg"
                 alt="Jessica Barrett"
               />
               <CardContent>
@@ -193,7 +192,7 @@ function MeetTheTeam() {
                   Consultant
                 </Typography>
                 <Typography
-                  variant="body2"
+                  variant="body"
                   color="text.secondary"
                   sx={{ textAlign: "left" }}
                 >
@@ -230,7 +229,46 @@ function MeetTheTeam() {
         </div>
 
         <div className="team-rows">
-          <Card sx={{ maxWidth: 450 }}>
+          <Card sx={{ maxWidth: 250 }}>
+            <CardActionArea>
+              <CardMedia
+                component="img"
+                height="150"
+                image="../images/alessio.JPG"
+                alt="Alessio Fratarcangeli"
+              />
+              <CardContent>
+                <Typography gutterBottom variant="h6" component="div">
+                  Farm To Clinic Coordinator
+                </Typography>
+                <Typography
+                  variant="body"
+                  color="text.secondary"
+                  sx={{ textAlign: "left" }}
+                >
+                  Alessio Fratarcangeli is a Biology Student of the Thomas
+                  Harriet College of Arts and Sciences. In 2022, he became the
+                  Program Coordinator for the Farm to Clinic (F2C) initiative.
+                  Alessio connects and builds relationships with growers,
+                  organizations, and clinics across Eastern North Carolina to
+                  locate and facilitate volunteer gleanings, pickups, and
+                  drop-offs of healthy fruits and vegetables. Primary partners
+                  include the North Carolina Associate of Free and Charitable
+                  Clinics within Eastern NC, The Society of St. Andrews, and the
+                  Central and Eastern Food Bank of North Carolina. He is always
+                  looking for more volunteer involvement to accomplish F2C's
+                  goal to address disparities and serve overlooked communities
+                  here in Eastern NC.
+                </Typography>
+              </CardContent>
+            </CardActionArea>
+            <CardActions>
+              <Button size="small" color="primary">
+                Share
+              </Button>
+            </CardActions>
+          </Card>
+          <Card sx={{ maxWidth: 250 }}>
             <CardActionArea>
               <CardMedia
                 component="img"
@@ -243,7 +281,7 @@ function MeetTheTeam() {
                   Fresh Start Coordinator
                 </Typography>
                 <Typography
-                  variant="body2"
+                  variant="body"
                   color="text.secondary"
                   sx={{ textAlign: "left" }}
                 >
@@ -294,36 +332,9 @@ function MeetTheTeam() {
               </Button>
             </CardActions>
           </Card>
-
-          <Card sx={{ maxWidth: 450 }}>
-            <CardActionArea>
-              <CardMedia
-                component="img"
-                height="150"
-                image="../images/brooke.JPG"
-                alt="Alessio Fratarcangeli"
-              />
-              <CardContent>
-                <Typography gutterBottom variant="h6" component="div">
-                  Farm To Clinic Coordinator
-                </Typography>
-                <Typography
-                  variant="body2"
-                  color="text.secondary"
-                  sx={{ textAlign: "left" }}
-                >
-                  alessio
-                </Typography>
-              </CardContent>
-            </CardActionArea>
-            <CardActions>
-              <Button size="small" color="primary">
-                Share
-              </Button>
-            </CardActions>
-          </Card>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }
