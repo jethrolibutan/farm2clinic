@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Navbar from "../components/Navbar";
-import { images } from "../Helper/CarouselData";
+import { images, cabbage } from "../Helper/CarouselData";
 
 import ArrowBackIosIcon from "@mui/icons-material/ArrowBackIos";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
@@ -9,6 +9,7 @@ import "./Recipes.css";
 
 function Recipes() {
   const [currImg, setCurrImg] = useState(0);
+  const [currCabb, setCurrCabb] = useState(0);
 
   return (
     <div className="recipe-whole">
@@ -18,7 +19,7 @@ function Recipes() {
       </div>
 
       <div>
-        <div>broccoli</div>
+        <div>Broccoli</div>
         <div className="carousel">
           <div
             src={images[currImg].img}
@@ -45,39 +46,33 @@ function Recipes() {
             <div />
           </div>
         </div>
+      </div>
 
-        <div className="recipe-list">
-          {/* <div className="intro">Check these recipes out!</div>
-        <div className="brocoli-section">
-          <div className="broccoli-list">
-            <h2 className="vegetable-title"> Broccoli</h2>
-            <img
-              src="../images/broccolibenefits.png"
-              className="recipe-container"
-            ></img>
+      <div> Cabbage </div>
+      <div className="cabbage">
+        <div
+          src={cabbage[currCabb].img}
+          className="cabbageInner"
+          style={{ backgroundImage: `url(${cabbage[currCabb].img})` }}
+        >
+          <div
+            className="left"
+            onClick={() => {
+              currCabb > 0 && setCurrCabb(currCabb - 1);
+            }}
+          >
+            <ArrowBackIosIcon />
           </div>
-          <img
-            src="../images/broccolirecipe1.png"
-            className="recipe-container"
-          ></img>
-          <img
-            src="../images/broccolirecipe2.png"
-            className="recipe-container"
-          ></img>
-          <img
-            src="../images/broccolirecipe3.png"
-            className="recipe-container"
-          ></img>
-        </div> */}
-
-          {/* <div className="cabbage-recipe">
-          <div className="cabbage-section">Cabbage</div>
-        </div>
-        <div className="carrots-recipe"> Carrots</div>
-        <div className="cauliflower-recipe"> Cauliflower</div>
-        <div className="cantaloupe-recipe"> Cantaloupe</div>
-        <div className="collards-recipe"> Collards </div>
-        <div className="cucumber-recipe"> Cucumber </div> */}
+          <div className="center"></div>
+          <div
+            className="right"
+            onClick={() => {
+              currCabb < cabbage.length - 1 && setCurrCabb(currCabb + 1);
+            }}
+          >
+            <ArrowForwardIosIcon />
+          </div>
+          <div />
         </div>
       </div>
     </div>

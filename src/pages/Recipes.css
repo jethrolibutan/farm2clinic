@@ -4,6 +4,35 @@
   padding-bottom: 32px;
 }
 
+.recipe-pic {
+  font-family: "Unbounded", cursive;
+
+  padding-top: 5px;
+  padding-bottom: 5px;
+
+  width: 100%;
+  margin: auto;
+
+  height: 70vh;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-image: url(../images/recipeImage2.jpg);
+  background-size: cover;
+  background-position: cover;
+}
+
+.recipe-title {
+  font-size: 150px;
+  color: white;
+}
+
+.recipe-whole {
+  background-color: lightblue;
+}
+
 .carousel {
   display: flex;
   flex-direction: column;
@@ -57,65 +86,55 @@
   cursor: pointer;
 }
 
-.recipe-whole {
-  background-color: lightblue;
-}
-
-.recipe-pic {
-  font-family: "Unbounded", cursive;
-
-  padding-top: 5px;
-  padding-bottom: 5px;
-
-  width: 100%;
-  margin: auto;
-
-  height: 70vh;
-  flex-direction: column;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  background-image: url(../images/recipeImage2.jpg);
-  background-size: cover;
-  background-position: cover;
-}
-
-.recipe-title {
-  font-size: 150px;
-  color: white;
-}
-
-.recipe-list {
+.cabbage {
   display: flex;
   flex-direction: column;
 
   vertical-align: middle;
 
   width: auto;
+  height: 1450px;
   margin: auto;
-  max-width: 750px;
-  padding: 32px 32px;
+  max-width: 1000px;
+  padding: 32px;
+  padding-bottom: 2px;
+
+  background-color: black;
+
+  margin-top: 50px;
 }
 
-.recipe-container {
-  padding: 32px 0px 32px 0px;
+.cabbageInner {
+  height: 140vh;
+  width: 100%;
 
-  vertical-align: middle;
-  justify-content: center;
-  align-items: center;
-
-  width: 450px;
-  height: auto;
-}
-
-.brocoli-list {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
 }
 
-.vegetable-title {
-  color: rgb(6, 183, 6);
+.cabbageInner .left {
+  flex: 2.5%;
+  height: 100%;
+  background-color: rgb(0, 0, 0, 0.6);
+  display: grid;
+  place-items: center;
+  color: white;
+  cursor: pointer;
+}
+
+.cabbageInner .center {
+  flex: 95%;
+  height: 100%;
+}
+
+.cabbageInner .right {
+  flex: 2.5%;
+  height: 100%;
+  background-color: rgb(0, 0, 0, 0.6);
+  display: grid;
+  place-items: center;
+  color: white;
+  cursor: pointer;
 }
