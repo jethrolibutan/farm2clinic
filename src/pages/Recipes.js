@@ -13,6 +13,9 @@ import {
   okra,
   spinach,
   squash,
+  sweetPotato,
+  turnip,
+  whitePotato,
 } from "../Helper/CarouselData";
 
 import ArrowBackIosIcon from "@mui/icons-material/ArrowBackIos";
@@ -33,6 +36,9 @@ function Recipes() {
   const [currOk, setCurrOk] = useState(0);
   const [currSpin, setCurrSpin] = useState(0);
   const [currSquash, setCurrSquash] = useState(0);
+  const [currSweet, setCurrSweet] = useState(0);
+  const [currTurn, setCurrTurn] = useState(0);
+  const [currWhite, setCurrWhite] = useState(0);
 
   return (
     <div className="recipe-whole">
@@ -371,6 +377,90 @@ function Recipes() {
             className="right"
             onClick={() => {
               currSquash < squash.length - 1 && setCurrSquash(currSquash + 1);
+            }}
+          >
+            <ArrowForwardIosIcon />
+          </div>
+          <div />
+        </div>
+      </div>
+
+      <div> Sweet Potato </div>
+      <div className="sweet">
+        <div
+          src={sweetPotato[currSweet].img}
+          className="sweetInner"
+          style={{ backgroundImage: `url(${sweetPotato[currSweet].img})` }}
+        >
+          <div
+            className="left"
+            onClick={() => {
+              currSweet > 0 && setCurrSweet(currSweet - 1);
+            }}
+          >
+            <ArrowBackIosIcon />
+          </div>
+          <div className="center"></div>
+          <div
+            className="right"
+            onClick={() => {
+              currSweet < sweetPotato.length - 1 && setCurrSweet(currSweet + 1);
+            }}
+          >
+            <ArrowForwardIosIcon />
+          </div>
+          <div />
+        </div>
+      </div>
+
+      <div> Turnip </div>
+      <div className="turnip">
+        <div
+          src={turnip[currTurn].img}
+          className="turnipInner"
+          style={{ backgroundImage: `url(${turnip[currTurn].img})` }}
+        >
+          <div
+            className="left"
+            onClick={() => {
+              currTurn > 0 && setCurrTurn(currTurn - 1);
+            }}
+          >
+            <ArrowBackIosIcon />
+          </div>
+          <div className="center"></div>
+          <div
+            className="right"
+            onClick={() => {
+              currTurn < turnip.length - 1 && setCurrTurn(currTurn + 1);
+            }}
+          >
+            <ArrowForwardIosIcon />
+          </div>
+          <div />
+        </div>
+      </div>
+
+      <div> White Potato </div>
+      <div className="white">
+        <div
+          src={whitePotato[currWhite].img}
+          className="whiteInner"
+          style={{ backgroundImage: `url(${whitePotato[currWhite].img})` }}
+        >
+          <div
+            className="left"
+            onClick={() => {
+              currWhite > 0 && setCurrWhite(currWhite - 1);
+            }}
+          >
+            <ArrowBackIosIcon />
+          </div>
+          <div className="center"></div>
+          <div
+            className="right"
+            onClick={() => {
+              currWhite < whitePotato.length - 1 && setCurrWhite(currWhite + 1);
             }}
           >
             <ArrowForwardIosIcon />

@@ -44,6 +44,17 @@ import SquashBenefit from "../images/squashbenefit.png";
 import Squash1 from "../images/squash1.png";
 import Squash2 from "../images/squash2.png";
 import Squash3 from "../images/squash3.png";
+import SweetBenefit from "../images/sweetbenefit.png";
+import Sweet1 from "../images/sweet1.png";
+import Sweet2 from "../images/sweet2.png";
+import Sweet3 from "../images/sweet3.png";
+import TurnipBenefit from "../images/turnipbenefit.png";
+import Turn1 from "../images/turn1.png";
+import Turn2 from "../images/turn2.png";
+import WhitePotatoBenefit from "../images/whitebenefit.png";
+import White1 from "../images/white1.png";
+import White2 from "../images/white2.png";
+import White3 from "../images/white3.png";
 
 export const images = [
   { title: "broccoli-benefit", img: RecipeBenefit },
@@ -222,5 +233,45 @@ export const squash = [
   },
   {
     img: Squash3,
+  },
+];
+
+export const sweetPotato = [
+  { img: SweetBenefit },
+  {
+    img: Sweet1,
+  },
+  {
+    img: Sweet2,
+  },
+  {
+    img: Sweet3,
+  },
+];
+
+export const turnip = [
+  {
+    img: TurnipBenefit,
+  },
+  {
+    img: Turn1,
+  },
+  {
+    img: Turn2,
+  },
+];
+
+export const whitePotato = [
+  {
+    img: WhitePotatoBenefit,
+  },
+  {
+    img: White1,
+  },
+  {
+    img: White2,
+  },
+  {
+    img: White3,
   },
 ];
