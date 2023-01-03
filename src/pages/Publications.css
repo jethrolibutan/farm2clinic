@@ -1,0 +1,61 @@
+.publications {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  height: 55vh;
+  margin: auto;
+
+  background-image: url(../images/publications.jpg);
+  background-size: cover;
+  background-position: 75% 25%;
+
+  font-family: "Unbounded", cursive;
+  font-size: 150px;
+  color: white;
+}
+
+.publication-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  max-width: 750px;
+  margin: auto;
+  text-align: left;
+}
+
+.publication-title {
+  font-family: "Unbounded", cursive;
+  font-size: 18.5px;
+  color: black;
+
+  margin-top: 0px;
+}
+
+.row-pres {
+  display: flex;
+}
+
+.indent1 {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.indent2 {
+  margin-left: 1.15em;
+}
+
+.indent3 {
+  margin-left: 1em;
+}
+
+.try {
+  display: contents;
+}

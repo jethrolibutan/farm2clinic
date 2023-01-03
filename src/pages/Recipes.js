@@ -18,6 +18,8 @@ import {
   whitePotato,
 } from "../Helper/CarouselData";
 
+import SubFooter from "../components/SubFooter";
+import Footer from "../components/Footer";
 import ArrowBackIosIcon from "@mui/icons-material/ArrowBackIos";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 
@@ -468,6 +470,9 @@ function Recipes() {
           <div />
         </div>
       </div>
+
+      <SubFooter />
+      <Footer />
     </div>
   );
 }
