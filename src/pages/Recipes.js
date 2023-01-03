@@ -6,6 +6,9 @@ import {
   cantaloupe,
   carrot,
   cauliflower,
+  collard,
+  cucumber,
+  greenBean,
 } from "../Helper/CarouselData";
 
 import ArrowBackIosIcon from "@mui/icons-material/ArrowBackIos";
@@ -19,6 +22,9 @@ function Recipes() {
   const [currCant, setCurrCant] = useState(0);
   const [currCarr, setCurrCarr] = useState(0);
   const [currCauli, setCurrCauli] = useState(0);
+  const [currCol, setCurrCol] = useState(0);
+  const [currCuc, setCurrCuc] = useState(0);
+  const [currGb, setCurrGb] = useState(0);
 
   return (
     <div className="recipe-whole">
@@ -161,6 +167,90 @@ function Recipes() {
             className="right"
             onClick={() => {
               currCauli < cauliflower.length - 1 && setCurrCauli(currCauli + 1);
+            }}
+          >
+            <ArrowForwardIosIcon />
+          </div>
+          <div />
+        </div>
+      </div>
+
+      <div> Collard Greens </div>
+      <div className="collard">
+        <div
+          src={collard[currCol].img}
+          className="collardInner"
+          style={{ backgroundImage: `url(${collard[currCol].img})` }}
+        >
+          <div
+            className="left"
+            onClick={() => {
+              currCol > 0 && setCurrCol(currCol - 1);
+            }}
+          >
+            <ArrowBackIosIcon />
+          </div>
+          <div className="center"></div>
+          <div
+            className="right"
+            onClick={() => {
+              currCol < collard.length - 1 && setCurrCol(currCol + 1);
+            }}
+          >
+            <ArrowForwardIosIcon />
+          </div>
+          <div />
+        </div>
+      </div>
+
+      <div> Cucumber </div>
+      <div className="cucumber">
+        <div
+          src={cucumber[currCuc].img}
+          className="cucumberInner"
+          style={{ backgroundImage: `url(${cucumber[currCuc].img})` }}
+        >
+          <div
+            className="left"
+            onClick={() => {
+              currCuc > 0 && setCurrCuc(currCuc - 1);
+            }}
+          >
+            <ArrowBackIosIcon />
+          </div>
+          <div className="center"></div>
+          <div
+            className="right"
+            onClick={() => {
+              currCuc < cucumber.length - 1 && setCurrCuc(currCuc + 1);
+            }}
+          >
+            <ArrowForwardIosIcon />
+          </div>
+          <div />
+        </div>
+      </div>
+
+      <div> Green Bean </div>
+      <div className="green-bean">
+        <div
+          src={greenBean[currGb].img}
+          className="greenBeanInner"
+          style={{ backgroundImage: `url(${greenBean[currGb].img})` }}
+        >
+          <div
+            className="left"
+            onClick={() => {
+              currGb > 0 && setCurrGb(currGb - 1);
+            }}
+          >
+            <ArrowBackIosIcon />
+          </div>
+          <div className="center"></div>
+          <div
+            className="right"
+            onClick={() => {
+              currGb < greenBean.length - 1 && setCurrGb(currGb + 1);
             }}
           >
             <ArrowForwardIosIcon />

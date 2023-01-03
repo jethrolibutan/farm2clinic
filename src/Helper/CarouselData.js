@@ -14,8 +14,20 @@ import Carr2 from "../images/car2.png";
 import Carr3 from "../images/car3.png";
 import CauliflowerBenefit from "../images/caulbenefit.png";
 import Caul1 from "../images/caul1.png";
-import Caul2 from "../images/caul1.png";
-import Caul3 from "../images/caul1.png";
+import Caul2 from "../images/caul2.png";
+import Caul3 from "../images/caul3.png";
+import CollardBenefit from "../images/colbenefit.png";
+import Collard1 from "../images/col1.png";
+import Collard2 from "../images/col2.png";
+import Collard3 from "../images/col3.png";
+import CucumberBenefit from "../images/cucumberbenefit.png";
+import Cuc1 from "../images/cuc1.png";
+import Cuc2 from "../images/cuc2.png";
+import Cuc3 from "../images/cuc3.png";
+import GreenBenefit from "../images/gbbenefit.png";
+import Green1 from "../images/gb1.png";
+import Green2 from "../images/gb2.png";
+import Green3 from "../images/gb3.png";
 
 export const images = [
   { title: "broccoli-benefit", img: RecipeBenefit },
@@ -89,5 +101,50 @@ export const cauliflower = [
   },
   {
     img: Caul3,
+  },
+];
+
+export const collard = [
+  {
+    img: CollardBenefit,
+  },
+  {
+    img: Collard1,
+  },
+  {
+    img: Collard2,
+  },
+  {
+    img: Collard3,
+  },
+];
+
+export const cucumber = [
+  {
+    img: CucumberBenefit,
+  },
+  {
+    img: Cuc1,
+  },
+  {
+    img: Cuc2,
+  },
+  {
+    img: Cuc3,
+  },
+];
+
+export const greenBean = [
+  {
+    img: GreenBenefit,
+  },
+  {
+    img: Green1,
+  },
+  {
+    img: Green2,
+  },
+  {
+    img: Green3,
   },
 ];
