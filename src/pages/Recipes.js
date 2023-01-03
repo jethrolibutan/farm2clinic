@@ -9,6 +9,10 @@ import {
   collard,
   cucumber,
   greenBean,
+  kale,
+  okra,
+  spinach,
+  squash,
 } from "../Helper/CarouselData";
 
 import ArrowBackIosIcon from "@mui/icons-material/ArrowBackIos";
@@ -25,6 +29,10 @@ function Recipes() {
   const [currCol, setCurrCol] = useState(0);
   const [currCuc, setCurrCuc] = useState(0);
   const [currGb, setCurrGb] = useState(0);
+  const [currKale, setCurrKale] = useState(0);
+  const [currOk, setCurrOk] = useState(0);
+  const [currSpin, setCurrSpin] = useState(0);
+  const [currSquash, setCurrSquash] = useState(0);
 
   return (
     <div className="recipe-whole">
@@ -251,6 +259,118 @@ function Recipes() {
             className="right"
             onClick={() => {
               currGb < greenBean.length - 1 && setCurrGb(currGb + 1);
+            }}
+          >
+            <ArrowForwardIosIcon />
+          </div>
+          <div />
+        </div>
+      </div>
+
+      <div> Kale </div>
+      <div className="kale">
+        <div
+          src={kale[currKale].img}
+          className="kaleInner"
+          style={{ backgroundImage: `url(${kale[currKale].img})` }}
+        >
+          <div
+            className="left"
+            onClick={() => {
+              currKale > 0 && setCurrKale(currKale - 1);
+            }}
+          >
+            <ArrowBackIosIcon />
+          </div>
+          <div className="center"></div>
+          <div
+            className="right"
+            onClick={() => {
+              currKale < kale.length - 1 && setCurrKale(currKale + 1);
+            }}
+          >
+            <ArrowForwardIosIcon />
+          </div>
+          <div />
+        </div>
+      </div>
+
+      <div> Okra </div>
+      <div className="okra">
+        <div
+          src={okra[currOk].img}
+          className="okraInner"
+          style={{ backgroundImage: `url(${okra[currOk].img})` }}
+        >
+          <div
+            className="left"
+            onClick={() => {
+              currOk > 0 && setCurrOk(currOk - 1);
+            }}
+          >
+            <ArrowBackIosIcon />
+          </div>
+          <div className="center"></div>
+          <div
+            className="right"
+            onClick={() => {
+              currOk < okra.length - 1 && setCurrOk(currOk + 1);
+            }}
+          >
+            <ArrowForwardIosIcon />
+          </div>
+          <div />
+        </div>
+      </div>
+
+      <div> Spinach </div>
+      <div className="spinach">
+        <div
+          src={spinach[currSpin].img}
+          className="spinachInner"
+          style={{ backgroundImage: `url(${spinach[currSpin].img})` }}
+        >
+          <div
+            className="left"
+            onClick={() => {
+              currSpin > 0 && setCurrSpin(currSpin - 1);
+            }}
+          >
+            <ArrowBackIosIcon />
+          </div>
+          <div className="center"></div>
+          <div
+            className="right"
+            onClick={() => {
+              currSpin < spinach.length - 1 && setCurrSpin(currSpin + 1);
+            }}
+          >
+            <ArrowForwardIosIcon />
+          </div>
+          <div />
+        </div>
+      </div>
+
+      <div> Squash </div>
+      <div className="squash">
+        <div
+          src={squash[currSquash].img}
+          className="squashInner"
+          style={{ backgroundImage: `url(${squash[currSquash].img})` }}
+        >
+          <div
+            className="left"
+            onClick={() => {
+              currSquash > 0 && setCurrSquash(currSquash - 1);
+            }}
+          >
+            <ArrowBackIosIcon />
+          </div>
+          <div className="center"></div>
+          <div
+            className="right"
+            onClick={() => {
+              currSquash < squash.length - 1 && setCurrSquash(currSquash + 1);
             }}
           >
             <ArrowForwardIosIcon />

@@ -28,6 +28,22 @@ import GreenBenefit from "../images/gbbenefit.png";
 import Green1 from "../images/gb1.png";
 import Green2 from "../images/gb2.png";
 import Green3 from "../images/gb3.png";
+import KaleBenefit from "../images/kalebenefit.png";
+import Kale1 from "../images/kale1.png";
+import Kale2 from "../images/kale2.png";
+import Kale3 from "../images/kale3.png";
+import OkraBenefit from "../images/okrabenefit.png";
+import Okra1 from "../images/okra1.png";
+import Okra2 from "../images/okra2.png";
+import Okra3 from "../images/okra3.png";
+import SpinachBenefit from "../images/spinachbenefit.png";
+import Spin1 from "../images/spin1.png";
+import Spin2 from "../images/spin2.png";
+import Spin3 from "../images/spin3.png";
+import SquashBenefit from "../images/squashbenefit.png";
+import Squash1 from "../images/squash1.png";
+import Squash2 from "../images/squash2.png";
+import Squash3 from "../images/squash3.png";
 
 export const images = [
   { title: "broccoli-benefit", img: RecipeBenefit },
@@ -146,5 +162,65 @@ export const greenBean = [
   },
   {
     img: Green3,
+  },
+];
+
+export const kale = [
+  {
+    img: KaleBenefit,
+  },
+  {
+    img: Kale1,
+  },
+  {
+    img: Kale2,
+  },
+  {
+    img: Kale3,
+  },
+];
+
+export const okra = [
+  {
+    img: OkraBenefit,
+  },
+  {
+    img: Okra1,
+  },
+  {
+    img: Okra2,
+  },
+  {
+    img: Okra3,
+  },
+];
+
+export const spinach = [
+  {
+    img: SpinachBenefit,
+  },
+  {
+    img: Spin1,
+  },
+  {
+    img: Spin2,
+  },
+  {
+    img: Spin3,
+  },
+];
+
+export const squash = [
+  {
+    img: SquashBenefit,
+  },
+  {
+    img: Squash1,
+  },
+  {
+    img: Squash2,
+  },
+  {
+    img: Squash3,
   },
 ];
