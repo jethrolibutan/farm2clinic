@@ -9,7 +9,10 @@ import {
   MenuItem,
   Link,
   IconButton,
+  useMediaQuery,
+  useTheme,
 } from "@mui/material";
+import DrawerComp from "./DrawerComp";
 
 import AgricultureIcon from "@mui/icons-material/Agriculture";
 
@@ -58,6 +61,11 @@ function Navbar() {
     setOpenContact(true);
   };
 
+  const theme = useTheme();
+  console.log(theme);
+  const isMatch = useMediaQuery(theme.breakpoints.down("md"));
+  console.log(isMatch);
+
   return (
     <div>
       <AppBar
@@ -77,120 +85,132 @@ function Navbar() {
           <Typography size="large" edge="start" marginRight="auto" variant="h5">
             FARM2CLINIC
           </Typography>
+          {isMatch ? (
+            <>
+              <Typography>SHOPEE</Typography>
+              <DrawerComp />
+            </>
+          ) : (
+            <>
+              <Stack direction="row" spacing={2}>
+                <Button
+                  href="/"
+                  color="inherit"
+                  variant="text"
+                  size="large"
+                  sx={{ fontSize: "20px", fontWeight: "500" }}
+                >
+                  Home
+                </Button>
+                <Button
+                  onClick={handleClick}
+                  color="inherit"
+                  variant="text"
+                  size="large"
+                  sx={{ fontSize: "20px", fontWeight: "500" }}
+                >
+                  ABOUT{" "}
+                </Button>
+                <Button
+                  onClick={handleClickRes}
+                  color="inherit"
+                  variant="text"
+                  size="large"
+                  sx={{ fontSize: "20px", fontWeight: "500" }}
+                >
+                  RESOURCES
+                </Button>
+                <Button
+                  onClick={handleClickImpact}
+                  color="inherit"
+                  variant="text"
+                  size="large"
+                  sx={{ fontSize: "20px", fontWeight: "500" }}
+                >
+                  {" "}
+                  IMPACT{" "}
+                </Button>
+                <Button
+                  onClick={handleClickContact}
+                  color="inherit"
+                  variant="text"
+                  size="large"
+                  sx={{ fontSize: "20px", fontWeight: "500" }}
+                >
+                  CONTACT US
+                </Button>
+              </Stack>
 
-          <Stack direction="row" spacing={2}>
-            <Button
-              href="/"
-              color="inherit"
-              variant="text"
-              size="large"
-              sx={{ fontSize: "20px", fontWeight: "500" }}
-            >
-              Home
-            </Button>
-            <Button
-              onClick={handleClick}
-              color="inherit"
-              variant="text"
-              size="large"
-              sx={{ fontSize: "20px", fontWeight: "500" }}
-            >
-              ABOUT{" "}
-            </Button>
-            <Button
-              onClick={handleClickRes}
-              color="inherit"
-              variant="text"
-              size="large"
-              sx={{ fontSize: "20px", fontWeight: "500" }}
-            >
-              RESOURCES
-            </Button>
-            <Button
-              onClick={handleClickImpact}
-              color="inherit"
-              variant="text"
-              size="large"
-              sx={{ fontSize: "20px", fontWeight: "500" }}
-            >
-              {" "}
-              IMPACT{" "}
-            </Button>
-            <Button
-              onClick={handleClickContact}
-              color="inherit"
-              variant="text"
-              size="large"
-              sx={{ fontSize: "20px", fontWeight: "500" }}
-            >
-              CONTACT US
-            </Button>
-          </Stack>
+              <Menu anchorEl={anchorElm} open={open} onClose={handleClose}>
+                <MenuItem component={Link} href="/whatWeDo">
+                  WHAT WE DO
+                </MenuItem>
+                <MenuItem component={Link} href="/meetTheTeam">
+                  MEET THE TEAM
+                </MenuItem>
+                <MenuItem component={Link} href="/support">
+                  SUPPORT
+                </MenuItem>
+                <MenuItem component={Link} href="/partners">
+                  PARTNERS
+                </MenuItem>
+                <MenuItem component={Link} href="/programs">
+                  PROGRAMS
+                </MenuItem>
+              </Menu>
 
-          <Menu anchorEl={anchorElm} open={open} onClose={handleClose}>
-            <MenuItem component={Link} href="/whatWeDo">
-              WHAT WE DO
-            </MenuItem>
-            <MenuItem component={Link} href="/meetTheTeam">
-              MEET THE TEAM
-            </MenuItem>
-            <MenuItem component={Link} href="/support">
-              SUPPORT
-            </MenuItem>
-            <MenuItem component={Link} href="/partners">
-              PARTNERS
-            </MenuItem>
-            <MenuItem component={Link} href="/programs">
-              PROGRAMS
-            </MenuItem>
-          </Menu>
+              <Menu
+                anchorEl={anchorResElm}
+                open={openRes}
+                onClose={handleCloseRes}
+              >
+                <MenuItem component={Link} href="/recipes">
+                  RECIPES
+                </MenuItem>
+                <MenuItem component={Link} href="/exercises">
+                  EXERCISES
+                </MenuItem>
+                <MenuItem component={Link} href="/training">
+                  TRAINING
+                </MenuItem>
+              </Menu>
 
-          <Menu anchorEl={anchorResElm} open={openRes} onClose={handleCloseRes}>
-            <MenuItem component={Link} href="/recipes">
-              RECIPES
-            </MenuItem>
-            <MenuItem component={Link} href="/exercises">
-              EXERCISES
-            </MenuItem>
-            <MenuItem component={Link} href="/training">
-              TRAINING
-            </MenuItem>
-          </Menu>
+              <Menu
+                anchorEl={anchorImpactElm}
+                open={openImpact}
+                onClose={handleCloseImpact}
+                backgroundColor="green"
+              >
+                <MenuItem component={Link} href="/publications">
+                  PUBLICATIONS
+                </MenuItem>
+                <MenuItem component={Link} href="/inTheNews">
+                  IN THE NEWS
+                </MenuItem>
+              </Menu>
 
-          <Menu
-            anchorEl={anchorImpactElm}
-            open={openImpact}
-            onClose={handleCloseImpact}
-            backgroundColor="green"
-          >
-            <MenuItem component={Link} href="/publications">
-              PUBLICATIONS
-            </MenuItem>
-            <MenuItem component={Link} href="/inTheNews">
-              IN THE NEWS
-            </MenuItem>
-          </Menu>
+              <Menu
+                anchorEl={anchorContactElm}
+                open={openContact}
+                onClose={handleCloseContact}
+              >
+                <MenuItem component={Link} href="/donate">
+                  {" "}
+                  DONATE
+                </MenuItem>
 
-          <Menu
-            anchorEl={anchorContactElm}
-            open={openContact}
-            onClose={handleCloseContact}
-          >
-            <MenuItem component={Link} href="/donate">
-              {" "}
-              DONATE
-            </MenuItem>
+                <MenuItem component={Link} href="/volunteer">
+                  {" "}
+                  VOLUNTEER{" "}
+                </MenuItem>
 
-            <MenuItem component={Link} href="/volunteer">
-              {" "}
-              VOLUNTEER{" "}
-            </MenuItem>
-
-            <MenuItem component={Link} href="/getInvolved">
-              {" "}
-              GET INVOLVED{" "}
-            </MenuItem>
-          </Menu>
+                <MenuItem component={Link} href="/getInvolved">
+                  {" "}
+                  GET INVOLVED{" "}
+                </MenuItem>
+              </Menu>
+            </>
+          )}
         </Toolbar>
       </AppBar>
     </div>

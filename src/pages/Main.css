@@ -1,10 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Unbounded:wght@500&display=swap");
 
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
 .section-1 {
   font-family: "Unbounded", cursive;
 
   width: 100%;
-  margin: auto;
+  margin: 0;
+  padding: 0;
 
   height: 125vh;
   flex-direction: column;
@@ -13,14 +19,26 @@
   justify-content: center;
 
   background-image: url(../images/volunteerpic2.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   background-size: cover;
-  background-position: cover;
+  background-position: center;
+}
+
+@media screen and (max-width: 600px) {
+  .section-1-title {
+    text-align: center;
+    font-size: 1rem;
+  }
+
+  .section-1-title-text {
+    display: none;
+  }
 }
 
 .section-1-title {
   padding-top: 200px;
-
-  font-size: 150px;
+  font-size: 7.5rem;
   color: white;
 }
 

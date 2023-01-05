@@ -14,10 +14,12 @@ function Main() {
         <Navbar />
       </div>
       <div className="section-1">
-        <div className="section-1-title">FARM 2 CLINC</div>
-        <div className="section-1-title-text">
-          {" "}
-          Adressing health and social barriers to nutrition and health{" "}
+        <div className="box">
+          <div className="section-1-title"> FARM 2 CLINC</div>
+          <div className="section-1-title-text">
+            {" "}
+            Adressing health and social barriers to nutrition and health{" "}
+          </div>
         </div>
 
         <div>
