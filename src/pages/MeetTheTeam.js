@@ -38,33 +38,21 @@ function MeetTheTeam() {
                     sx={{ textAlign: "left" }}
                   >
                     Dr. Lauren R. Sastre is an Assistant Professor in the
-                    Department of Nutrition Science. She is a licensed
-                    Registered Dietitian Nutritionist (RDN, LDN) and holds a
-                    Bachelor of Science degree in Chemistry from Western
-                    Carolina University and a Masters of Science and Doctor of
-                    Philosophy in Nutrition Science from The University of North
-                    Carolina at Greensboro.Dr. Sastre founded the Farm to Clinic
-                    (F2C) initiative in 2019 that seeks to partner undeserved
-                    and under-resourced patients with healthful food and
-                    nutrition and lifestyle medicine/culinary medicine
-                    programming to address chronic disease related disparities
-                    with a focus on diabetes and hypertension. Her primary
-                    community partnerships include the North Carolina
-                    Association of Free and Charitable Clinics within Eastern
-                    NC, The Society of St. Andrews, the Central and Eastern Food
-                    Bank of North Carolina. She directs several initiatives
-                    through F2C, mentor’s students across a range of disciplines
-                    and is always looking for a new energetic student to join
-                    her team to make an impact! Since arriving to ECU she has
-                    received several grants (intramural and extramural) and been
-                    recognized for mentorship of students and as well as for her
-                    research. She maintains active roles in the American Public
-                    Health Association and the Academy of Nutrition and
-                    Dietetics and regularly presents and publishes her
-                    community-engaged, translational research centering around
-                    health disparities food security, social determinants of
-                    health, and chronic disease management through a variety of
-                    platforms.
+                    Department of Nutrition Science and a licensed Registered
+                    Dietitian Nutritionist (RDN, LDN). She holds a Bachelor of
+                    Science degree in Chemistry from Western Carolina University
+                    and a Masters of Science and Doctor of Philosophy in
+                    Nutrition Science from The University of North Carolina at
+                    Greensboro. Dr. Sastre founded the Farm to Clinic (F2C)
+                    initiative in 2019 that seeks to partner undeserved and
+                    under-resourced patients with healthful food and nutrition
+                    and lifestyle medicine/culinary medicine programming to
+                    address chronic disease related disparities with a focus on
+                    diabetes and hypertension. Her community-engaged,
+                    translational research centering around health disparities,
+                    food security/social determinants of health, chronic disease
+                    prevention and management and healthcare policy with a focus
+                    on under-served patient groups.
                   </Typography>
                 </CardContent>
               </CardActionArea>
@@ -149,27 +137,16 @@ function MeetTheTeam() {
                 >
                   Dr. Bhibha M. Das is a public health and physical activity
                   practitioner and researcher with over a decade’s worth of
-                  experience in the field. Prior to joining academia, she spent
-                  four years working with communities, including underserved and
-                  rural ones to develop, implement, and evaluate physical
-                  activity promotion programs and policies. Part of Dr. Das’s
-                  transition from practitioner to researcher was to bridge the
-                  gap between practice and research. Dr. Das’s research agenda
-                  focuses on physical activity promotion as the cornerstone for
-                  improvements in quality of life in worksites and underserved
-                  populations. After earning degrees in public health and
-                  kinesiology from the University of Illinois and completing
-                  post-doctoral training at the University of Georgia, Bhibha is
-                  currently an Associate Professor in the Department of
-                  Kinesiology at East Carolina University and is a fellow in the
-                  American College of Sports Medicine. While at East Carolina
-                  University, Dr. Das has received numerous grants and been
-                  recognized for her research, teaching, and mentorship
-                  activities. Dr. Das also serves on the Executive Board of the
-                  Southeast American College of Sports Medicine and on the
-                  American College of Sports Medicine’s Communications and
-                  Public Relations Committee. In her free time, Bhibha enjoys
-                  playing trivia, reading, and being physically active.
+                  experience in the field. Bhibha is currently an Associate
+                  Professor in the Department of Kinesiology at East Carolina
+                  University and is a fellow in the American College of Sports
+                  Medicine. While at East Carolina University, Dr. Das has
+                  received numerous grants and been recognized for her research,
+                  teaching, and mentorship activities. During her career, Dr.
+                  Das has mentored dozens of students; published numerous
+                  articles in the field of physical activity promotion through
+                  the lenses of public health; and presented at regional,
+                  national, and international conferences.
                 </Typography>
               </CardContent>
             </CardActionArea>
@@ -287,43 +264,18 @@ function MeetTheTeam() {
                   sx={{ textAlign: "left" }}
                 >
                   Brooke is a senior in the Department of Nutrition Science at
-                  East Carolina University. After obtaining her Bachelor's,
-                  Brooke is pursuing to further her education at East Carolina
-                  University by obtaining a master's degree in Nutrition Science
-                  as well as completing her dietetic internship to obtain the
-                  registered dietitian nutritionist credential and become a
-                  licensed nutrition provider. Her previous degrees include an
-                  Associate's in Pre-Science. Since arriving at ECU, Brooke has
-                  been heavily involved within the F2C/Fresh Start program and
-                  first began by developing recipes and nutrition education
-                  materials that were tailored for the unique, rural,
-                  under-served patients the program supports. She moved from
-                  this volunteer work developing materials in the fall of 2021
-                  to a paid research assistant position in the spring of 2021
-                  during which she took on greater roles and responsibilities
-                  including managing student health coaches, providing direct
-                  health coaching support to patients, and "behind" the scenes
-                  administrative tasks which included patient communication and
-                  preparation of materials/supplies for on-site group class
-                  delivery. Brooke continued working with the program and in
-                  fall of 2022 as a health coach navigator in a pilot course to
-                  train student health coaches to work with the program and she
-                  was also promoted to a greater leadership role and program
-                  coordinator in fall of 2022. Her new role will include
-                  coordinating and managing the health coaches as well as
-                  providing support and leadership among other areas of program
-                  delivery and implementation. Brooke is especially passionate
-                  about delivering quality, individualized care to each patient
-                  we serve in the program and equipping new volunteers, interns,
-                  and student research assistants to do this well. Brooke will
-                  also be representing the program with upcoming presentations
-                  including a Spring 2023 presentation at the Eastern AHEC's
-                  2023 Rural Health Symposium Innovations Session highlighting
-                  the Fresh Start Program. Brooke's clinical and professional
-                  interests outside of F2C/Fresh Start include becoming a
-                  Registered Dietitian Nutritionist with a focus in clinical and
-                  community work as well as further serve the under-served
-                  community by helping address health disparities.
+                  East Carolina University. She has been heavily involved within
+                  the F2C/Fresh Start program since fall of 2021 and was
+                  promoted to a greater leadership role and program coordinator
+                  in fall of 2022. After obtaining her Bachelor's, Brooke is
+                  pursuing to further her education at East Carolina University
+                  by obtaining a master's degree in Nutrition Science as well as
+                  completing her dietetic internship to obtain the registered
+                  dietitian nutritionist credential and become a licensed
+                  nutrition provider. Brooke's clinical and professional
+                  interests outside of F2C/Fresh Start include a focus in
+                  clinical and community work as well as further serve the
+                  under-served community by helping address health disparities.
                 </Typography>
               </CardContent>
             </CardActionArea>
