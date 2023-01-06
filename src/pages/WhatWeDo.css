@@ -56,10 +56,21 @@
   font-size: 20px;
 }
 
-.rows {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+@media screen and (max-width: 600px) {
+  .rows {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 601px) {
+  .rows {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 .our-mission-text {

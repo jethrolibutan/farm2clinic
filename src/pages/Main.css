@@ -28,7 +28,8 @@ body {
 @media screen and (max-width: 600px) {
   .section-1-title {
     text-align: center;
-    font-size: 1rem;
+    font-size: 5rem;
+    color: white;
   }
 
   .section-1-title-text {
@@ -36,10 +37,12 @@ body {
   }
 }
 
-.section-1-title {
-  padding-top: 200px;
-  font-size: 7.5rem;
-  color: white;
+@media screen and (min-width: 601px) {
+  .section-1-title {
+    padding-top: 200px;
+    font-size: 7.5rem;
+    color: white;
+  }
 }
 
 .section-1-title-text {

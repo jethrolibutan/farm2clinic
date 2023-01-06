@@ -87,7 +87,6 @@ function Navbar() {
           </Typography>
           {isMatch ? (
             <>
-              <Typography>SHOPEE</Typography>
               <DrawerComp />
             </>
           ) : (
