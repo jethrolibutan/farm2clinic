@@ -17,6 +17,7 @@ import InTheNews from "./pages/InTheNews";
 import Donate from "./pages/Donate";
 import Volunteer from "./pages/Volunteer";
 import GetInvolved from "./pages/GetInvolved";
+import SpanishRecipes from "./pages/SpanishRecipes";
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
         <Route path="contactUs" element={<ContactUs />} />
         <Route path="resources" element={<Resources />} />
         <Route path="recipes" element={<Recipes />} />
+        <Route path="spanishRecipes" element={<SpanishRecipes />} />
         <Route path="exercises" element={<Exercises />} />
         <Route path="training" element={<Training />} />
         <Route path="publications" element={<Publications />} />

@@ -21,7 +21,9 @@
 
   background-image: url(../images/recipeImage2.jpg);
   background-size: cover;
-  background-position: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
 }
 
 @media screen and (max-width: 600px) {
@@ -30,6 +32,22 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+
+    padding: 100px 100px 100px 100px;
+  }
+
+  .recipes-mobile-desc {
+    font-family: "Unbounded", cursive;
+    font-size: 20px;
+    margin-bottom: 45px;
+  }
+
+  .recipe-links-not-mobile {
+    display: none;
+  }
+
+  .recipe-pic {
+    height: 35vh;
   }
 
   .section-1-title {
@@ -39,7 +57,7 @@
   }
 
   .recipe-title {
-    font-size: 150px;
+    font-size: 3.5rem;
     color: white;
   }
 
@@ -112,6 +130,9 @@
 @media screen and (min-width: 601px) {
   .recipes-mobile {
     display: none;
+  }
+
+  .recipe-links-not-mobile {
   }
 
   .section-1-title {

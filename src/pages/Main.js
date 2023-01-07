@@ -15,7 +15,7 @@ function Main() {
       </div>
       <div className="section-1">
         <div className="box">
-          <div className="section-1-title"> FARM 2 CLINC</div>
+          <div className="farm2clinic">FARM 2 CLINIC</div>
           <div className="section-1-title-text">
             {" "}
             Adressing health and social barriers to nutrition and health{" "}
