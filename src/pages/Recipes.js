@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Button from "@mui/material/Button";
 import Navbar from "../components/Navbar";
 import {
   images,
@@ -49,9 +50,14 @@ function Recipes() {
         <div className="recipe-title">RECIPES</div>
       </div>
 
+      <div className="recipes-mobile">
+        <Button> Recipes in English </Button>
+        <Button> Recipes in English </Button>
+      </div>
+
       <div>
-        <div>Broccoli</div>
         <div className="carousel">
+          <div>Broccoli</div>
           <div
             src={images[currImg].img}
             className="carouselInner"
@@ -63,7 +69,7 @@ function Recipes() {
                 currImg > 0 && setCurrImg(currImg - 1);
               }}
             >
-              <ArrowBackIosIcon />
+              <ArrowBackIosIcon sx={{ pl: 1.5 }} />
             </div>
             <div className="center"></div>
             <div
@@ -72,15 +78,15 @@ function Recipes() {
                 currImg < images.length - 1 && setCurrImg(currImg + 1);
               }}
             >
-              <ArrowForwardIosIcon />
+              <ArrowForwardIosIcon sx={{ pr: 1.5 }} />
             </div>
             <div />
           </div>
         </div>
       </div>
 
-      <div> Cabbage </div>
       <div className="cabbage">
+        <div> Cabbage </div>
         <div
           src={cabbage[currCabb].img}
           className="cabbageInner"
@@ -92,7 +98,7 @@ function Recipes() {
               currCabb > 0 && setCurrCabb(currCabb - 1);
             }}
           >
-            <ArrowBackIosIcon />
+            <ArrowBackIosIcon sx={{ pl: 1.5 }} />
           </div>
           <div className="center"></div>
           <div
@@ -101,14 +107,14 @@ function Recipes() {
               currCabb < cabbage.length - 1 && setCurrCabb(currCabb + 1);
             }}
           >
-            <ArrowForwardIosIcon />
+            <ArrowForwardIosIcon sx={{ pr: 1.5 }} />
           </div>
           <div />
         </div>
       </div>
 
-      <div> Cantaloupe </div>
       <div className="cantaloupe">
+        <div> Cantaloupe </div>
         <div
           src={cantaloupe[currCant].img}
           className="cabbageInner"
@@ -120,7 +126,7 @@ function Recipes() {
               currCant > 0 && setCurrCant(currCant - 1);
             }}
           >
-            <ArrowBackIosIcon />
+            <ArrowBackIosIcon sx={{ pl: 1.5 }} />
           </div>
           <div className="center"></div>
           <div
@@ -129,14 +135,14 @@ function Recipes() {
               currCant < cantaloupe.length - 1 && setCurrCant(currCant + 1);
             }}
           >
-            <ArrowForwardIosIcon />
+            <ArrowForwardIosIcon sx={{ pr: 1.5 }} />
           </div>
           <div />
         </div>
       </div>
 
-      <div> Carrot </div>
       <div className="carrot">
+        <div> Carrot </div>
         <div
           src={carrot[currCarr].img}
           className="carrotInner"
@@ -148,7 +154,7 @@ function Recipes() {
               currCarr > 0 && setCurrCarr(currCarr - 1);
             }}
           >
-            <ArrowBackIosIcon />
+            <ArrowBackIosIcon sx={{ pl: 1.5 }} />
           </div>
           <div className="center"></div>
           <div
@@ -157,14 +163,14 @@ function Recipes() {
               currCarr < carrot.length - 1 && setCurrCarr(currCarr + 1);
             }}
           >
-            <ArrowForwardIosIcon />
+            <ArrowForwardIosIcon sx={{ pr: 1.5 }} />
           </div>
           <div />
         </div>
       </div>
 
-      <div> Cauliflower </div>
       <div className="cauliflower">
+        <div> Cauliflower </div>
         <div
           src={cauliflower[currCauli].img}
           className="carrotInner"
@@ -176,7 +182,7 @@ function Recipes() {
               currCauli > 0 && setCurrCauli(currCauli - 1);
             }}
           >
-            <ArrowBackIosIcon />
+            <ArrowBackIosIcon sx={{ pl: 1.5 }} />
           </div>
           <div className="center"></div>
           <div
@@ -185,14 +191,14 @@ function Recipes() {
               currCauli < cauliflower.length - 1 && setCurrCauli(currCauli + 1);
             }}
           >
-            <ArrowForwardIosIcon />
+            <ArrowForwardIosIcon sx={{ pr: 1.5 }} />
           </div>
           <div />
         </div>
       </div>
 
-      <div> Collard Greens </div>
       <div className="collard">
+        <div> Collard Greens </div>
         <div
           src={collard[currCol].img}
           className="collardInner"
@@ -204,7 +210,7 @@ function Recipes() {
               currCol > 0 && setCurrCol(currCol - 1);
             }}
           >
-            <ArrowBackIosIcon />
+            <ArrowBackIosIcon sx={{ pl: 1.5 }} />
           </div>
           <div className="center"></div>
           <div
@@ -213,14 +219,14 @@ function Recipes() {
               currCol < collard.length - 1 && setCurrCol(currCol + 1);
             }}
           >
-            <ArrowForwardIosIcon />
+            <ArrowForwardIosIcon sx={{ pr: 1.5 }} />
           </div>
           <div />
         </div>
       </div>
 
-      <div> Cucumber </div>
       <div className="cucumber">
+        <div> Cucumber </div>
         <div
           src={cucumber[currCuc].img}
           className="cucumberInner"
@@ -232,7 +238,7 @@ function Recipes() {
               currCuc > 0 && setCurrCuc(currCuc - 1);
             }}
           >
-            <ArrowBackIosIcon />
+            <ArrowBackIosIcon sx={{ pl: 1.5 }} />
           </div>
           <div className="center"></div>
           <div
@@ -241,14 +247,14 @@ function Recipes() {
               currCuc < cucumber.length - 1 && setCurrCuc(currCuc + 1);
             }}
           >
-            <ArrowForwardIosIcon />
+            <ArrowForwardIosIcon sx={{ pr: 1.5 }} />
           </div>
           <div />
         </div>
       </div>
 
-      <div> Green Bean </div>
       <div className="green-bean">
+        <div> Green Bean </div>
         <div
           src={greenBean[currGb].img}
           className="greenBeanInner"
@@ -260,7 +266,7 @@ function Recipes() {
               currGb > 0 && setCurrGb(currGb - 1);
             }}
           >
-            <ArrowBackIosIcon />
+            <ArrowBackIosIcon sx={{ pl: 1.5 }} />
           </div>
           <div className="center"></div>
           <div
@@ -269,14 +275,14 @@ function Recipes() {
               currGb < greenBean.length - 1 && setCurrGb(currGb + 1);
             }}
           >
-            <ArrowForwardIosIcon />
+            <ArrowForwardIosIcon sx={{ pr: 1.5 }} />
           </div>
           <div />
         </div>
       </div>
 
-      <div> Kale </div>
       <div className="kale">
+        <div> Kale </div>
         <div
           src={kale[currKale].img}
           className="kaleInner"
@@ -288,7 +294,7 @@ function Recipes() {
               currKale > 0 && setCurrKale(currKale - 1);
             }}
           >
-            <ArrowBackIosIcon />
+            <ArrowBackIosIcon sx={{ pl: 1.5 }} />
           </div>
           <div className="center"></div>
           <div
@@ -297,14 +303,14 @@ function Recipes() {
               currKale < kale.length - 1 && setCurrKale(currKale + 1);
             }}
           >
-            <ArrowForwardIosIcon />
+            <ArrowForwardIosIcon sx={{ pr: 1.5 }} />
           </div>
           <div />
         </div>
       </div>
 
-      <div> Okra </div>
       <div className="okra">
+        <div> Okra </div>
         <div
           src={okra[currOk].img}
           className="okraInner"
@@ -316,7 +322,7 @@ function Recipes() {
               currOk > 0 && setCurrOk(currOk - 1);
             }}
           >
-            <ArrowBackIosIcon />
+            <ArrowBackIosIcon sx={{ pl: 1.5 }} />
           </div>
           <div className="center"></div>
           <div
@@ -325,14 +331,14 @@ function Recipes() {
               currOk < okra.length - 1 && setCurrOk(currOk + 1);
             }}
           >
-            <ArrowForwardIosIcon />
+            <ArrowForwardIosIcon sx={{ pr: 1.5 }} />
           </div>
           <div />
         </div>
       </div>
 
-      <div> Spinach </div>
       <div className="spinach">
+        <div> Spinach </div>
         <div
           src={spinach[currSpin].img}
           className="spinachInner"
@@ -344,7 +350,7 @@ function Recipes() {
               currSpin > 0 && setCurrSpin(currSpin - 1);
             }}
           >
-            <ArrowBackIosIcon />
+            <ArrowBackIosIcon sx={{ pl: 1.5 }} />
           </div>
           <div className="center"></div>
           <div
@@ -353,14 +359,14 @@ function Recipes() {
               currSpin < spinach.length - 1 && setCurrSpin(currSpin + 1);
             }}
           >
-            <ArrowForwardIosIcon />
+            <ArrowForwardIosIcon sx={{ pr: 1.5 }} />
           </div>
           <div />
         </div>
       </div>
 
-      <div> Squash </div>
       <div className="squash">
+        <div> Squash </div>
         <div
           src={squash[currSquash].img}
           className="squashInner"
@@ -372,7 +378,7 @@ function Recipes() {
               currSquash > 0 && setCurrSquash(currSquash - 1);
             }}
           >
-            <ArrowBackIosIcon />
+            <ArrowBackIosIcon sx={{ pl: 1.5 }} />
           </div>
           <div className="center"></div>
           <div
@@ -381,14 +387,14 @@ function Recipes() {
               currSquash < squash.length - 1 && setCurrSquash(currSquash + 1);
             }}
           >
-            <ArrowForwardIosIcon />
+            <ArrowForwardIosIcon sx={{ pr: 1.5 }} />
           </div>
           <div />
         </div>
       </div>
 
-      <div> Sweet Potato </div>
       <div className="sweet">
+        <div> Sweet Potato </div>
         <div
           src={sweetPotato[currSweet].img}
           className="sweetInner"
@@ -400,7 +406,7 @@ function Recipes() {
               currSweet > 0 && setCurrSweet(currSweet - 1);
             }}
           >
-            <ArrowBackIosIcon />
+            <ArrowBackIosIcon sx={{ pl: 1.5 }} />
           </div>
           <div className="center"></div>
           <div
@@ -409,14 +415,14 @@ function Recipes() {
               currSweet < sweetPotato.length - 1 && setCurrSweet(currSweet + 1);
             }}
           >
-            <ArrowForwardIosIcon />
+            <ArrowForwardIosIcon sx={{ pr: 1.5 }} />
           </div>
           <div />
         </div>
       </div>
 
-      <div> Turnip </div>
       <div className="turnip">
+        <div> Turnip </div>
         <div
           src={turnip[currTurn].img}
           className="turnipInner"
@@ -428,7 +434,7 @@ function Recipes() {
               currTurn > 0 && setCurrTurn(currTurn - 1);
             }}
           >
-            <ArrowBackIosIcon />
+            <ArrowBackIosIcon sx={{ pl: 1.5 }} />
           </div>
           <div className="center"></div>
           <div
@@ -437,14 +443,14 @@ function Recipes() {
               currTurn < turnip.length - 1 && setCurrTurn(currTurn + 1);
             }}
           >
-            <ArrowForwardIosIcon />
+            <ArrowForwardIosIcon sx={{ pr: 1.5 }} />
           </div>
           <div />
         </div>
       </div>
 
-      <div> White Potato </div>
       <div className="white">
+        <div> White Potato </div>
         <div
           src={whitePotato[currWhite].img}
           className="whiteInner"
@@ -456,7 +462,7 @@ function Recipes() {
               currWhite > 0 && setCurrWhite(currWhite - 1);
             }}
           >
-            <ArrowBackIosIcon />
+            <ArrowBackIosIcon sx={{ pl: 1.5 }} />
           </div>
           <div className="center"></div>
           <div
@@ -465,7 +471,7 @@ function Recipes() {
               currWhite < whitePotato.length - 1 && setCurrWhite(currWhite + 1);
             }}
           >
-            <ArrowForwardIosIcon />
+            <ArrowForwardIosIcon sx={{ pr: 1.5 }} />
           </div>
           <div />
         </div>
