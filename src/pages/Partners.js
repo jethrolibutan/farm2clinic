@@ -30,7 +30,7 @@ function Partners() {
       >
         <Grid
           container
-          sx={{ border: "1px solidgray", width: "450px", height: "1000px" }}
+          sx={{ border: "1px solidgray", width: "450px", height: "auto" }}
         >
           <Grid item xs={6}>
             <img src="./images/watchClinic.jpg" />
@@ -49,17 +49,20 @@ function Partners() {
           </Grid>
           <Grid item xs={12}></Grid>
           <Grid item xs={12}>
-            <img src="./images/pittcountycareclinic.jpeg" />
+            <img src="./images/foodLion.jpeg" />
           </Grid>
           <Grid item xs={12}>
-            <img src="./images/saintAndrew.jpeg" />
+            <img src="./images/hopeClinic.jpeg" />
           </Grid>
           <Grid item xs={12}></Grid>
           <Grid item xs={12}>
-            <img src="./images/pittcountycareclinic.jpeg" />
+            <img src="./images/merciClinic.png" />
           </Grid>
           <Grid item xs={12}>
-            <img src="./images/saintAndrew.jpeg" />
+            <img src="./images/jamesDuke.jpeg" />
+          </Grid>
+          <Grid item xs={12}>
+            <img src="./images/albemarle.jpeg" />
           </Grid>
           <Grid item xs={12}></Grid>
         </Grid>
