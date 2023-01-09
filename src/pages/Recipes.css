@@ -62,7 +62,6 @@
   }
 
   .recipe-whole {
-    background-color: lightblue;
     width: 100%;
   }
 
@@ -132,9 +131,6 @@
     display: none;
   }
 
-  .recipe-links-not-mobile {
-  }
-
   .section-1-title {
     padding-top: 200px;
     font-size: 7.5rem;
@@ -147,7 +143,6 @@
   }
 
   .recipe-whole {
-    background-color: lightblue;
     width: 100%;
   }
 
@@ -883,6 +878,8 @@
     margin-top: 50px;
 
     background-color: black;
+
+    margin-bottom: 5em;
   }
 
   .whiteInner {
