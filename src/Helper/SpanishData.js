@@ -1,205 +1,275 @@
 import React from "react";
+import EsBroccoliBenefit from "../images";
+import EsBroccoli1 from "../images";
+import EsBroccoli2 from "../images";
+import EsBroccoli3 from "../images";
+import EsCabbageBenefit from "../images";
+import EsCabbage1 from "../images";
+import EsCantaloupeBenefit from "../images";
+import EsCant1 from "../images";
+import EsCant2 from "../images";
+import EsCant3 from "../images";
+import EsCarrotBenefit from "../images";
+import EsCarr1 from "../images";
+import EsCarr2 from "../images";
+import EsCarr3 from "../images";
+import EsCauliflowerBenefit from "../images";
+import EsCaul1 from "../images";
+import EsCaul2 from "../images";
+import EsCaul3 from "../images";
+import EsCollardBenefit from "../images";
+import EsCollard1 from "../images";
+import EsCollard2 from "../images";
+import EsCollard3 from "../images";
+import EsCucumberBenefit from "../images";
+import EsCuc1 from "../images";
+import EsCuc2 from "../images";
+import EsCuc3 from "../images";
+import EsGreenBenefit from "../images";
+import EsGreen1 from "../images";
+import EsGreen2 from "../images";
+import EsGreen3 from "../images";
+import EsKaleBenefit from "../images";
+import EsKale1 from "../images";
+import EsKale2 from "../images";
+import EsKale3 from "../images";
+import EsOkraBenefit from "../images";
+import EsOkra1 from "../images";
+import EsOkra2 from "../images";
+import EsOkra3 from "../images";
+import EsSpinachBenefit from "../images";
+import EsSpin1 from "../images";
+import EsSpin2 from "../images";
+import EsSpin3 from "../images";
+import EsSquashBenefit from "../images";
+import EsSquash1 from "../images";
+import EsSquash2 from "../images";
+import EsSquash3 from "../images";
+import EsSweetBenefit from "../images";
+import EsSweet1 from "../images";
+import EsSweet2 from "../images";
+import EsSweet3 from "../images";
+import EsTurnipBenefit from "../images";
+import EsTurn1 from "../images";
+import EsTurn2 from "../images";
+import EsWhitePotatoBenefit from "../images";
+import EsWhite1 from "../images";
+import EsWhite2 from "../images";
+import EsWhite3 from "../images";
 
-export const sBroccoli = [];
+export const sBroccoli = [
+  {
+    img: EsBroccoliBenefit,
+  },
+  {
+    img: EsBroccoli1,
+  },
+  {
+    img: EsBroccoli2,
+  },
+  {
+    img: EsBroccoli3,
+  },
+];
 
 export const cabbage = [
   {
     title: "cabbage-benefits",
-    img: Cabbage0,
+    img: EsCabbageBenefit,
   },
   {
     title: "cabbage-1",
-    img: Cabbage1,
+    img: EsCabbage1,
   },
 ];
 
 export const cantaloupe = [
   {
-    img: CantaloupeBenefit,
+    img: EsCantaloupeBenefit,
   },
   {
-    img: Cant1,
+    img: EsCant1,
   },
   {
-    img: Cant2,
+    img: EsCant2,
   },
   {
-    img: Cant3,
+    img: EsCant3,
   },
 ];
 
 export const carrot = [
   {
-    img: CarrotBenefit,
+    img: EsCarrotBenefit,
   },
   {
-    img: Carr1,
+    img: EsCarr1,
   },
   {
-    img: Carr2,
+    img: EsCarr2,
   },
   {
-    img: Carr3,
+    img: EsCarr3,
   },
 ];
 
 export const cauliflower = [
   {
-    img: CauliflowerBenefit,
+    img: EsCauliflowerBenefit,
   },
   {
-    img: Caul1,
+    img: EsCaul1,
   },
   {
-    img: Caul2,
+    img: EsCaul2,
   },
   {
-    img: Caul3,
+    img: EsCaul3,
   },
 ];
 
 export const collard = [
   {
-    img: CollardBenefit,
+    img: EsCollardBenefit,
   },
   {
-    img: Collard1,
+    img: EsCollard1,
   },
   {
-    img: Collard2,
+    img: EsCollard2,
   },
   {
-    img: Collard3,
+    img: EsCollard3,
   },
 ];
 
 export const cucumber = [
   {
-    img: CucumberBenefit,
+    img: EsCucumberBenefit,
   },
   {
-    img: Cuc1,
+    img: EsCuc1,
   },
   {
-    img: Cuc2,
+    img: EsCuc2,
   },
   {
-    img: Cuc3,
+    img: EsCuc3,
   },
 ];
 
 export const greenBean = [
   {
-    img: GreenBenefit,
+    img: EsGreenBenefit,
   },
   {
-    img: Green1,
+    img: EsGreen1,
   },
   {
-    img: Green2,
+    img: EsGreen2,
   },
   {
-    img: Green3,
+    img: EsGreen3,
   },
 ];
 
 export const kale = [
   {
-    img: KaleBenefit,
+    img: EsKaleBenefit,
   },
   {
-    img: Kale1,
+    img: EsKale1,
   },
   {
-    img: Kale2,
+    img: EsKale2,
   },
   {
-    img: Kale3,
+    img: EsKale3,
   },
 ];
 
 export const okra = [
   {
-    img: OkraBenefit,
+    img: EsOkraBenefit,
   },
   {
-    img: Okra1,
+    img: EsOkra1,
   },
   {
-    img: Okra2,
+    img: EsOkra2,
   },
   {
-    img: Okra3,
+    img: EsOkra3,
   },
 ];
 
 export const spinach = [
   {
-    img: SpinachBenefit,
+    img: EsSpinachBenefit,
   },
   {
-    img: Spin1,
+    img: EsSpin1,
   },
   {
-    img: Spin2,
+    img: EsSpin2,
   },
   {
-    img: Spin3,
+    img: EsSpin3,
   },
 ];
 
 export const squash = [
   {
-    img: SquashBenefit,
+    img: EsSquashBenefit,
   },
   {
-    img: Squash1,
+    img: EsSquash1,
   },
   {
-    img: Squash2,
+    img: EsSquash2,
   },
   {
-    img: Squash3,
+    img: EsSquash3,
   },
 ];
 
 export const sweetPotato = [
-  { img: SweetBenefit },
+  { img: EsSweetBenefit },
   {
-    img: Sweet1,
+    img: EsSweet1,
   },
   {
-    img: Sweet2,
+    img: EsSweet2,
   },
   {
-    img: Sweet3,
+    img: EsSweet3,
   },
 ];
 
 export const turnip = [
   {
-    img: TurnipBenefit,
+    img: EsTurnipBenefit,
   },
   {
-    img: Turn1,
+    img: EsTurn1,
   },
   {
-    img: Turn2,
+    img: EsTurn2,
   },
 ];
 
 export const whitePotato = [
   {
-    img: WhitePotatoBenefit,
+    img: EsWhitePotatoBenefit,
   },
   {
-    img: White1,
+    img: EsWhite1,
   },
   {
-    img: White2,
+    img: EsWhite2,
   },
   {
-    img: White3,
+    img: EsWhite3,
   },
 ];
 
