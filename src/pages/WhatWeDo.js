@@ -73,6 +73,13 @@ function WhatWeDo() {
           </p>
         </div>
       </div>
+
+      <div className="map-farm2clinic">
+        <img
+          src="../images/whereWeAre.png"
+          alt="map of where Farm 2 Clinic works"
+        />
+      </div>
       <SubFooter />
       <Footer />
     </div>

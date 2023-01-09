@@ -108,12 +108,16 @@
     line-height: 30px;
     width: 90%;
   }
+
+  .map-farm2clinic {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 601px) {
   .section-2 {
     font-family: "Unbounded", cursive;
-    font-size: 1em;
+    font-size: 5em;
     color: white;
 
     background-image: url(../images/farm2clinic.jpeg);
@@ -210,5 +214,17 @@
     font-size: 15px;
     line-height: 30px;
     width: 90%;
+  }
+
+  .map-farm2clinic {
+    vertical-align: middle;
+
+    box-sizing: border-box;
+
+    width: auto;
+    margin: auto;
+    margin-bottom: 15em;
+
+    height: 25vh;
   }
 }
