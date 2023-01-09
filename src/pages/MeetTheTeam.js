@@ -57,7 +57,14 @@ function MeetTheTeam() {
                 </CardContent>
               </CardActionArea>
               <CardActions>
-                <Button size="small" color="primary">
+                <Button
+                  size="small"
+                  color="primary"
+                  href="../files/dasCV.pdf"
+                  target="_blank"
+                  variant="contained"
+                  download
+                >
                   Download CV
                 </Button>
               </CardActions>
@@ -110,8 +117,8 @@ function MeetTheTeam() {
               </CardContent>
             </CardActionArea>
             <CardActions>
-              <Button size="small" color="primary">
-                Share
+              <Button size="small" color="primary" variant="contained">
+                Download CV
               </Button>
             </CardActions>
           </Card>
@@ -151,8 +158,15 @@ function MeetTheTeam() {
               </CardContent>
             </CardActionArea>
             <CardActions>
-              <Button size="small" color="primary">
-                Share
+              <Button
+                size="small"
+                color="primary"
+                href="../files/dasCV.pdf"
+                target="_blank"
+                variant="contained"
+                download
+              >
+                Download CV
               </Button>
             </CardActions>
           </Card>
@@ -240,11 +254,6 @@ function MeetTheTeam() {
                 </Typography>
               </CardContent>
             </CardActionArea>
-            <CardActions>
-              <Button size="small" color="primary">
-                Share
-              </Button>
-            </CardActions>
           </Card>
           <Card sx={{ maxWidth: 250 }}>
             <CardActionArea>
@@ -279,11 +288,6 @@ function MeetTheTeam() {
                 </Typography>
               </CardContent>
             </CardActionArea>
-            <CardActions>
-              <Button size="small" color="primary">
-                Share
-              </Button>
-            </CardActions>
           </Card>
         </div>
       </div>

@@ -45,3 +45,20 @@
 .MuiCardMedia-img {
   height: 100%;
 }
+
+@media screen and (max-width: 600px) {
+  .team-rows {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 4em;
+    padding: 1em 1em 1em 1em;
+  }
+
+  .meet-the-team {
+    font-family: "Unbounded", cursive;
+    font-size: 2.5em;
+    color: white;
+  }
+}
