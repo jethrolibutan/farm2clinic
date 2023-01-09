@@ -1,30 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Unbounded:wght@500&display=swap");
 
-.section-2 {
-  font-family: "Unbounded", cursive;
-  font-size: 100px;
-  color: white;
-
-  background-image: url(../images/farm2clinic.jpeg);
-  background-size: cover;
-  background-position: cover;
-
-  height: 55vh;
-  width: 100%;
-  margin: auto;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.section-2-text {
-  font-family: "Unbounded", cursive;
-
-  font-size: 100px;
-  color: white;
-}
-
 .nav {
   padding-right: 64px;
   box-sizing: border-box;
@@ -32,96 +7,208 @@
   vertical-align: top;
 }
 
-.main-content {
-  vertical-align: middle;
-
-  box-sizing: border-box;
-
-  width: auto;
-  margin: auto;
-  max-width: 1020px;
-  padding-top: 0px 32px;
-  padding-bottom: 55px;
-}
-
-.our-mission-title {
-  font-family: "Unbounded", cursive;
-
-  box-sizing: border-box;
-
-  padding-top: 50px;
-  padding-left: 130px;
-  text-align: left;
-
-  font-size: 1em;
-}
-
 @media screen and (max-width: 600px) {
+  .section-2 {
+    font-family: "Unbounded", cursive;
+    font-size: 3em;
+    color: white;
+
+    background-image: url(../images/farm2clinic.jpeg);
+    background-size: cover;
+    background-position: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+    height: 55vh;
+    width: 100%;
+    margin: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
   .rows {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
   }
+
+  .our-mission-title {
+    font-family: "Unbounded", cursive;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    box-sizing: border-box;
+
+    margin-top: 50px;
+
+    font-size: 1em;
+  }
+
+  .our-mission-text {
+    text-align: left;
+
+    font-size: 15px;
+    line-height: 25px;
+
+    margin: 1.5em 1.5em 1.5em 1.5em;
+    width: 80%;
+  }
+
+  .main-content {
+    vertical-align: middle;
+
+    box-sizing: border-box;
+
+    width: auto;
+    margin: auto;
+    max-width: 1020px;
+    padding-bottom: 55px;
+  }
+
+  .logo-image {
+    width: 75%;
+  }
+
+  .our-work-title {
+    font-family: "Unbounded", cursive;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+
+    font-size: 1em;
+  }
+
+  .our-work-section {
+    box-sizing: border-box;
+
+    width: 80%;
+    margin: auto;
+  }
+
+  .our-work-text {
+    text-align: left;
+
+    font-size: 15px;
+    line-height: 25px;
+
+    margin: 1.5em 1.5em 1.5em 1.5em;
+    width: 80%;
+  }
+
+  .our-work-list {
+    font-size: 15px;
+    line-height: 30px;
+    width: 90%;
+  }
 }
 
 @media screen and (min-width: 601px) {
+  .section-2 {
+    font-family: "Unbounded", cursive;
+    font-size: 1em;
+    color: white;
+
+    background-image: url(../images/farm2clinic.jpeg);
+    background-size: cover;
+    background-position: cover;
+
+    height: 55vh;
+    width: 100%;
+    margin: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
   .rows {
     display: flex;
     justify-content: center;
     align-items: center;
   }
-}
 
-.our-mission-text {
-  text-align: left;
+  .our-mission-title {
+    font-family: "Unbounded", cursive;
 
-  font-size: 15px;
-  line-height: 25px;
+    box-sizing: border-box;
 
-  width: 35%;
-  padding-right: 42.5px;
-}
+    padding-top: 50px;
+    padding-left: 130px;
+    text-align: left;
 
-.logo-image {
-  width: 25%;
-}
+    font-size: 1em;
+  }
 
-.our-work-title {
-  font-family: "Unbounded", cursive;
+  .main-content {
+    vertical-align: middle;
 
-  box-sizing: border-box;
+    box-sizing: border-box;
 
-  text-align: left;
-  padding-left: 100px;
+    width: auto;
+    margin: auto;
+    max-width: 1020px;
+    padding-top: 0px 32px;
+    padding-bottom: 55px;
+  }
 
-  font-size: 20px;
-}
+  .our-mission-text {
+    text-align: left;
 
-.our-work-section {
-  vertical-align: middle;
+    font-size: 15px;
+    line-height: 25px;
 
-  box-sizing: border-box;
+    width: 35%;
+    padding-right: 42.5px;
+  }
 
-  width: auto;
-  margin: auto;
-  max-width: 1020px;
-  padding: 0px 32px;
-}
+  .logo-image {
+    width: 25%;
+  }
 
-.our-work-text {
-  text-align: left;
+  .our-work-title {
+    font-family: "Unbounded", cursive;
 
-  font-size: 15px;
-  line-height: 25px;
+    box-sizing: border-box;
 
-  padding-left: 100px;
+    text-align: left;
+    padding-left: 100px;
 
-  width: 80%;
-}
+    font-size: 1em;
+  }
 
-.our-work-list {
-  font-size: 15px;
-  line-height: 30px;
-  width: 90%;
+  .our-work-section {
+    vertical-align: middle;
+
+    box-sizing: border-box;
+
+    width: auto;
+    margin: auto;
+    max-width: 1020px;
+    padding: 0px 32px;
+  }
+
+  .our-work-text {
+    text-align: left;
+
+    font-size: 15px;
+    line-height: 25px;
+
+    padding-left: 100px;
+
+    width: 80%;
+  }
+
+  .our-work-list {
+    font-size: 15px;
+    line-height: 30px;
+    width: 90%;
+  }
 }

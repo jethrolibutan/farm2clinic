@@ -60,7 +60,7 @@ function MeetTheTeam() {
                 <Button
                   size="small"
                   color="primary"
-                  href="../files/dasCV.pdf"
+                  href="../files/sastreCV.pdf"
                   target="_blank"
                   variant="contained"
                   download
@@ -213,8 +213,15 @@ function MeetTheTeam() {
               </CardContent>
             </CardActionArea>
             <CardActions>
-              <Button size="small" color="primary">
-                Share
+              <Button
+                size="small"
+                color="primary"
+                href="../files/jessCV.pdf"
+                target="_blank"
+                variant="contained"
+                download
+              >
+                Download CV
               </Button>
             </CardActions>
           </Card>
