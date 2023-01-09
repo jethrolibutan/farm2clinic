@@ -4,7 +4,7 @@ import EsBroccoli1 from "../images/brocc1.png";
 import EsBroccoli2 from "../images/brocc2.png";
 import EsBroccoli3 from "../images/brocc3.png";
 import EsCabbageBenefit from "../images/cabbagebenefit.png";
-import EsCabbage1 from "../images/Escabbage1.png";
+import EsCabbage1 from "../images/EsCabbage1.png";
 import EsCantaloupeBenefit from "../images/cantaloupebenefit.png";
 import EsCant1 from "../images/cantaloupe1.png";
 import EsCant2 from "../images/cantaloupe2.png";
@@ -272,5 +272,3 @@ export const whitePotato = [
     img: EsWhite3,
   },
 ];
-
-export default SpanishData;

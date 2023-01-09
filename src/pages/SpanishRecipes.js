@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Button, Link } from "@mui/material";
 import Navbar from "../components/Navbar";
 import {
-  images,
+  sBroccoli,
   cabbage,
   cantaloupe,
   carrot,
@@ -17,14 +17,14 @@ import {
   sweetPotato,
   turnip,
   whitePotato,
-} from "../Helper/CarouselData";
+} from "../Helper/SpanishData";
 import SubFooter from "../components/SubFooter";
 import Footer from "../components/Footer";
 import ArrowBackIosIcon from "@mui/icons-material/ArrowBackIos";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 
 function SpanishRecipes() {
-  const [currImg, setCurrImg] = useState(0);
+  const [currBroc, setCurrBroc] = useState(0);
   const [currCabb, setCurrCabb] = useState(0);
   const [currCant, setCurrCant] = useState(0);
   const [currCarr, setCurrCarr] = useState(0);
@@ -96,14 +96,14 @@ function SpanishRecipes() {
         <div className="carousel">
           <div>Broccoli</div>
           <div
-            src={images[currImg].img}
+            src={sBroccoli[currBroc].img}
             className="carouselInner"
-            style={{ backgroundImage: `url(${images[currImg].img})` }}
+            style={{ backgroundImage: `url(${sBroccoli[currBroc].img})` }}
           >
             <div
               className="left"
               onClick={() => {
-                currImg > 0 && setCurrImg(currImg - 1);
+                currBroc > 0 && setCurrBroc(currBroc - 1);
               }}
             >
               <ArrowBackIosIcon sx={{ pl: 1.5 }} />
@@ -112,7 +112,7 @@ function SpanishRecipes() {
             <div
               className="right"
               onClick={() => {
-                currImg < images.length - 1 && setCurrImg(currImg + 1);
+                currBroc < sBroccoli.length - 1 && setCurrBroc(currBroc + 1);
               }}
             >
               <ArrowForwardIosIcon sx={{ pr: 1.5 }} />
