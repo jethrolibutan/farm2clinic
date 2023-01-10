@@ -61,7 +61,7 @@ function Programs() {
         </div>
 
         <div farm-2-clinic-image>
-          <img src="./images/farm2ClinicLogo.png" />
+          <img src="./images/farm2ClinicLogo.png" alt="Farm 2 Clinic logo" />
         </div>
 
         <div className="partners-involved-title">
