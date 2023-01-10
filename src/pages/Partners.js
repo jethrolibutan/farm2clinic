@@ -43,6 +43,7 @@ function Partners() {
               <Grid item xs={6} sx={{ marginTop: "2.5em" }}>
                 <img src="./images/watchClinic.jpg" alt="Watch Clinic logo" />
               </Grid>
+
               <Grid item xs={6} sx={{ marginTop: "2.5em" }}>
                 <img src="./images/foodbank.jpeg" alt="Food bank logo" />
               </Grid>
