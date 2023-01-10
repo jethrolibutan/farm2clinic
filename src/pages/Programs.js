@@ -31,14 +31,28 @@ function Programs() {
           Community Partners Involved{" "}
         </div>
         <div className="partners-involved">
-          <img src="./images/watchClinic.jpg" alt="Watch Clinic logo" />
-          <img src="./images/farmersMarket.jpeg" alt="Farmers Market logo" />
+          <a
+            href="https://www.watchwayne.org/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src="./images/watchClinic.jpg" alt="Watch Clinic logo" />
+          </a>
+
+          <a
+            href="https://www.pittcountync.gov/599/Farmers-Market"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src="./images/farmersMarket.jpeg" alt="Farmers Market logo" />
+          </a>
         </div>
 
         <div className="program-2-time-row">
           <div className="program-title">Farm To Clinic Extension</div>
           <div className="program-time"> August 2019 - May 2021 </div>
         </div>
+
         <div className="program-desc">
           Produce collected via partnership with the Society of St. Andrew and
           the Food Bank of Central and Eastern NC connected patients with fresh
@@ -46,16 +60,47 @@ function Programs() {
           of fresh produce was provided to over +3,000 patients.
         </div>
 
-        <div className="partners-involved">
-          <img src="./images/watchClinic.jpg" alt="Watch Clinic logo" />
-          <img
-            src="./images/pittcountycareclinic.jpeg"
-            alt="Pitt County Clinic logo"
-          />
+        <div farm-2-clinic-image>
+          <img src="./images/farm2ClinicLogo.png" />
         </div>
+
+        <div className="partners-involved-title">
+          {" "}
+          Community Partners Involved{" "}
+        </div>
+
         <div className="partners-involved">
-          <img src="./images/foodbank.jpeg" alt="Food bank logo" />
-          <img src="./images/saintAndrew.jpeg" alt="Saint Andrew logo" />
+          <a
+            href="https://www.watchwayne.org/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src="./images/watchClinic.jpg" alt="Watch Clinic logo" />
+          </a>
+          <a
+            href="https://www.facebook.com/PittCountyCareClinic/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img
+              src="./images/pittcountycareclinic.jpeg"
+              alt="Pitt County Clinic logo"
+            />
+          </a>
+        </div>
+
+        <div className="partners-involved-title">
+          {" "}
+          Community Partners Involved{" "}
+        </div>
+
+        <div className="partners-involved">
+          <a href="https://foodbankcenc.org/" target="_blank" rel="noreferrer">
+            <img src="./images/foodbank.jpeg" alt="Food bank logo" />
+          </a>
+          <a href="https://endhunger.org/" target="_blank" rel="noreferrer">
+            <img src="./images/saintAndrew.jpeg" alt="Saint Andrew logo" />
+          </a>
         </div>
 
         <div className="program-3-time-row">
@@ -74,8 +119,19 @@ function Programs() {
           control, diet quality, and were highly satisfied with the program.
         </div>
 
+        <div className="partners-involved-title">
+          {" "}
+          Community Partners Involved{" "}
+        </div>
+
         <div className="partners-involved">
-          <img src="./images/watchClinic.jpg" alt="Watch Clinic logo" />
+          <a
+            href="https://www.watchwayne.org/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src="./images/watchClinic.jpg" alt="Watch Clinic logo" />
+          </a>
         </div>
 
         <div className="program-4-time-row">
@@ -110,27 +166,63 @@ function Programs() {
           </a>
         </div>
 
+        <div className="partners-involved-title">
+          {" "}
+          Community Partners Involved{" "}
+        </div>
+
         <div className="partners-involved">
-          <img src="./images/watchClinic.jpg" alt="Watch Clinic logo" />
+          <a
+            href="https://www.watchwayne.org/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src="./images/watchClinic.jpg" alt="Watch Clinic logo" />
+          </a>
           <img
             src="./images/albemarle.jpeg"
             alt="Albemarle Hospital Foundation logo"
           />
         </div>
         <div className="partners-involved">
-          <img src="./images/foodbank.jpeg" alt="Food bank logo" />
-          <img src="./images/saintAndrew.jpeg" alt="Saint Andrew logo" />
+          <a href="https://foodbankcenc.org/" target="_blank" rel="noreferrer">
+            <img src="./images/foodbank.jpeg" alt="Food bank logo" />
+          </a>
+          <a href="https://endhunger.org/" target="_blank" rel="noreferrer">
+            <img src="./images/saintAndrew.jpeg" alt="Saint Andrew logo" />
+          </a>
         </div>
         <div className="partners-involved">
-          <img src="./images/merciClinic.png" alt="Merci Clinic logo" />
-          <img src="./images/hopeClinic.jpeg" alt="Hope Clinic logo" />
+          <a
+            href="https://www.merciclinic.org/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src="./images/merciClinic.png" alt="Merci Clinic logo" />
+          </a>
+          <a
+            href="https://www.hopeclinic.net/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src="./images/hopeClinic.jpeg" alt="Hope Clinic logo" />
+          </a>
         </div>
         <div className="partners-involved">
-          <img
-            src="./images/jamesDuke.jpeg"
-            alt="James B. Duke Endowment logo"
-          />
-          <img src="./images/foodLion.jpeg" alt="Food Lion logo" />
+          <a
+            href="https://www.dukeendowment.org/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img
+              src="./images/jamesDuke.jpeg"
+              alt="James B. Duke Endowment logo"
+            />
+          </a>
+
+          <a href="https://www.foodlion.com/" target="_blank" rel="noreferrer">
+            <img src="./images/foodLion.jpeg" alt="Food Lion logo" />
+          </a>
         </div>
       </div>
 

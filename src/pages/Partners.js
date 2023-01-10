@@ -40,11 +40,11 @@ function Partners() {
               spacing={4}
               sx={{ border: "1px solidgray", width: "450px", height: "auto" }}
             >
-              <Grid item xs={6} sx={{ marginTop: "2.5em" }}>
+              <Grid item xs={12} sx={{ marginTop: "2.5em" }}>
                 <img src="./images/watchClinic.jpg" alt="Watch Clinic logo" />
               </Grid>
 
-              <Grid item xs={6} sx={{ marginTop: "2.5em" }}>
+              <Grid item xs={12} sx={{ marginTop: "2.5em" }}>
                 <img src="./images/foodbank.jpeg" alt="Food bank logo" />
               </Grid>
               <Grid item xs={12} sx={{ marginTop: "3em" }}>

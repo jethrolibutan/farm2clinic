@@ -1,10 +1,10 @@
-@media screen and (max-width: 600px) {
-  .exercises {
+@media screen and (max-width: 700px) {
+  .programs {
     font-family: "Unbounded", cursive;
     font-size: 3em;
-    color: white;
+    color: black;
 
-    background-image: url(../images/groupexercises.jpg);
+    background-image: url(../images/programs.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -17,6 +17,121 @@
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+
+  .programs-list {
+    align-items: center;
+
+    padding-top: 5em;
+
+    max-width: 700px;
+    width: 100%;
+    margin: auto;
+  }
+
+  .program-time-row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    font-family: "Unbounded", cursive;
+  }
+
+  .program-time {
+    display: flex;
+    font-size: 0.9em;
+    color: rgb(194, 194, 194);
+  }
+
+  .program-title {
+    display: flex;
+    align-items: center;
+
+    font-size: 1em;
+  }
+
+  .program-desc {
+    display: flex;
+
+    margin: 1em 1em 1em 1em;
+
+    line-height: 25px;
+
+    text-align: left;
+    color: black;
+  }
+
+  .partners-involved-title {
+    padding-top: 2em;
+    padding-bottom: 2em;
+
+    font-family: "Unbounded", cursive;
+    font-size: 0.9em;
+
+    margin: auto;
+  }
+
+  .partners-involved {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+    row-gap: 4em;
+
+    padding-top: 2em;
+    padding-bottom: 3em;
+
+    margin: 1em 1em 1em 1em;
+
+    margin: auto;
+  }
+
+  .program-2-time-row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    padding-top: 5em;
+
+    font-family: "Unbounded", cursive;
+  }
+
+  .farm-2-clinic-image {
+    padding-top: 2em;
+  }
+
+  .program-3-time-row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    padding-top: 5em;
+
+    font-family: "Unbounded", cursive;
+  }
+
+  .program-4-time-row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    padding-top: 5em;
+
+    font-family: "Unbounded", cursive;
+  }
+
+  .program-4-links {
+    display: flex;
+    align-items: center;
+
+    font-size: 0.8em;
+
+    margin: 1em 1em 1em 1em;
   }
 }
 
@@ -72,6 +187,7 @@
     display: flex;
 
     margin-top: 1.5em;
+    margin-bottom: 2em;
     line-height: 25px;
 
     text-align: left;
