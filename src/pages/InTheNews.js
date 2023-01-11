@@ -29,6 +29,12 @@ function InTheNews() {
                 alt="Dr. Sastre teaches exercises"
               />
             </div>
+            <div className="news-mobile-image">
+              <img
+                src="./images/sastreexercisemobile.jpeg"
+                alt="People preparing food"
+              />
+            </div>
             Dr. Lauren Sastre, creator of the Fresh Start program, leads
             patients with type 2 diabetes in an exercise segment during a recent
             class session. The program is helping uninsured patients at free and
@@ -62,6 +68,12 @@ function InTheNews() {
             <div className="news-image">
               <img
                 src="./images/farm2clinic.jpeg"
+                alt="People preparing food"
+              />
+            </div>
+            <div className="news-mobile-image">
+              <img
+                src="./images/farm2clinicmobile.jpeg"
                 alt="People preparing food"
               />
             </div>
