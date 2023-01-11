@@ -33,7 +33,7 @@
   .news-title {
     display: flex;
     align-items: center;
-    margin: auto;
+    margin: 1em 1em 1em 1em;
 
     text-align: left;
 
