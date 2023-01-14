@@ -1,0 +1,30 @@
+@media screen and (min-width: 601px) {
+  .get-involved {
+    background-image: url(../images/getinvolved.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 55vh;
+
+    font-size: 7.5em;
+    color: white;
+    font-family: "Unbounded", cursive;
+  }
+
+  .follow-us-title {
+    margin-top: 1em;
+
+    font-size: 2em;
+    font-family: "Unbounded", cursive;
+  }
+
+  .follow-us-section {
+    height: 50vh;
+  }
+}
