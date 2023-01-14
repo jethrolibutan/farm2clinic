@@ -1,12 +1,12 @@
 @media screen and (max-width: 600px) {
-  .exercises {
+  .training {
     font-family: "Unbounded", cursive;
     font-size: 3em;
     color: white;
 
-    background-image: url(../images/groupexercises.jpg);
+    background-image: url(../images/momdoingyogapose.jpg);
     background-size: cover;
-    background-position: center;
+    background-position: 30% 75%;
     background-attachment: fixed;
     background-repeat: no-repeat;
 
@@ -19,7 +19,7 @@
     justify-content: center;
   }
 
-  .exercise-list {
+  .under-construction {
     font-family: "Unbounded", cursive;
 
     display: flex;
@@ -31,12 +31,12 @@
 }
 
 @media screen and (min-width: 601px) {
-  .exercises {
+  .training {
     font-family: "Unbounded", cursive;
     font-size: 5em;
     color: white;
 
-    background-image: url(../images/groupexercises.jpg);
+    background-image: url(../images/momdoingyogapose.jpg);
     background-size: cover;
     background-position: center;
 
@@ -49,13 +49,15 @@
     justify-content: center;
   }
 
-  .exercise-list {
-    font-family: "Unbounded", cursive;
-
+  .under-construction {
     display: flex;
     align-items: center;
     justify-content: center;
 
     height: 55vh;
+    width: 100%;
+    margin: auto;
+
+    font-family: "Unbounded", cursive;
   }
 }
