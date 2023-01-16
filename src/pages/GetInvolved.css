@@ -17,6 +17,52 @@
     font-family: "Unbounded", cursive;
   }
 
+  .contact-farm-2-clinic {
+    font-size: 1.5em;
+    font-family: "Unbounded", cursive;
+    margin: 1em 1em 0em 1em;
+  }
+
+  .form-for-contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    max-width: 750px;
+    height: 50vh;
+
+    margin: auto;
+    position: inherit;
+    padding: 3vw;
+  }
+
+  .form-for-contact input,
+  textarea {
+    width: 90%;
+    padding: 1rem 1rem 1rem 1rem;
+    margin: 1vw 0;
+    border: 0;
+    border-radius: 5px;
+    font-size: 20px;
+  }
+
+  .form-for-contact textarea {
+    height: 15vh;
+
+    min-width: 700px;
+    max-width: 700px;
+    max-height: 100px;
+
+    border-color: black;
+  }
+
+  .form-for-contact label {
+    display: block;
+    text-align: center;
+    font-size: 20px;
+  }
+
   .follow-us-title {
     margin-top: 1em;
 
