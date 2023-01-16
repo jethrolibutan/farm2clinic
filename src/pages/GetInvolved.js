@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "../components/Navbar";
 import SubFooter from "../components/SubFooter";
 import Footer from "../components/Footer";
+
 import "./GetInvolved.css";
 
 function GetInvolved() {
@@ -100,6 +101,18 @@ function GetInvolved() {
           </div>
         </div>
       </div>
+
+      <iframe
+        width="399"
+        height="542"
+        frameborder="0"
+        scrolling="no"
+        marginheight="0"
+        marginwidth="0"
+        id="gmap_canvas"
+        src="https://maps.google.com/maps?width=399&amp;height=542&amp;hl=en&amp;q=Health%20Sciences%20Building,%20Greenville%20Greenville+(Health%20Sciences%20Building)&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+        className="map-container"
+      ></iframe>
 
       <SubFooter />
       <Footer />
