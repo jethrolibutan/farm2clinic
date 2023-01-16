@@ -56,8 +56,47 @@ function GetInvolved() {
         <div className="follow-us-section">
           {" "}
           <div className="follow-us-title">Follow us on social media!</div>
-          <div className="rows">
-            <div> </div> <div></div>
+          <div className="social-media-rows">
+            <div className="social-media">
+              {" "}
+              <a
+                href="https://www.youtube.com/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img src="./images/facebookicon.png" alt="Watch Clinic logo" />
+              </a>
+            </div>{" "}
+            <div className="social-media">
+              {" "}
+              <a
+                href="https://instagram.com/farm2clinic/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img src="./images/instagramicon.png" alt="Watch Clinic logo" />
+              </a>
+            </div>
+          </div>
+          <div className="social-media-rows">
+            <div className="social-media">
+              <a
+                href="https://twitter.com/farm2clinic"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img src="./images/twitterIcon.png" alt="Watch Clinic logo" />
+              </a>
+            </div>{" "}
+            <div className="social-media">
+              <a
+                href="https://youtube.com/channel/UCpuQAa3TLdvy8VKbUpnIVkA"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img src="./images/youtubeicon.png" alt="Watch Clinic logo" />
+              </a>
+            </div>
           </div>
         </div>
       </div>
