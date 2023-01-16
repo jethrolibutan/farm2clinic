@@ -198,11 +198,6 @@ function Navbar() {
                   DONATE
                 </MenuItem>
 
-                <MenuItem component={Link} href="/volunteer">
-                  {" "}
-                  VOLUNTEER{" "}
-                </MenuItem>
-
                 <MenuItem component={Link} href="/getInvolved">
                   {" "}
                   GET INVOLVED{" "}

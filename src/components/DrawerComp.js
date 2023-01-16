@@ -157,9 +157,6 @@ function DrawerComp() {
               <ListItemButton sx={{ pl: 4 }} component={Link} href="/donate">
                 <ListItemText primary="DONATE" />
               </ListItemButton>
-              <ListItemButton sx={{ pl: 4 }} component={Link} href="/volunteer">
-                <ListItemText primary="VOLUNTEER" />
-              </ListItemButton>
               <ListItemButton
                 sx={{ pl: 4 }}
                 component={Link}

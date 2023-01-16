@@ -15,7 +15,6 @@ import Training from "./pages/Training";
 import Publications from "./pages/Publications";
 import InTheNews from "./pages/InTheNews";
 import Donate from "./pages/Donate";
-import Volunteer from "./pages/Volunteer";
 import GetInvolved from "./pages/GetInvolved";
 import SpanishRecipes from "./pages/SpanishRecipes";
 
@@ -39,7 +38,6 @@ function App() {
         <Route path="publications" element={<Publications />} />
         <Route path="inTheNews" element={<InTheNews />} />
         <Route path="donate" element={<Donate />} />
-        <Route path="volunteer" element={<Volunteer />} />
         <Route path="getInvolved" element={<GetInvolved />} />
       </Routes>
     </div>
