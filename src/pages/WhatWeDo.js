@@ -1,6 +1,5 @@
 import React from "react";
 import Navbar from "../components/Navbar";
-import { Stack, Button } from "@mui/material";
 import SubFooter from "../components/SubFooter";
 import Footer from "../components/Footer";
 import "./WhatWeDo.css";
@@ -24,7 +23,11 @@ function WhatWeDo() {
               reducing food waste.
             </p>
           </div>
-          <img src="../images/farm2ClinicLogo.png" className="logo-image"></img>
+          <img
+            src="../images/farm2ClinicLogo.png"
+            className="logo-image"
+            alt="farm2clinic logo"
+          ></img>
         </div>
       </div>
 

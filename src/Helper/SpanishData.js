@@ -1,4 +1,3 @@
-import React from "react";
 import EsBroccoliBenefit from "../images/broccbenefit.png";
 import EsBroccoli1 from "../images/brocc1.png";
 import EsBroccoli2 from "../images/brocc2.png";
