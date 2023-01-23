@@ -90,34 +90,29 @@ function MeetTheTeam() {
                 >
                   Brandon Stroud is the Assistant Director of the Farm to Clinic
                   (F2C) initiative. He is a Certified Health Education
-                  Specialist and Certified Personal Trainer through the National
-                  Academy of Sports Medicine. He holds a Bachelor of Science
-                  degree in Nutrition and Dietetics from East Carolina
+                  Specialist through the National Commision for Health Education
+                  Credentialing and Certified Personal Trainer through the
+                  National Academy of Sports Medicine. He holds a Bachelor of
+                  Science degree in Nutrition and Dietetics from East Carolina
                   University and will graduate with a Master of Public Health
                   (MPH) in Community Health and Health Behavior from East
                   Carolina University in May 2023. After completion of his MPH,
                   he plans to attend a Doctor of Public Health program, and he
                   would like to utilize his training and experience to conduct
                   healthcare research that has practical implications to improve
-                  access and quality of care for underserved populations. He
-                  maintains active roles in the Society of Public Health
-                  Education and American Public Health Association. Brandon has
-                  worked with Dr. Lauren Sastre and the F2C initiative since the
-                  Fall of 2019. He began as a general volunteer/undergraduate
-                  research assistant and worked his way into a leadership
-                  position as the F2C Assistant Director. He has assisted in
-                  leading several initiatives through F2C and works very closely
-                  with our clinic/community partners, research assistants, and
-                  student volunteers. Through his time working with F2C he has
-                  been a part of numerous community-engaged research projects,
-                  received undergraduate research grants, published a
-                  manuscript, and presented F2C-related research at several
-                  National, State, and local conferences.
+                  access and quality of care for underserved populations.
                 </Typography>
               </CardContent>
             </CardActionArea>
             <CardActions>
-              <Button size="small" color="primary" variant="contained">
+              <Button
+                size="small"
+                color="primary"
+                href="../files/brandonCV.pdf"
+                target="_blank"
+                variant="contained"
+                download
+              >
                 Download CV
               </Button>
             </CardActions>
