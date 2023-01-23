@@ -179,10 +179,16 @@ function Programs() {
           >
             <img src="./images/watchClinic.jpg" alt="Watch Clinic logo" />
           </a>
-          <img
-            src="./images/albemarle.jpeg"
-            alt="Albemarle Hospital Foundation logo"
-          />
+          <a
+            href="https://ncafcc.org/our-clinics/albemarle-hospital-foundation-community-care-clinic/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img
+              src="./images/albemarle.jpeg"
+              alt="Albemarle Hospital Foundation logo"
+            />
+          </a>
         </div>
         <div className="partners-involved">
           <a href="https://foodbankcenc.org/" target="_blank" rel="noreferrer">
