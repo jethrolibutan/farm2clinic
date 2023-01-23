@@ -71,12 +71,6 @@ function InTheNews() {
                 alt="People preparing food"
               />
             </div>
-            <div className="news-mobile-image">
-              <img
-                src="./images/farm2clinicmobile.jpeg"
-                alt="People preparing food"
-              />
-            </div>
             A van towing a trailer pulls in front of a church in Elizabeth City,
             an eastern North Carolina community challenged by health
             disparities, limited access to health care providers, and
@@ -95,6 +89,47 @@ function InTheNews() {
           <div className="learn-more-button">
             <Link
               href="https://news.ecu.edu/2022/04/08/fresh-start/"
+              rel="noopener"
+              target="_blank"
+            >
+              <Button variant="contained" sx={{ marginRight: "auto" }}>
+                {" "}
+                Learn More{" "}
+              </Button>
+            </Link>
+          </div>
+
+          <div className="news-story-2">
+            <div className="news-title-story-2">
+              Comprehensive food nutrition program aims to combat disparities in
+              diabetes treatments
+            </div>
+
+            <div className="news-story-desc">
+              <div className="news-image-3">
+                <img
+                  src="./images/newsStory3.jpg"
+                  alt="People preparing food"
+                />
+              </div>
+              Health care providers have traditionally written prescriptions for
+              medications, for exercise, for therapy, even for relaxation for
+              their patients. So to combat obesity and poor nutrition, why not
+              give patients a prescription to help them eat better? Such food
+              prescriptions — delivered to patients in the form of vouchers that
+              can help patients get access to more fresh fruits and vegetables —
+              are becoming increasingly popular across the U.S. Lauren Sastre, a
+              professor in the Department of Nutrition Science at East Carolina
+              University, saw the promise of food prescription programs in fall
+              2018 when she started researching their implementation. While she
+              considered them helpful, Sastre didn’t think they went far enough
+              in breaking down barriers to getting healthy food.
+            </div>
+          </div>
+
+          <div className="learn-more-button">
+            <Link
+              href="https://www.northcarolinahealthnews.org/2023/01/19/comprehensive-food-nutrition-program-aims-to-combat-disparities-in-diabetes-treatments/"
               rel="noopener"
               target="_blank"
             >
