@@ -17,6 +17,31 @@
     font-family: "Unbounded", cursive;
   }
 
+  .current-needs-title {
+    font-size: 1.1em;
+    font-family: "Unbounded", cursive;
+    margin: 1em 1em 0em 1em;
+  }
+
+  .current-needs-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    vertical-align: middle;
+    box-sizing: border-box;
+
+    width: auto;
+    margin: auto;
+    max-width: 800px;
+    padding: 0px 0px;
+
+    font-size: 15px;
+    line-height: 30px;
+    width: 90%;
+    text-align: left;
+  }
+
   .contact-farm-2-clinic {
     font-size: 1.5em;
     font-family: "Unbounded", cursive;
@@ -143,6 +168,31 @@
     font-size: 7.5em;
     color: white;
     font-family: "Unbounded", cursive;
+  }
+
+  .current-needs-title {
+    font-size: 1.5em;
+    font-family: "Unbounded", cursive;
+    margin: 1em 1em 0em 1em;
+  }
+
+  .current-needs-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    vertical-align: middle;
+    box-sizing: border-box;
+
+    width: auto;
+    margin: auto;
+    max-width: 800px;
+    padding: 0px 0px;
+
+    font-size: 15px;
+    line-height: 30px;
+    width: 90%;
+    text-align: left;
   }
 
   .contact-farm-2-clinic {

@@ -9,6 +9,45 @@ function Donate() {
     <div>
       <Navbar />
       <div className="donate">Donate</div>
+
+      <div className="current-needs-title"> Farm2Clinic's Current Needs!</div>
+      <p className="current-needs-list">
+        <ul className="current-needs">
+          <li>
+            Healthy Snacks (for patients and to feed the student volunteers on
+            the long road trips for program delivery!, e.g., protein bars, smart
+            pop/skinny popcorn, baked chips, veggie straws).{" "}
+          </li>
+          <li>
+            Gas Cards (for patients who struggle with transportation to make it
+            to classes to participate and pick up their food).
+          </li>
+          <li>
+            Kitchen cookware (equipment, smaller items/utensils) (for patient
+            incentives, to raffle during classes and provide as support for
+            healthy eating at home).
+          </li>
+          <li>Re-usable water bottles (patient incentives). </li>
+          <li>
+            Direct $ donations for students: can support: student assistantships
+            to work within the program (some students would like to work with us
+            beyond volunteering but are prevented by needing to work to support
+            themselves).{" "}
+          </li>
+          <li>
+            Direct $ donations for replenishing perishable supplies (e.g., dry
+            ingredients for cooking demonstrations, soap, hand sanitizer,
+            cleaning supplies, paper plates and plastic forks for taste testing
+            at classes).{" "}
+          </li>
+          <li>
+            Grocery store gift-cards (for patients who complete program
+            components to further support healthy food access).{" "}
+          </li>
+          <li>Colored Paper/Cardstock (handouts for patients). </li>
+        </ul>
+      </p>
+
       <div className="contact-farm-2-clinic"> Contact Farm 2 Clinic! </div>
       <div className="form-for-contact">
         <form action="https://formspree.io/f/xrgvbplg" method="post">

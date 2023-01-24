@@ -19,7 +19,7 @@ function GetInvolved() {
           <div className="getting-involved-list">
             <h1 className="community-title">
               {" "}
-              Community memebers can get involved by:{" "}
+              Community members can get involved by:{" "}
             </h1>
 
             <p className="community-involvement-section">
