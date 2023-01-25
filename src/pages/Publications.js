@@ -93,7 +93,10 @@ function Publications() {
             3. Stroud B*, Sastre L (2022). From the Field to the Clinic: A
             Gleaning and Donation-Based Produce Program for Rural,
             Low-Socioeconomic Patients Journal of Health Promotion and Practice
-            King R*, Chua J, Nunnery D, Sastre L .Opportunities and Lessons
+          </div>
+
+          <div className="indent1">
+            4. King R*, Chua J, Nunnery D, Sastre L .Opportunities and Lessons
             Learned to Support Didactic Experiential Learning through a
             Nutrition Education and Counseling Pilot at an FQHC. The Journal of
             the Academy of Nutrition and Dietetics.{" "}
