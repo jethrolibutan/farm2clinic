@@ -3,6 +3,7 @@
   height: 150px;
 
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 
@@ -10,5 +11,11 @@
 }
 
 .farm-2-clinic-text {
+  color: white;
+}
+
+.credits {
+  margin-top: 1em;
+
   color: white;
 }
