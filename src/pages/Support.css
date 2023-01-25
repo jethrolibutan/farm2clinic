@@ -212,4 +212,9 @@
     font-size: 15px;
     line-height: 25px;
   }
+
+  .indent-space {
+    margin-left: 0.25em;
+    margin-right: 0.25em;
+  }
 }

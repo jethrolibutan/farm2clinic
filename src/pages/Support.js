@@ -64,6 +64,26 @@ function Support() {
           program's culinary medicine and nutrition and health education
           components to be tailored for Hispanic/Latinx patients.
         </div>
+
+        <div className="internal-support">
+          {" "}
+          Attributions for Images/Media Used
+        </div>
+        <div className="internal-text">
+          <div className="indent-space">
+            <a
+              href="https://www.flaticon.com/free-icons/leaf"
+              title="leaf icons"
+            >
+              Leaf icons created by Pixel perfect - Flaticon
+            </a>
+          </div>
+          &{" "}
+          <div className="indent-space">
+            {" "}
+            <a href="https://pixabay.com/"> Pixaby.com </a>{" "}
+          </div>
+        </div>
       </div>
 
       <SubFooter />
