@@ -77,12 +77,21 @@ function WhatWeDo() {
         </div>
       </div>
 
+      <div className="map-content">
+        <div className="where-we-are-section">
+          <h1 className="where-we-are"> Where We Are </h1>
+          <p className="our-work-text">
+            Farm2Clinic is currently serving 14 rural counties.
+          </p>
+        </div>
+      </div>
       <div className="map-farm2clinic">
         <img
           src="../images/whereWeAre.png"
           alt="map of where Farm 2 Clinic works"
         />
       </div>
+
       <SubFooter />
       <Footer />
     </div>

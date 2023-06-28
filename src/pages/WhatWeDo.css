@@ -83,6 +83,8 @@
     justify-content: center;
     box-sizing: border-box;
 
+    padding-bottom: 1.5em;
+
     font-size: 1em;
   }
 
@@ -107,6 +109,37 @@
     font-size: 15px;
     line-height: 30px;
     width: 90%;
+  }
+
+  .where-we-are-section {
+    box-sizing: border-box;
+
+    width: 80%;
+    margin: auto;
+  }
+
+  .where-we-are {
+    font-family: "Unbounded", cursive;
+
+    box-sizing: border-box;
+
+    font-size: 1em;
+
+    margin: auto;
+
+    width: 100%;
+  }
+
+  .map-content {
+    vertical-align: middle;
+
+    box-sizing: border-box;
+
+    width: auto;
+    margin: auto;
+    /* max-width: 1020px;
+    padding-top: 0px 32px;
+    padding-bottom: 5px; */
   }
 
   .map-farm2clinic {
@@ -160,7 +193,7 @@
     margin: auto;
     max-width: 1020px;
     padding-top: 0px 32px;
-    padding-bottom: 55px;
+    padding-bottom: 45px;
   }
 
   .our-mission-text {
@@ -216,6 +249,42 @@
     width: 90%;
   }
 
+  .where-we-are-section {
+    vertical-align: middle;
+
+    box-sizing: border-box;
+
+    width: auto;
+    margin: auto;
+    max-width: 1020px;
+    padding: 0px 32px;
+  }
+
+  .where-we-are {
+    font-family: "Unbounded", cursive;
+
+    box-sizing: border-box;
+
+    text-align: left;
+    font-size: 1em;
+
+    padding-left: 100px;
+
+    width: 100%;
+  }
+
+  .map-content {
+    vertical-align: middle;
+
+    box-sizing: border-box;
+
+    width: auto;
+    margin: auto;
+    max-width: 1020px;
+    padding-top: 0px 32px;
+    padding-bottom: 5px;
+  }
+
   .map-farm2clinic {
     vertical-align: middle;
 
@@ -223,8 +292,8 @@
 
     width: auto;
     margin: auto;
-    margin-bottom: 15em;
+    margin-bottom: 45em;
 
-    height: 25vh;
+    height: 15vh;
   }
 }

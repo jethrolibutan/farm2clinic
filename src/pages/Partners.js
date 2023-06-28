@@ -93,7 +93,7 @@ function Partners() {
             <div className="interested">Interested in Partnering?</div>
 
             <div className="interested-text">
-              If you would like to partner with us, please contact
+              If you would like to partner with us, please contaact
               sastrel18@ecu.edu and we will get back to you. Please include your
               specific needs and/or ideas for partnership in the Comments.
             </div>
