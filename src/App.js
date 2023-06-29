@@ -1,22 +1,21 @@
 import "./App.css";
 import { Routes, Route } from "react-router-dom";
-import Main from "./pages/Main";
-import ContactUs from "./pages/ContactUs";
-import About from "./pages/About";
-import MeetTheTeam from "./pages/MeetTheTeam";
-import Support from "./pages/Support";
-import WhatWeDo from "./pages/WhatWeDo";
-import Partners from "./pages/Partners";
-import Programs from "./pages/Programs";
-import Resources from "./pages/Resources";
-import Exercises from "./pages/Exercises";
-import Recipes from "./pages/Recipes";
-import Training from "./pages/Training";
-import Publications from "./pages/Publications";
-import InTheNews from "./pages/InTheNews";
-import Donate from "./pages/Donate";
-import GetInvolved from "./pages/GetInvolved";
-import SpanishRecipes from "./pages/SpanishRecipes";
+import Main from "./pages/MainPage/Main";
+import ContactUs from "./pages/ContactPage/ContactUs";
+import About from "./pages/About Page/About";
+import MeetTheTeam from "./pages/MeetTheTeam/MeetTheTeam";
+import Support from "./pages/SupportPage/Support";
+import WhatWeDo from "./pages/WhatWeDoPage/WhatWeDo";
+import Partners from "./pages/PartnersPage/Partners";
+import Programs from "./pages/ProgramsPage/Programs";
+import Exercises from "./pages/ExercisePage/Exercises";
+import Recipes from "./pages/RecipesPage/Recipes";
+import Training from "./pages/TrainingPage/Training";
+import Publications from "./pages/PublicationsPage/Publications";
+import InTheNews from "./pages/InTheNews/InTheNews";
+import Donate from "./pages/DonatePage/Donate";
+import GetInvolved from "./pages/GetInvolvedPage/GetInvolved";
+import SpanishRecipes from "./pages/RecipesPage/SpanishRecipes";
 
 function App() {
   return (
@@ -30,7 +29,6 @@ function App() {
         <Route path="partners" element={<Partners />} />
         <Route path="programs" element={<Programs />} />
         <Route path="contactUs" element={<ContactUs />} />
-        <Route path="resources" element={<Resources />} />
         <Route path="recipes" element={<Recipes />} />
         <Route path="spanishRecipes" element={<SpanishRecipes />} />
         <Route path="exercises" element={<Exercises />} />

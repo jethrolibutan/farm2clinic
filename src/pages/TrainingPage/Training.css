@@ -1,0 +1,63 @@
+@media screen and (max-width: 600px) {
+  .training {
+    font-family: "Unbounded", cursive;
+    font-size: 3em;
+    color: white;
+
+    background-image: url(../../images/momdoingyogapose.jpg);
+    background-size: cover;
+    background-position: 30% 75%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+    height: 55vh;
+    width: 100%;
+    margin: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .under-construction {
+    font-family: "Unbounded", cursive;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 55vh;
+  }
+}
+
+@media screen and (min-width: 601px) {
+  .training {
+    font-family: "Unbounded", cursive;
+    font-size: 5em;
+    color: white;
+
+    background-image: url(../../images/momdoingyogapose.jpg);
+    background-size: cover;
+    background-position: center;
+
+    height: 55vh;
+    width: 100%;
+    margin: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .under-construction {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 55vh;
+    width: 100%;
+    margin: auto;
+
+    font-family: "Unbounded", cursive;
+  }
+}

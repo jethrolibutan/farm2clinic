@@ -1,0 +1,109 @@
+@media screen and (min-width: 360px) and (max-width: 800px) {
+  .publications {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 55vh;
+    margin: auto;
+
+    background-image: url(../../images/publications.jpg);
+    background-size: cover;
+    background-position: 75% 25%;
+
+    font-family: "Unbounded", cursive;
+    font-size: 2.75em;
+    color: white;
+  }
+
+  .publication-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding-top: 2.5em;
+    padding-bottom: 2.5em;
+
+    width: 100%;
+    max-width: 300px;
+    margin: auto;
+    text-align: left;
+  }
+
+  .publication-title {
+    font-family: "Unbounded", cursive;
+    font-size: 18.5px;
+    color: black;
+
+    margin-top: 0px;
+  }
+
+  .row-pres {
+    display: flex;
+  }
+
+  .indent1 {
+    display: flex;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+  }
+}
+
+@media screen and (min-width: 801px) {
+  .publications {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 55vh;
+    margin: auto;
+
+    background-image: url(../../images/publications.jpg);
+    background-size: cover;
+    background-position: 75% 25%;
+
+    font-family: "Unbounded", cursive;
+    font-size: 6em;
+    color: white;
+  }
+
+  .publication-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding-top: 2.5em;
+    padding-bottom: 2.5em;
+
+    width: 100%;
+    max-width: 750px;
+    margin: auto;
+    text-align: left;
+  }
+
+  .publication-title {
+    font-family: "Unbounded", cursive;
+    font-size: 18.5px;
+    color: black;
+
+    margin-top: 0px;
+  }
+
+  .row-pres {
+    display: flex;
+  }
+
+  .indent1 {
+    display: flex;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+  }
+}

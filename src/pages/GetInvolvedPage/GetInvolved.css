@@ -1,0 +1,220 @@
+@media screen and (max-width: 700px) {
+  .get-involved {
+    background-image: url(../../images/gettingInvolved.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 55vh;
+
+    font-size: 2.5em;
+    color: white;
+    font-family: "Unbounded", cursive;
+  }
+
+  .getting-involved-intro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: 3em 3em 3em 3em;
+
+    font-size: 1em;
+    font-family: "Unbounded", cursive;
+  }
+
+  .community-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    max-width: 800px;
+    width: 100%;
+    padding: 0px 0px;
+
+    margin: auto;
+    margin-top: 2em;
+
+    font-family: "Unbounded", cursive;
+    font-size: 0.8em;
+  }
+
+  .community-involvement-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    vertical-align: middle;
+
+    box-sizing: border-box;
+
+    width: auto;
+    margin: auto;
+    max-width: 800px;
+    padding: 0px 0px;
+  }
+
+  .community-involvement {
+    font-size: 15px;
+    line-height: 30px;
+    width: 90%;
+    text-align: left;
+  }
+
+  .student-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    max-width: 800px;
+    width: 100%;
+    padding: 0px 0px;
+
+    margin: auto;
+    margin-top: 2em;
+    text-align: left;
+
+    font-family: "Unbounded", cursive;
+    font-size: 0.8em;
+  }
+
+  .student-involvement-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    vertical-align: middle;
+
+    box-sizing: border-box;
+
+    width: auto;
+    margin: auto;
+    max-width: 800px;
+    padding: 0px 0px;
+  }
+
+  .student-involvement {
+    font-size: 15px;
+    line-height: 30px;
+    width: 90%;
+    text-align: left;
+
+    margin: 1em 1em 3em 1em;
+  }
+}
+
+@media screen and (min-width: 701px) {
+  .get-involved {
+    background-image: url(../../images/gettingInvolved.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 55vh;
+
+    font-size: 7.5em;
+    color: white;
+    font-family: "Unbounded", cursive;
+  }
+
+  .getting-involved-intro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: 3em 3em 3em 3em;
+
+    font-size: 1.5em;
+    font-family: "Unbounded", cursive;
+  }
+
+  .community-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    max-width: 800px;
+    width: 100%;
+    padding: 0px 0px;
+
+    margin: auto;
+    margin-top: 2em;
+    text-align: left;
+
+    font-family: "Unbounded", cursive;
+    font-size: 1em;
+  }
+
+  .community-involvement-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    vertical-align: middle;
+
+    box-sizing: border-box;
+
+    width: auto;
+    margin: auto;
+    max-width: 800px;
+    padding: 0px 0px;
+  }
+
+  .community-involvement {
+    font-size: 15px;
+    line-height: 30px;
+    width: 90%;
+    text-align: left;
+  }
+
+  .student-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    max-width: 800px;
+    width: 100%;
+    padding: 0px 0px;
+
+    margin: auto;
+    margin-top: 2em;
+    text-align: left;
+
+    font-family: "Unbounded", cursive;
+    font-size: 1em;
+  }
+
+  .student-involvement-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    vertical-align: middle;
+
+    box-sizing: border-box;
+
+    width: auto;
+    margin: auto;
+    max-width: 800px;
+    padding: 0px 0px;
+  }
+
+  .student-involvement {
+    font-size: 15px;
+    line-height: 30px;
+    width: 90%;
+    text-align: left;
+
+    margin: 1em 1em 3em 1em;
+  }
+}

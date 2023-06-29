@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Unbounded:wght@500&display=swap");
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+.section-1 {
+  font-family: "Unbounded", cursive;
+
+  width: 100%;
+  margin: 0;
+  padding: 0;
+
+  height: 125vh;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-image: url(../../images/volunteerpic2.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+
+@media screen and (max-width: 600px) {
+  .farm2clinic {
+    font-family: "Unbounded", cursive;
+    font-size: 4rem;
+    color: white;
+    margin-bottom: 45px;
+
+    text-align: center;
+  }
+
+  .section-1-title-text {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 601px) {
+  .farm2clinic {
+    padding-top: 200px;
+    font-size: 7.5rem;
+    color: white;
+  }
+
+  .section-1-title-text {
+    font-size: 35px;
+    color: white;
+  }
+}
