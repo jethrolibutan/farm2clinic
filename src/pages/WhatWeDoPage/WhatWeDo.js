@@ -77,6 +77,16 @@ function WhatWeDo() {
         </div>
       </div>
 
+      <div className="theoretical-framework">
+        <div className="theoretical-framework-section">
+          <h1 className="theoretical-framework-title">Theoretical Framework</h1>
+          <img
+            src="../images/theoreticalframework.png"
+            alt="Theoretical Framework of Farm2Clinic"
+          />
+        </div>
+      </div>
+
       <div className="map-content">
         <div className="where-we-are-section">
           <h1 className="where-we-are"> Where We Are </h1>

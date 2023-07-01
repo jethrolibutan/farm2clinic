@@ -116,6 +116,15 @@
 
     width: 80%;
     margin: auto;
+
+    padding-bottom: 2em;
+  }
+
+  .theoretical-framework-section {
+    box-sizing: border-box;
+
+    width: 80%;
+    margin: auto;
   }
 
   .where-we-are {
@@ -128,6 +137,10 @@
     margin: auto;
 
     width: 100%;
+  }
+
+  .theoretical-framework {
+    display: none;
   }
 
   .map-content {
@@ -271,6 +284,43 @@
     padding-left: 100px;
 
     width: 100%;
+  }
+
+  .theoretical-framework {
+    vertical-align: middle;
+
+    box-sizing: border-box;
+
+    width: auto;
+    margin: auto;
+    margin-bottom: 40em;
+
+    height: 15vh;
+  }
+
+  .theoretical-framework-title {
+    font-family: "Unbounded", cursive;
+
+    box-sizing: border-box;
+
+    text-align: left;
+    font-size: 1em;
+
+    padding-left: 100px;
+    padding-bottom: 2.5em;
+
+    width: 100%;
+  }
+
+  .theoretical-framework-section {
+    vertical-align: middle;
+
+    box-sizing: border-box;
+
+    width: auto;
+    margin: auto;
+    max-width: 1020px;
+    padding: 0px 32px;
   }
 
   .map-content {
