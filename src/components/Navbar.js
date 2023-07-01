@@ -164,10 +164,10 @@ function Navbar() {
                 onClose={handleCloseRes}
               >
                 <MenuItem component={Link} href="/recipes">
-                  RECIPES
+                  RECIPES & NUTRITION FACTS
                 </MenuItem>
                 <MenuItem component={Link} href="/exercises">
-                  EXERCISES
+                  PHYSICAL ACTIVITY RESOURCES
                 </MenuItem>
                 <MenuItem component={Link} href="/training">
                   TRAINING
