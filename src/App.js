@@ -9,13 +9,13 @@ import WhatWeDo from "./pages/WhatWeDoPage/WhatWeDo";
 import Partners from "./pages/PartnersPage/Partners";
 import Programs from "./pages/ProgramsPage/Programs";
 import Exercises from "./pages/ExercisePage/Exercises";
-import Recipes from "./pages/RecipesPage/Recipes";
+import Recipes from "./pages/RecipesProducePage/Recipes";
 import Training from "./pages/TrainingPage/Training";
 import Publications from "./pages/PublicationsPage/Publications";
 import InTheNews from "./pages/InTheNews/InTheNews";
 import Donate from "./pages/DonatePage/Donate";
 import GetInvolved from "./pages/GetInvolvedPage/GetInvolved";
-import SpanishRecipes from "./pages/RecipesPage/SpanishRecipes";
+import SpanishRecipes from "./pages/RecipesProducePage/SpanishRecipes";
 
 function App() {
   return (
