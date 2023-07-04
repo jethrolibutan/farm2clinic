@@ -1,44 +1,44 @@
 import React, { useState } from "react";
 import { Button, Link } from "@mui/material";
 import Navbar from "../../components/Navbar";
-import {
-  sBroccoli,
-  cabbage,
-  cantaloupe,
-  carrot,
-  cauliflower,
-  collard,
-  cucumber,
-  greenBean,
-  kale,
-  okra,
-  spinach,
-  squash,
-  sweetPotato,
-  turnip,
-  whitePotato,
-} from "../../Helper/SpanishData";
+// import {
+//   sBroccoli,
+//   cabbage,
+//   cantaloupe,
+//   carrot,
+//   cauliflower,
+//   collard,
+//   cucumber,
+//   greenBean,
+//   kale,
+//   okra,
+//   spinach,
+//   squash,
+//   sweetPotato,
+//   turnip,
+//   whitePotato,
+// } from "../../Helper/SpanishData";
 import SubFooter from "../../components/SubFooter";
 import Footer from "../../components/Footer";
-import ArrowBackIosIcon from "@mui/icons-material/ArrowBackIos";
-import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
+// import ArrowBackIosIcon from "@mui/icons-material/ArrowBackIos";
+// import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 
 function SpanishRecipes() {
-  const [currBroc, setCurrBroc] = useState(0);
-  const [currCabb, setCurrCabb] = useState(0);
-  const [currCant, setCurrCant] = useState(0);
-  const [currCarr, setCurrCarr] = useState(0);
-  const [currCauli, setCurrCauli] = useState(0);
-  const [currCol, setCurrCol] = useState(0);
-  const [currCuc, setCurrCuc] = useState(0);
-  const [currGb, setCurrGb] = useState(0);
-  const [currKale, setCurrKale] = useState(0);
-  const [currOk, setCurrOk] = useState(0);
-  const [currSpin, setCurrSpin] = useState(0);
-  const [currSquash, setCurrSquash] = useState(0);
-  const [currSweet, setCurrSweet] = useState(0);
-  const [currTurn, setCurrTurn] = useState(0);
-  const [currWhite, setCurrWhite] = useState(0);
+  // const [currBroc, setCurrBroc] = useState(0);
+  // const [currCabb, setCurrCabb] = useState(0);
+  // const [currCant, setCurrCant] = useState(0);
+  // const [currCarr, setCurrCarr] = useState(0);
+  // const [currCauli, setCurrCauli] = useState(0);
+  // const [currCol, setCurrCol] = useState(0);
+  // const [currCuc, setCurrCuc] = useState(0);
+  // const [currGb, setCurrGb] = useState(0);
+  // const [currKale, setCurrKale] = useState(0);
+  // const [currOk, setCurrOk] = useState(0);
+  // const [currSpin, setCurrSpin] = useState(0);
+  // const [currSquash, setCurrSquash] = useState(0);
+  // const [currSweet, setCurrSweet] = useState(0);
+  // const [currTurn, setCurrTurn] = useState(0);
+  // const [currWhite, setCurrWhite] = useState(0);
 
   return (
     <div className="recipe-whole">
@@ -92,7 +92,9 @@ function SpanishRecipes() {
         </Button>
       </div>
 
-      <div>
+      <div>This page is under construction !!</div>
+
+      {/* <div>
         <div className="carousel">
           <div>Broccoli</div>
           <div
@@ -512,7 +514,7 @@ function SpanishRecipes() {
           </div>
           <div />
         </div>
-      </div>
+      </div> */}
 
       <SubFooter />
       <Footer />

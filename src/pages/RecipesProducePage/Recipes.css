@@ -127,6 +127,65 @@
 }
 
 @media screen and (min-width: 601px) {
+  .first-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 1em 1em 1em 1em;
+  }
+
+  .one {
+    padding: 1em 1em 1em 1em;
+    margin: 1em;
+
+    max-width: 450px;
+    min-width: 200px;
+    width: auto;
+
+    height: auto;
+  }
+
+  .second-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+
+    padding: 1em 1em 1em 1em;
+  }
+
+  .third-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+
+    padding: 1em 1em 1em 1em;
+  }
+
+  .fourth-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+
+    padding: 1em 1em 1em 1em;
+  }
+
+  .fifth-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+
+    padding: 1em 1em 1em 1em;
+  }
+
   .recipes-mobile {
     display: none;
   }

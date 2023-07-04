@@ -1,47 +1,55 @@
 import React, { useState } from "react";
-import { Button, Link } from "@mui/material";
-import Navbar from "../../components/Navbar";
 import {
-  images,
-  cabbage,
-  cantaloupe,
-  carrot,
-  cauliflower,
-  collard,
-  cucumber,
-  greenBean,
-  kale,
-  okra,
-  spinach,
-  squash,
-  sweetPotato,
-  turnip,
-  whitePotato,
-} from "../../Helper/CarouselData";
+  Button,
+  Link,
+  Card,
+  CardMedia,
+  CardActions,
+  CardContent,
+  Typography,
+} from "@mui/material";
+import Navbar from "../../components/Navbar";
+// import {
+//   images,
+//   cabbage,
+//   cantaloupe,
+//   carrot,
+//   cauliflower,
+//   collard,
+//   cucumber,
+//   greenBean,
+//   kale,
+//   okra,
+//   spinach,
+//   squash,
+//   sweetPotato,
+//   turnip,
+//   whitePotato,
+// } from "../../Helper/CarouselData";
 
 import SubFooter from "../../components/SubFooter";
 import Footer from "../../components/Footer";
-import ArrowBackIosIcon from "@mui/icons-material/ArrowBackIos";
-import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
+// import ArrowBackIosIcon from "@mui/icons-material/ArrowBackIos";
+// import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 
 import "./Recipes.css";
 
 function Recipes() {
-  const [currImg, setCurrImg] = useState(0);
-  const [currCabb, setCurrCabb] = useState(0);
-  const [currCant, setCurrCant] = useState(0);
-  const [currCarr, setCurrCarr] = useState(0);
-  const [currCauli, setCurrCauli] = useState(0);
-  const [currCol, setCurrCol] = useState(0);
-  const [currCuc, setCurrCuc] = useState(0);
-  const [currGb, setCurrGb] = useState(0);
-  const [currKale, setCurrKale] = useState(0);
-  const [currOk, setCurrOk] = useState(0);
-  const [currSpin, setCurrSpin] = useState(0);
-  const [currSquash, setCurrSquash] = useState(0);
-  const [currSweet, setCurrSweet] = useState(0);
-  const [currTurn, setCurrTurn] = useState(0);
-  const [currWhite, setCurrWhite] = useState(0);
+  // const [currImg, setCurrImg] = useState(0);
+  // const [currCabb, setCurrCabb] = useState(0);
+  // const [currCant, setCurrCant] = useState(0);
+  // const [currCarr, setCurrCarr] = useState(0);
+  // const [currCauli, setCurrCauli] = useState(0);
+  // const [currCol, setCurrCol] = useState(0);
+  // const [currCuc, setCurrCuc] = useState(0);
+  // const [currGb, setCurrGb] = useState(0);
+  // const [currKale, setCurrKale] = useState(0);
+  // const [currOk, setCurrOk] = useState(0);
+  // const [currSpin, setCurrSpin] = useState(0);
+  // const [currSquash, setCurrSquash] = useState(0);
+  // const [currSweet, setCurrSweet] = useState(0);
+  // const [currTurn, setCurrTurn] = useState(0);
+  // const [currWhite, setCurrWhite] = useState(0);
 
   return (
     <div className="recipe-whole">
@@ -96,6 +104,518 @@ function Recipes() {
       </div>
 
       <div>
+        <div>This page is under rennovation !!</div>
+
+        <div class="first-row">
+          <div class="one">
+            {" "}
+            <Card sx={{ maxWidth: 225 }}>
+              <CardMedia
+                sx={{ height: 120 }}
+                component="img"
+                src="../../images/albemarle.jpeg"
+                title="Leeks"
+              />
+              <CardContent>
+                <Typography gutterBottom variant="h5" component="div">
+                  Artichoke
+                </Typography>
+              </CardContent>
+              <CardActions>
+                <Button size="small"> Recipes </Button>
+              </CardActions>
+            </Card>{" "}
+          </div>
+          <div class="one">
+            {" "}
+            <Card sx={{ maxWidth: 225 }}>
+              <CardMedia
+                sx={{ height: 120 }}
+                image="/static/images/cards/contemplative-reptile.jpg"
+                title="Leeks"
+              />
+              <CardContent>
+                <Typography gutterBottom variant="h5" component="div">
+                  Asparagus
+                </Typography>
+              </CardContent>
+              <CardActions>
+                <Button size="small"> Recipes </Button>
+              </CardActions>
+            </Card>{" "}
+          </div>
+          <div class="one">
+            {" "}
+            <Card sx={{ maxWidth: 225 }}>
+              <CardMedia
+                sx={{ height: 120 }}
+                image="/static/images/cards/contemplative-reptile.jpg"
+                title="Leeks"
+              />
+              <CardContent>
+                <Typography gutterBottom variant="h5" component="div">
+                  Beets
+                </Typography>
+              </CardContent>
+              <CardActions>
+                <Button size="small"> Recipes </Button>
+              </CardActions>
+            </Card>{" "}
+          </div>
+          <div class="one">
+            {" "}
+            <Card sx={{ maxWidth: 225 }}>
+              <CardMedia
+                sx={{ height: 120 }}
+                image="/static/images/cards/contemplative-reptile.jpg"
+                title="Leeks"
+              />
+              <CardContent>
+                <Typography gutterBottom variant="h5" component="div">
+                  Bell Pepper
+                </Typography>
+              </CardContent>
+              <CardActions>
+                <Button size="small"> Recipes </Button>
+              </CardActions>
+            </Card>{" "}
+          </div>
+          <div class="one">
+            {" "}
+            <Card sx={{ maxWidth: 225 }}>
+              <CardMedia
+                sx={{ height: 120 }}
+                image="/static/images/cards/contemplative-reptile.jpg"
+                title="Leeks"
+              />
+              <CardContent>
+                <Typography gutterBottom variant="h5" component="div">
+                  Blueberries
+                </Typography>
+              </CardContent>
+              <CardActions>
+                <Button size="small"> Recipes </Button>
+              </CardActions>
+            </Card>{" "}
+          </div>
+        </div>
+        <div class="second-row">
+          <div class="one">
+            {" "}
+            <Card sx={{ maxWidth: 225 }}>
+              <CardMedia
+                sx={{ height: 120 }}
+                component="img"
+                src="../../images/albemarle.jpeg"
+                title="Leeks"
+              />
+              <CardContent>
+                <Typography gutterBottom variant="h5" component="div">
+                  Broccoli
+                </Typography>
+              </CardContent>
+              <CardActions>
+                <Button size="small"> Recipes </Button>
+              </CardActions>
+            </Card>{" "}
+          </div>
+          <div class="one">
+            {" "}
+            <Card sx={{ maxWidth: 225 }}>
+              <CardMedia
+                sx={{ height: 120 }}
+                component="img"
+                src="../../images/albemarle.jpeg"
+                title="Brussel Sprouts"
+              />
+              <CardContent>
+                <Typography gutterBottom variant="h5" component="div">
+                  Brussel Sprouts
+                </Typography>
+              </CardContent>
+              <CardActions>
+                <Button size="small"> Recipes </Button>
+              </CardActions>
+            </Card>{" "}
+          </div>
+          <div class="one">
+            {" "}
+            <Card sx={{ maxWidth: 225 }}>
+              <CardMedia
+                sx={{ height: 120 }}
+                component="img"
+                src="../../images/albemarle.jpeg"
+                title="Leeks"
+              />
+              <CardContent>
+                <Typography gutterBottom variant="h5" component="div">
+                  Butternut Squash
+                </Typography>
+              </CardContent>
+              <CardActions>
+                <Button size="small"> Recipes </Button>
+              </CardActions>
+            </Card>{" "}
+          </div>
+          <div class="one">
+            {" "}
+            <Card sx={{ maxWidth: 225 }}>
+              <CardMedia
+                sx={{ height: 120 }}
+                component="img"
+                src="../../images/albemarle.jpeg"
+                title="Leeks"
+              />
+              <CardContent>
+                <Typography gutterBottom variant="h5" component="div">
+                  Cabbage
+                </Typography>
+              </CardContent>
+              <CardActions>
+                <Button size="small"> Recipes </Button>
+              </CardActions>
+            </Card>{" "}
+          </div>
+          <div class="one">
+            {" "}
+            <Card sx={{ maxWidth: 225 }}>
+              <CardMedia
+                sx={{ height: 120 }}
+                component="img"
+                src="../../images/albemarle.jpeg"
+                title="Leeks"
+              />
+              <CardContent>
+                <Typography gutterBottom variant="h5" component="div">
+                  Cantaloupe
+                </Typography>
+              </CardContent>
+              <CardActions>
+                <Button size="small"> Recipes </Button>
+              </CardActions>
+            </Card>{" "}
+          </div>
+        </div>
+        <div class="third-row">
+          <div class="one">
+            {" "}
+            <Card sx={{ maxWidth: 225 }}>
+              <CardMedia
+                sx={{ height: 120 }}
+                component="img"
+                src="../../images/albemarle.jpeg"
+                title="Leeks"
+              />
+              <CardContent>
+                <Typography gutterBottom variant="h5" component="div">
+                  Carrot
+                </Typography>
+              </CardContent>
+              <CardActions>
+                <Button size="small"> Recipes </Button>
+              </CardActions>
+            </Card>{" "}
+          </div>
+          <div class="one">
+            {" "}
+            <Card sx={{ maxWidth: 225 }}>
+              <CardMedia
+                sx={{ height: 120 }}
+                component="img"
+                src="../../images/albemarle.jpeg"
+                title="Leeks"
+              />
+              <CardContent>
+                <Typography gutterBottom variant="h5" component="div">
+                  Cauliflower
+                </Typography>
+              </CardContent>
+              <CardActions>
+                <Button size="small"> Recipes </Button>
+              </CardActions>
+            </Card>{" "}
+          </div>
+          <div class="one">
+            {" "}
+            <Card sx={{ maxWidth: 225 }}>
+              <CardMedia
+                sx={{ height: 120 }}
+                component="img"
+                src="../../images/albemarle.jpeg"
+                title="Leeks"
+              />
+              <CardContent>
+                <Typography gutterBottom variant="h5" component="div">
+                  Collard
+                </Typography>
+              </CardContent>
+              <CardActions>
+                <Button size="small"> Recipes </Button>
+              </CardActions>
+            </Card>{" "}
+          </div>
+          <div class="one">
+            {" "}
+            <Card sx={{ maxWidth: 225 }}>
+              <CardMedia
+                sx={{ height: 120 }}
+                component="img"
+                src="../../images/albemarle.jpeg"
+                title="Leeks"
+              />
+              <CardContent>
+                <Typography gutterBottom variant="h5" component="div">
+                  Cucumber
+                </Typography>
+              </CardContent>
+              <CardActions>
+                <Button size="small"> Recipes </Button>
+              </CardActions>
+            </Card>{" "}
+          </div>
+          <div class="one">
+            {" "}
+            <Card sx={{ maxWidth: 225 }}>
+              <CardMedia
+                sx={{ height: 120 }}
+                component="img"
+                src="../../images/albemarle.jpeg"
+                title="Leeks"
+              />
+              <CardContent>
+                <Typography gutterBottom variant="h5" component="div">
+                  Eggplant
+                </Typography>
+              </CardContent>
+              <CardActions>
+                <Button size="small"> Recipes </Button>
+              </CardActions>
+            </Card>{" "}
+          </div>
+        </div>
+        <div class="fourth-row">
+          <div class="one">
+            {" "}
+            <Card sx={{ maxWidth: 225 }}>
+              <CardMedia
+                sx={{ height: 120 }}
+                component="img"
+                src="../../images/albemarle.jpeg"
+                title="Leeks"
+              />
+              <CardContent>
+                <Typography gutterBottom variant="h5" component="div">
+                  Green Peppers{" "}
+                </Typography>
+              </CardContent>
+              <CardActions>
+                <Button size="small"> Recipes </Button>
+              </CardActions>
+            </Card>{" "}
+          </div>
+          <div class="one">
+            {" "}
+            <Card sx={{ maxWidth: 225 }}>
+              <CardMedia
+                sx={{ height: 120 }}
+                component="img"
+                src="../../images/albemarle.jpeg"
+                title="Leeks"
+              />
+              <CardContent>
+                <Typography gutterBottom variant="h5" component="div">
+                  Kale
+                </Typography>
+              </CardContent>
+              <CardActions>
+                <Button size="small"> Recipes </Button>
+              </CardActions>
+            </Card>{" "}
+          </div>
+          <div class="one">
+            {" "}
+            <Card sx={{ maxWidth: 225 }}>
+              <CardMedia
+                sx={{ height: 120 }}
+                component="img"
+                src="../../images/albemarle.jpeg"
+                title="Leeks"
+              />
+              <CardContent>
+                <Typography gutterBottom variant="h5" component="div">
+                  Leeks
+                </Typography>
+              </CardContent>
+              <CardActions>
+                <Button size="small"> Recipes </Button>
+              </CardActions>
+            </Card>{" "}
+          </div>
+          <div class="one">
+            {" "}
+            <Card sx={{ maxWidth: 225 }}>
+              <CardMedia
+                sx={{ height: 120 }}
+                component="img"
+                src="../../images/albemarle.jpeg"
+                title="Leeks"
+              />
+              <CardContent>
+                <Typography gutterBottom variant="h5" component="div">
+                  Okra
+                </Typography>
+              </CardContent>
+              <CardActions>
+                <Button size="small"> Recipes </Button>
+              </CardActions>
+            </Card>{" "}
+          </div>
+          <div class="one">
+            {" "}
+            <Card sx={{ maxWidth: 225 }}>
+              <CardMedia
+                sx={{ height: 120 }}
+                component="img"
+                src="../../images/albemarle.jpeg"
+                title="Leeks"
+              />
+              <CardContent>
+                <Typography gutterBottom variant="h5" component="div">
+                  Pumpkin
+                </Typography>
+              </CardContent>
+              <CardActions>
+                <Button size="small"> Recipes </Button>
+              </CardActions>
+            </Card>{" "}
+          </div>
+        </div>
+        <div class="fifth-row">
+          <div class="one">
+            {" "}
+            <Card sx={{ maxWidth: 225 }}>
+              <CardMedia
+                sx={{ height: 120 }}
+                component="img"
+                src="../../images/albemarle.jpeg"
+                title="Leeks"
+              />
+              <CardContent>
+                <Typography gutterBottom variant="h5" component="div">
+                  Spaghetti Squash
+                </Typography>
+              </CardContent>
+              <CardActions>
+                <Button size="small"> Recipes </Button>
+              </CardActions>
+            </Card>{" "}
+          </div>
+          <div class="one">
+            {" "}
+            <Card sx={{ maxWidth: 225 }}>
+              <CardMedia
+                sx={{ height: 120 }}
+                component="img"
+                src="../../images/albemarle.jpeg"
+                title="Leeks"
+              />
+              <CardContent>
+                <Typography gutterBottom variant="h5" component="div">
+                  Sweet Potato
+                </Typography>
+              </CardContent>
+              <CardActions>
+                <Button size="small"> Recipes </Button>
+              </CardActions>
+            </Card>{" "}
+          </div>
+          <div class="one">
+            {" "}
+            <Card sx={{ maxWidth: 225 }}>
+              <CardMedia
+                sx={{ height: 120 }}
+                component="img"
+                src="../../images/albemarle.jpeg"
+                title="Leeks"
+              />
+              <CardContent>
+                <Typography gutterBottom variant="h5" component="div">
+                  Turnips
+                </Typography>
+              </CardContent>
+              <CardActions>
+                <Button size="small"> Recipes </Button>
+              </CardActions>
+            </Card>{" "}
+          </div>
+          <div class="one">
+            {" "}
+            <Card sx={{ maxWidth: 225 }}>
+              <CardMedia
+                sx={{ height: 120 }}
+                component="img"
+                src="../../images/albemarle.jpeg"
+                title="Leeks"
+              />
+              <CardContent>
+                <Typography gutterBottom variant="h5" component="div">
+                  Watermelon
+                </Typography>
+              </CardContent>
+              <CardActions>
+                <Button size="small"> Recipes </Button>
+              </CardActions>
+            </Card>{" "}
+          </div>
+          <div class="one">
+            {" "}
+            <Card sx={{ maxWidth: 225 }}>
+              <CardMedia
+                sx={{ height: 120 }}
+                component="img"
+                src="../../images/albemarle.jpeg"
+                title="Leeks"
+              />
+              <CardContent>
+                <Typography gutterBottom variant="h5" component="div">
+                  Yellow Squash
+                </Typography>
+              </CardContent>
+              <CardActions>
+                <Button size="small"> Recipes </Button>
+              </CardActions>
+            </Card>{" "}
+          </div>
+        </div>
+
+        <div class="fifth-row">
+          <div class="one">
+            {" "}
+            <Card sx={{ maxWidth: 225 }}>
+              <CardMedia
+                sx={{ height: 120 }}
+                component="img"
+                src="../../images/albemarle.jpeg"
+                title="Leeks"
+              />
+              <CardContent>
+                <Typography gutterBottom variant="h5" component="div">
+                  Zucchini
+                </Typography>
+              </CardContent>
+              <CardActions>
+                <Button size="small"> Recipes </Button>
+              </CardActions>
+            </Card>{" "}
+          </div>
+          {/* <div class="one"> Sweet Potato </div>
+          <div class="one"> Turnips </div>
+          <div class="one"> Watermelon </div>
+          <div class="one"> Yellow Squash </div> */}
+        </div>
+      </div>
+
+      {/* <div>
         <div className="carousel">
           <div>Broccoli</div>
           <div
@@ -515,7 +1035,7 @@ function Recipes() {
           </div>
           <div />
         </div>
-      </div>
+      </div> */}
 
       <SubFooter />
       <Footer />
