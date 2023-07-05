@@ -83,6 +83,27 @@ function Support() {
             {" "}
             <a href="https://pixabay.com/"> Pixaby.com </a>{" "}
           </div>
+          &
+          <div className="indent-space">
+            <a
+              href="https://www.flaticon.com/free-icons/turnip"
+              title="turnip icons"
+            >
+              Turnip icons created by Icongeek26 - Flaticon
+            </a>
+          </div>
+        </div>
+
+        <div className="internal-text">
+          {" "}
+          <div className="indent-space">
+            <a
+              href="https://www.flaticon.com/free-icons/kale"
+              title="kale icons"
+            >
+              Kale icons created by monkik - Flaticon
+            </a>
+          </div>
         </div>
       </div>
 

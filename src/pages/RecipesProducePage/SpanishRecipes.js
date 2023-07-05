@@ -1,53 +1,17 @@
 import React from "react";
-import { useState } from "react";
 import {
   Card,
   CardMedia,
   CardContent,
   Typography,
   CardActions,
-  MenuItem,
 } from "@mui/material";
 import { Button, Link } from "@mui/material";
 import Navbar from "../../components/Navbar";
-import {
-  cabbage,
-  cantaloupe,
-  carrot,
-  cauliflower,
-  collard,
-  cucumber,
-  greenBean,
-  kale,
-  okra,
-  spinach,
-  squash,
-  sweetPotato,
-  turnip,
-  whitePotato,
-} from "../../Helper/SpanishData";
 import SubFooter from "../../components/SubFooter";
 import Footer from "../../components/Footer";
-import ArrowBackIosIcon from "@mui/icons-material/ArrowBackIos";
-import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 
 function SpanishRecipes() {
-  const [currBroc, setCurrBroc] = useState(0);
-  const [currCabb, setCurrCabb] = useState(0);
-  const [currCant, setCurrCant] = useState(0);
-  const [currCarr, setCurrCarr] = useState(0);
-  const [currCauli, setCurrCauli] = useState(0);
-  const [currCol, setCurrCol] = useState(0);
-  const [currCuc, setCurrCuc] = useState(0);
-  const [currGb, setCurrGb] = useState(0);
-  const [currKale, setCurrKale] = useState(0);
-  const [currOk, setCurrOk] = useState(0);
-  const [currSpin, setCurrSpin] = useState(0);
-  const [currSquash, setCurrSquash] = useState(0);
-  const [currSweet, setCurrSweet] = useState(0);
-  const [currTurn, setCurrTurn] = useState(0);
-  const [currWhite, setCurrWhite] = useState(0);
-
   return (
     <div className="recipe-whole">
       <Navbar />
@@ -99,20 +63,25 @@ function SpanishRecipes() {
         </Button>
       </div>
 
-      <div>This page is under construction!!</div>
+      {/* <div>This page is under construction!!</div> */}
 
       <div class="first-row">
         <div class="one">
           {" "}
           <Card sx={{ maxWidth: 225 }}>
             <CardMedia
-              sx={{ height: 120 }}
+              sx={{ height: 200 }}
               component="img"
-              src="../../images/albemarle.jpeg"
+              src="../../images/spanishVegetableImages/asparagus.png"
               title="Asparagus"
             />
             <CardContent>
-              <Typography gutterBottom variant="h5" component="div">
+              <Typography
+                gutterBottom
+                variant="h5"
+                component="div"
+                fontFamily="bounded"
+              >
                 Asparagus
               </Typography>
             </CardContent>
@@ -128,12 +97,18 @@ function SpanishRecipes() {
           {" "}
           <Card sx={{ maxWidth: 225 }}>
             <CardMedia
-              sx={{ height: 120 }}
-              image="/static/images/cards/contemplative-reptile.jpg"
+              sx={{ height: 200 }}
+              component="img"
+              src="../../images/spanishVegetableImages/bellpepper.png"
               title="Bell Pepper"
             />
             <CardContent>
-              <Typography gutterBottom variant="h5" component="div">
+              <Typography
+                gutterBottom
+                variant="h5"
+                component="div"
+                fontFamily="bounded"
+              >
                 Bell Pepper
               </Typography>
             </CardContent>
@@ -149,12 +124,18 @@ function SpanishRecipes() {
           {" "}
           <Card sx={{ maxWidth: 225 }}>
             <CardMedia
-              sx={{ height: 120 }}
-              image="/static/images/cards/contemplative-reptile.jpg"
+              sx={{ height: 200 }}
+              component="img"
+              image="../../images/spanishVegetableImages/broccoli.png"
               title="Broccoli"
             />
             <CardContent>
-              <Typography gutterBottom variant="h5" component="div">
+              <Typography
+                gutterBottom
+                variant="h5"
+                component="div"
+                fontFamily="bounded"
+              >
                 Broccoli
               </Typography>
             </CardContent>
@@ -170,12 +151,17 @@ function SpanishRecipes() {
           {" "}
           <Card sx={{ maxWidth: 225 }}>
             <CardMedia
-              sx={{ height: 120 }}
-              image="/static/images/cards/contemplative-reptile.jpg"
+              sx={{ height: 200 }}
+              image="../../images/spanishVegetableImages/cabbage.png"
               title="Cabbage"
             />
             <CardContent>
-              <Typography gutterBottom variant="h5" component="div">
+              <Typography
+                gutterBottom
+                variant="h5"
+                component="div"
+                fontFamily="bounded"
+              >
                 Cabbage
               </Typography>
             </CardContent>
@@ -191,12 +177,17 @@ function SpanishRecipes() {
           {" "}
           <Card sx={{ maxWidth: 225 }}>
             <CardMedia
-              sx={{ height: 120 }}
-              image="/static/images/cards/contemplative-reptile.jpg"
+              sx={{ height: 200 }}
+              image="../../images/spanishVegetableImages/carrot.png"
               title="Carrot"
             />
             <CardContent>
-              <Typography gutterBottom variant="h5" component="div">
+              <Typography
+                gutterBottom
+                variant="h5"
+                component="div"
+                fontFamily="bounded"
+              >
                 Carrot
               </Typography>
             </CardContent>
@@ -214,13 +205,18 @@ function SpanishRecipes() {
           {" "}
           <Card sx={{ maxWidth: 225 }}>
             <CardMedia
-              sx={{ height: 120 }}
+              sx={{ height: 200 }}
               component="img"
-              src="../../images/albemarle.jpeg"
+              image="../../images/spanishVegetableImages/cauliflower.png"
               title="Cauliflower"
             />
             <CardContent>
-              <Typography gutterBottom variant="h5" component="div">
+              <Typography
+                gutterBottom
+                variant="h5"
+                component="div"
+                fontFamily="bounded"
+              >
                 Cauliflower
               </Typography>
             </CardContent>
@@ -236,13 +232,18 @@ function SpanishRecipes() {
           {" "}
           <Card sx={{ maxWidth: 225 }}>
             <CardMedia
-              sx={{ height: 120 }}
+              sx={{ height: 200 }}
               component="img"
-              src="../../images/albemarle.jpeg"
+              image="../../images/spanishVegetableImages/kale.png"
               title="Kale"
             />
             <CardContent>
-              <Typography gutterBottom variant="h5" component="div">
+              <Typography
+                gutterBottom
+                variant="h5"
+                component="div"
+                fontFamily="bounded"
+              >
                 Kale
               </Typography>
             </CardContent>
@@ -258,13 +259,18 @@ function SpanishRecipes() {
           {" "}
           <Card sx={{ maxWidth: 225 }}>
             <CardMedia
-              sx={{ height: 120 }}
+              sx={{ height: 200 }}
               component="img"
-              src="../../images/albemarle.jpeg"
+              image="../../images/spanishVegetableImages/collard.png"
               title="Collard"
             />
             <CardContent>
-              <Typography gutterBottom variant="h5" component="div">
+              <Typography
+                gutterBottom
+                variant="h5"
+                component="div"
+                fontFamily="bounded"
+              >
                 Collard
               </Typography>
             </CardContent>
@@ -280,13 +286,18 @@ function SpanishRecipes() {
           {" "}
           <Card sx={{ maxWidth: 225 }}>
             <CardMedia
-              sx={{ height: 120 }}
+              sx={{ height: 220 }}
               component="img"
-              src="../../images/albemarle.jpeg"
+              image="../../images/spanishVegetableImages/squash.png"
               title="Spaghetti Squash"
             />
             <CardContent>
-              <Typography gutterBottom variant="h5" component="div">
+              <Typography
+                gutterBottom
+                variant="h5"
+                component="div"
+                fontFamily="bounded"
+              >
                 Spaghetti Squash
               </Typography>
             </CardContent>
@@ -306,13 +317,18 @@ function SpanishRecipes() {
           {" "}
           <Card sx={{ maxWidth: 225 }}>
             <CardMedia
-              sx={{ height: 120 }}
+              sx={{ height: 210 }}
               component="img"
-              src="../../images/albemarle.jpeg"
+              image="../../images/spanishVegetableImages/sweetpotato.png"
               title="Sweet Potato"
             />
             <CardContent>
-              <Typography gutterBottom variant="h5" component="div">
+              <Typography
+                gutterBottom
+                variant="h5"
+                component="div"
+                fontFamily="bounded"
+              >
                 Sweet Potato
               </Typography>
             </CardContent>
@@ -330,13 +346,18 @@ function SpanishRecipes() {
           {" "}
           <Card sx={{ maxWidth: 225 }}>
             <CardMedia
-              sx={{ height: 120 }}
+              sx={{ height: 200 }}
               component="img"
-              src="../../images/albemarle.jpeg"
+              image="../../images/spanishVegetableImages/turnip.png"
               title="Turnip"
             />
             <CardContent>
-              <Typography gutterBottom variant="h5" component="div">
+              <Typography
+                gutterBottom
+                variant="h5"
+                component="div"
+                fontFamily="bounded"
+              >
                 Turnip
               </Typography>
             </CardContent>
@@ -352,13 +373,18 @@ function SpanishRecipes() {
           {" "}
           <Card sx={{ maxWidth: 225 }}>
             <CardMedia
-              sx={{ height: 120 }}
+              sx={{ height: 200 }}
               component="img"
-              src="../../images/albemarle.jpeg"
+              image="../../images/spanishVegetableImages/zucchini.png"
               title="Zucchinni"
             />
             <CardContent>
-              <Typography gutterBottom variant="h5" component="div">
+              <Typography
+                gutterBottom
+                variant="h5"
+                component="div"
+                fontFamily="bounded"
+              >
                 Zucchini
               </Typography>
             </CardContent>
