@@ -56,6 +56,50 @@ import EsWhite1 from "../images/EsWhite1.png";
 import EsWhite2 from "../images/EsWhite2.png";
 import EsWhite3 from "../images/EsWhite3.png";
 
+import asp1 from "../images/spanishRecipes/asparagusRecipes/asp1.png";
+import asp2 from "../images/spanishRecipes/asparagusRecipes/asp2.png";
+import asp3 from "../images/spanishRecipes/asparagusRecipes/asp3.png";
+import asp4 from "../images/spanishRecipes/asparagusRecipes/asp4.png";
+import asp5 from "../images/spanishRecipes/asparagusRecipes/asp5.png";
+import asp6 from "../images/spanishRecipes/asparagusRecipes/asp6.png";
+import asp7 from "../images/spanishRecipes/asparagusRecipes/asp7.png";
+import asp8 from "../images/spanishRecipes/asparagusRecipes/asp8.png";
+import asp9 from "../images/spanishRecipes/asparagusRecipes/asp9.png";
+import asp10 from "../images/spanishRecipes/asparagusRecipes/asp10.png";
+
+export const asparagus = [
+  {
+    img: asp1,
+  },
+  {
+    img: asp2,
+  },
+  {
+    img: asp3,
+  },
+  {
+    img: asp4,
+  },
+  {
+    img: asp5,
+  },
+  {
+    img: asp6,
+  },
+  {
+    img: asp7,
+  },
+  {
+    img: asp8,
+  },
+  {
+    img: asp9,
+  },
+  {
+    img: asp10,
+  },
+];
+
 export const sBroccoli = [
   {
     img: EsBroccoliBenefit,

@@ -1,44 +1,53 @@
-import React, { useState } from "react";
+import React from "react";
+import { useState } from "react";
+import {
+  Card,
+  CardMedia,
+  CardContent,
+  Typography,
+  CardActions,
+  MenuItem,
+} from "@mui/material";
 import { Button, Link } from "@mui/material";
 import Navbar from "../../components/Navbar";
-// import {
-//   sBroccoli,
-//   cabbage,
-//   cantaloupe,
-//   carrot,
-//   cauliflower,
-//   collard,
-//   cucumber,
-//   greenBean,
-//   kale,
-//   okra,
-//   spinach,
-//   squash,
-//   sweetPotato,
-//   turnip,
-//   whitePotato,
-// } from "../../Helper/SpanishData";
+import {
+  sBroccoli,
+  cabbage,
+  cantaloupe,
+  carrot,
+  cauliflower,
+  collard,
+  cucumber,
+  greenBean,
+  kale,
+  okra,
+  spinach,
+  squash,
+  sweetPotato,
+  turnip,
+  whitePotato,
+} from "../../Helper/SpanishData";
 import SubFooter from "../../components/SubFooter";
 import Footer from "../../components/Footer";
-// import ArrowBackIosIcon from "@mui/icons-material/ArrowBackIos";
-// import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
+import ArrowBackIosIcon from "@mui/icons-material/ArrowBackIos";
+import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 
 function SpanishRecipes() {
-  // const [currBroc, setCurrBroc] = useState(0);
-  // const [currCabb, setCurrCabb] = useState(0);
-  // const [currCant, setCurrCant] = useState(0);
-  // const [currCarr, setCurrCarr] = useState(0);
-  // const [currCauli, setCurrCauli] = useState(0);
-  // const [currCol, setCurrCol] = useState(0);
-  // const [currCuc, setCurrCuc] = useState(0);
-  // const [currGb, setCurrGb] = useState(0);
-  // const [currKale, setCurrKale] = useState(0);
-  // const [currOk, setCurrOk] = useState(0);
-  // const [currSpin, setCurrSpin] = useState(0);
-  // const [currSquash, setCurrSquash] = useState(0);
-  // const [currSweet, setCurrSweet] = useState(0);
-  // const [currTurn, setCurrTurn] = useState(0);
-  // const [currWhite, setCurrWhite] = useState(0);
+  const [currBroc, setCurrBroc] = useState(0);
+  const [currCabb, setCurrCabb] = useState(0);
+  const [currCant, setCurrCant] = useState(0);
+  const [currCarr, setCurrCarr] = useState(0);
+  const [currCauli, setCurrCauli] = useState(0);
+  const [currCol, setCurrCol] = useState(0);
+  const [currCuc, setCurrCuc] = useState(0);
+  const [currGb, setCurrGb] = useState(0);
+  const [currKale, setCurrKale] = useState(0);
+  const [currOk, setCurrOk] = useState(0);
+  const [currSpin, setCurrSpin] = useState(0);
+  const [currSquash, setCurrSquash] = useState(0);
+  const [currSweet, setCurrSweet] = useState(0);
+  const [currTurn, setCurrTurn] = useState(0);
+  const [currWhite, setCurrWhite] = useState(0);
 
   return (
     <div className="recipe-whole">
@@ -67,7 +76,6 @@ function SpanishRecipes() {
           </Button>
         </div>
       </div>
-
       <div className="recipes-mobile">
         <div className="recipes-mobile-desc">
           Download recipes to your device!
@@ -92,9 +100,279 @@ function SpanishRecipes() {
         </Button>
       </div>
 
-      <div>This page is under construction !!</div>
+      <div>This page is under construction!!</div>
 
-      {/* <div>
+      <div class="first-row">
+        <div class="one">
+          {" "}
+          <Card sx={{ maxWidth: 225 }}>
+            <CardMedia
+              sx={{ height: 120 }}
+              component="img"
+              src="../../images/albemarle.jpeg"
+              title="Asparagus"
+            />
+            <CardContent>
+              <Typography gutterBottom variant="h5" component="div">
+                Asparagus
+              </Typography>
+            </CardContent>
+            <CardActions>
+              <Button component={Link} href="/asparagusSpanish" size="small">
+                {" "}
+                Recipes{" "}
+              </Button>
+            </CardActions>
+          </Card>{" "}
+        </div>
+        <div class="one">
+          {" "}
+          <Card sx={{ maxWidth: 225 }}>
+            <CardMedia
+              sx={{ height: 120 }}
+              image="/static/images/cards/contemplative-reptile.jpg"
+              title="Bell Pepper"
+            />
+            <CardContent>
+              <Typography gutterBottom variant="h5" component="div">
+                Bell Pepper
+              </Typography>
+            </CardContent>
+            <CardActions>
+              <Button component={Link} href="/bellPepperSpanish" size="small">
+                {" "}
+                Recipes{" "}
+              </Button>
+            </CardActions>
+          </Card>{" "}
+        </div>
+        <div class="one">
+          {" "}
+          <Card sx={{ maxWidth: 225 }}>
+            <CardMedia
+              sx={{ height: 120 }}
+              image="/static/images/cards/contemplative-reptile.jpg"
+              title="Broccoli"
+            />
+            <CardContent>
+              <Typography gutterBottom variant="h5" component="div">
+                Broccoli
+              </Typography>
+            </CardContent>
+            <CardActions>
+              <Button component={Link} href="/broccoliSpanish" size="small">
+                {" "}
+                Recipes{" "}
+              </Button>
+            </CardActions>
+          </Card>{" "}
+        </div>
+        <div class="one">
+          {" "}
+          <Card sx={{ maxWidth: 225 }}>
+            <CardMedia
+              sx={{ height: 120 }}
+              image="/static/images/cards/contemplative-reptile.jpg"
+              title="Cabbage"
+            />
+            <CardContent>
+              <Typography gutterBottom variant="h5" component="div">
+                Cabbage
+              </Typography>
+            </CardContent>
+            <CardActions>
+              <Button component={Link} href="/cabbageSpanish" size="small">
+                {" "}
+                Recipes{" "}
+              </Button>
+            </CardActions>
+          </Card>{" "}
+        </div>
+        <div class="one">
+          {" "}
+          <Card sx={{ maxWidth: 225 }}>
+            <CardMedia
+              sx={{ height: 120 }}
+              image="/static/images/cards/contemplative-reptile.jpg"
+              title="Carrot"
+            />
+            <CardContent>
+              <Typography gutterBottom variant="h5" component="div">
+                Carrot
+              </Typography>
+            </CardContent>
+            <CardActions>
+              <Button component={Link} href="/carrotSpanish" size="small">
+                {" "}
+                Recipes{" "}
+              </Button>
+            </CardActions>
+          </Card>{" "}
+        </div>
+      </div>
+      <div class="second-row">
+        <div class="one">
+          {" "}
+          <Card sx={{ maxWidth: 225 }}>
+            <CardMedia
+              sx={{ height: 120 }}
+              component="img"
+              src="../../images/albemarle.jpeg"
+              title="Cauliflower"
+            />
+            <CardContent>
+              <Typography gutterBottom variant="h5" component="div">
+                Cauliflower
+              </Typography>
+            </CardContent>
+            <CardActions>
+              <Button component={Link} href="/cauliflowerSpanish" size="small">
+                {" "}
+                Recipes{" "}
+              </Button>
+            </CardActions>
+          </Card>{" "}
+        </div>
+        <div class="one">
+          {" "}
+          <Card sx={{ maxWidth: 225 }}>
+            <CardMedia
+              sx={{ height: 120 }}
+              component="img"
+              src="../../images/albemarle.jpeg"
+              title="Kale"
+            />
+            <CardContent>
+              <Typography gutterBottom variant="h5" component="div">
+                Kale
+              </Typography>
+            </CardContent>
+            <CardActions>
+              <Button component={Link} href="/kaleSpanish" size="small">
+                {" "}
+                Recipes{" "}
+              </Button>
+            </CardActions>
+          </Card>{" "}
+        </div>
+        <div class="one">
+          {" "}
+          <Card sx={{ maxWidth: 225 }}>
+            <CardMedia
+              sx={{ height: 120 }}
+              component="img"
+              src="../../images/albemarle.jpeg"
+              title="Collard"
+            />
+            <CardContent>
+              <Typography gutterBottom variant="h5" component="div">
+                Collard
+              </Typography>
+            </CardContent>
+            <CardActions>
+              <Button component={Link} href="/collardSpanish" size="small">
+                {" "}
+                Recipes{" "}
+              </Button>
+            </CardActions>
+          </Card>{" "}
+        </div>
+        <div class="one">
+          {" "}
+          <Card sx={{ maxWidth: 225 }}>
+            <CardMedia
+              sx={{ height: 120 }}
+              component="img"
+              src="../../images/albemarle.jpeg"
+              title="Spaghetti Squash"
+            />
+            <CardContent>
+              <Typography gutterBottom variant="h5" component="div">
+                Spaghetti Squash
+              </Typography>
+            </CardContent>
+            <CardActions>
+              <Button
+                component={Link}
+                href="/spaghettiSquashSpanish"
+                size="small"
+              >
+                {" "}
+                Recipes{" "}
+              </Button>
+            </CardActions>
+          </Card>{" "}
+        </div>
+        <div class="one">
+          {" "}
+          <Card sx={{ maxWidth: 225 }}>
+            <CardMedia
+              sx={{ height: 120 }}
+              component="img"
+              src="../../images/albemarle.jpeg"
+              title="Sweet Potato"
+            />
+            <CardContent>
+              <Typography gutterBottom variant="h5" component="div">
+                Sweet Potato
+              </Typography>
+            </CardContent>
+            <CardActions>
+              <Button component={Link} href="/sweetPotatoSpanish" size="small">
+                {" "}
+                Recipes{" "}
+              </Button>
+            </CardActions>
+          </Card>{" "}
+        </div>
+      </div>
+      <div class="third-row">
+        <div class="one">
+          {" "}
+          <Card sx={{ maxWidth: 225 }}>
+            <CardMedia
+              sx={{ height: 120 }}
+              component="img"
+              src="../../images/albemarle.jpeg"
+              title="Turnip"
+            />
+            <CardContent>
+              <Typography gutterBottom variant="h5" component="div">
+                Turnip
+              </Typography>
+            </CardContent>
+            <CardActions>
+              <Button component={Link} href="/turnipSpanish" size="small">
+                {" "}
+                Recipes{" "}
+              </Button>
+            </CardActions>
+          </Card>{" "}
+        </div>
+        <div class="one">
+          {" "}
+          <Card sx={{ maxWidth: 225 }}>
+            <CardMedia
+              sx={{ height: 120 }}
+              component="img"
+              src="../../images/albemarle.jpeg"
+              title="Zucchinni"
+            />
+            <CardContent>
+              <Typography gutterBottom variant="h5" component="div">
+                Zucchini
+              </Typography>
+            </CardContent>
+            <CardActions>
+              <Button component={Link} href="/zucchiniSpanish" size="small">
+                {" "}
+                Recipes{" "}
+              </Button>
+            </CardActions>
+          </Card>{" "}
+        </div>
+      </div>
+      <div>
         <div className="carousel">
           <div>Broccoli</div>
           <div
@@ -124,7 +402,7 @@ function SpanishRecipes() {
         </div>
       </div>
 
-      <div className="cabbage">
+      {/* <div className="cabbage">
         <div> Cabbage </div>
         <div
           src={cabbage[currCabb].img}
@@ -515,7 +793,6 @@ function SpanishRecipes() {
           <div />
         </div>
       </div> */}
-
       <SubFooter />
       <Footer />
     </div>
