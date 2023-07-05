@@ -41,15 +41,8 @@ function AsparagusSpanish() {
         </div>
       </div>
 
-      <div className="produce">
-        <div className="carousel-produce">
-          <div>Broccoli</div>
-          <div
-            src={artichoke[currArt].img}
-            className="carouselInner-produce"
-            style={{ backgroundImage: `url(${artichoke[currArt].img})` }}
-          />
-        </div>
+      <div className="carousel-produce">
+        <img src="../../../images/art1.jpg" alt="hi" />
       </div>
 
       <SubFooter />
