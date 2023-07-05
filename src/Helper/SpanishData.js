@@ -1,57 +1,3 @@
-import EsCabbageBenefit from "../images/cabbagebenefit.png";
-import EsCabbage1 from "../images/EsCabbage1.png";
-import EsCantaloupeBenefit from "../images/cantaloupebenefit.png";
-import EsCant1 from "../images/cantaloupe1.png";
-import EsCant2 from "../images/cantaloupe2.png";
-import EsCant3 from "../images/cantaloupe3.png";
-import EsCarrotBenefit from "../images/CarrotsBenefit.png";
-import EsCarr1 from "../images/Carrot1.png";
-import EsCarr2 from "../images/Carrot2.png";
-import EsCarr3 from "../images/Carrot3.png";
-import EsCauliflowerBenefit from "../images/CauliflowerBenefits.png";
-import EsCaul1 from "../images/Cauliflower1.png";
-import EsCaul2 from "../images/Cauliflower2.png";
-import EsCaul3 from "../images/Cauliflower3.png";
-import EsCollardBenefit from "../images/CollardsBenefit.png";
-import EsCollard1 from "../images/Collards1.png";
-import EsCollard2 from "../images/Collards2.png";
-import EsCollard3 from "../images/Collards3.png";
-import EsCucumberBenefit from "../images/EsCucumberBenefit.png";
-import EsCuc1 from "../images/Cucumber1.png";
-import EsCuc2 from "../images/Cucumber2.png";
-import EsCuc3 from "../images/Cucumber3.png";
-import EsGreenBenefit from "../images/GreenBeanBenefits.png";
-import EsGreen1 from "../images/GreenBean1.png";
-import EsGreen2 from "../images/GreenBean2.png";
-import EsGreen3 from "../images/GreenBean3.png";
-import EsKaleBenefit from "../images/KaleBenefits.png";
-import EsKale1 from "../images/EsKale1.png";
-import EsKale2 from "../images/EsKale2.png";
-import EsKale3 from "../images/EsKale3.png";
-import EsOkraBenefit from "../images/OkraBenefits.png";
-import EsOkra1 from "../images/EsOkra1.png";
-import EsOkra2 from "../images/EsOkra2.png";
-import EsOkra3 from "../images/EsOkra3.png";
-import EsSpinachBenefit from "../images/SpinachBenefits.png";
-import EsSpin1 from "../images/Spinach1.png";
-import EsSpin2 from "../images/Spinach2.png";
-import EsSpin3 from "../images/Spinach3.png";
-import EsSquashBenefit from "../images/SquashBenefits.png";
-import EsSquash1 from "../images/EsSquash1.png";
-import EsSquash2 from "../images/EsSquash2.png";
-import EsSquash3 from "../images/EsSquash3.png";
-import EsSweetBenefit from "../images/SweetPotatoBenefit.png";
-import EsSweet1 from "../images/Potato1.png";
-import EsSweet2 from "../images/Potato2.png";
-import EsSweet3 from "../images/Potato3.png";
-import EsTurnipBenefit from "../images/TurnipsBenefits.png";
-import EsTurn1 from "../images/Turnips1.png";
-import EsTurn2 from "../images/Turnips2.png";
-import EsWhitePotatoBenefit from "../images/WhitePotatoesBenefits.png";
-import EsWhite1 from "../images/EsWhite1.png";
-import EsWhite2 from "../images/EsWhite2.png";
-import EsWhite3 from "../images/EsWhite3.png";
-
 import asp1 from "../images/spanishRecipes/asparagusRecipes/asp1.png";
 import asp2 from "../images/spanishRecipes/asparagusRecipes/asp2.png";
 import asp3 from "../images/spanishRecipes/asparagusRecipes/asp3.png";
@@ -62,7 +8,6 @@ import asp7 from "../images/spanishRecipes/asparagusRecipes/asp7.png";
 import asp8 from "../images/spanishRecipes/asparagusRecipes/asp8.png";
 import asp9 from "../images/spanishRecipes/asparagusRecipes/asp9.png";
 import asp10 from "../images/spanishRecipes/asparagusRecipes/asp10.png";
-
 import brocc1 from "../images/spanishRecipes/broccoliRecipes/brocc1.png";
 import brocc2 from "../images/spanishRecipes/broccoliRecipes/brocc2.png";
 import brocc3 from "../images/spanishRecipes/broccoliRecipes/brocc3.png";
@@ -73,7 +18,6 @@ import brocc7 from "../images/spanishRecipes/broccoliRecipes/brocc7.png";
 import brocc8 from "../images/spanishRecipes/broccoliRecipes/brocc8.png";
 import brocc9 from "../images/spanishRecipes/broccoliRecipes/brocc9.png";
 import brocc10 from "../images/spanishRecipes/broccoliRecipes/brocc10.png";
-
 import bell1 from "../images/spanishRecipes/bellPepperRecipes/bell1.png";
 import bell2 from "../images/spanishRecipes/bellPepperRecipes/bell2.png";
 import bell3 from "../images/spanishRecipes/bellPepperRecipes/bell3.png";
@@ -84,7 +28,6 @@ import bell7 from "../images/spanishRecipes/bellPepperRecipes/bell7.png";
 import bell8 from "../images/spanishRecipes/bellPepperRecipes/bell8.png";
 import bell9 from "../images/spanishRecipes/bellPepperRecipes/bell9.png";
 import bell10 from "../images/spanishRecipes/bellPepperRecipes/bell10.png";
-
 import cabb1 from "../images/spanishRecipes/cabbageRecipes/cabb1.png";
 import cabb2 from "../images/spanishRecipes/cabbageRecipes/cabb2.png";
 import cabb3 from "../images/spanishRecipes/cabbageRecipes/cabb3.png";
@@ -370,36 +313,6 @@ export const cauliflower = [
   },
   {
     img: cauli10,
-  },
-];
-
-export const cucumber = [
-  {
-    img: EsCucumberBenefit,
-  },
-  {
-    img: EsCuc1,
-  },
-  {
-    img: EsCuc2,
-  },
-  {
-    img: EsCuc3,
-  },
-];
-
-export const greenBean = [
-  {
-    img: EsGreenBenefit,
-  },
-  {
-    img: EsGreen1,
-  },
-  {
-    img: EsGreen2,
-  },
-  {
-    img: EsGreen3,
   },
 ];
 
