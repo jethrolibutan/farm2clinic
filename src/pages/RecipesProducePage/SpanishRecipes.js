@@ -11,7 +11,6 @@ import {
 import { Button, Link } from "@mui/material";
 import Navbar from "../../components/Navbar";
 import {
-  sBroccoli,
   cabbage,
   cantaloupe,
   carrot,
@@ -370,35 +369,6 @@ function SpanishRecipes() {
               </Button>
             </CardActions>
           </Card>{" "}
-        </div>
-      </div>
-      <div>
-        <div className="carousel">
-          <div>Broccoli</div>
-          <div
-            src={sBroccoli[currBroc].img}
-            className="carouselInner"
-            style={{ backgroundImage: `url(${sBroccoli[currBroc].img})` }}
-          >
-            <div
-              className="left"
-              onClick={() => {
-                currBroc > 0 && setCurrBroc(currBroc - 1);
-              }}
-            >
-              <ArrowBackIosIcon sx={{ pl: 1.5 }} />
-            </div>
-            <div className="center"></div>
-            <div
-              className="right"
-              onClick={() => {
-                currBroc < sBroccoli.length - 1 && setCurrBroc(currBroc + 1);
-              }}
-            >
-              <ArrowForwardIosIcon sx={{ pr: 1.5 }} />
-            </div>
-            <div />
-          </div>
         </div>
       </div>
 

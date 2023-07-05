@@ -5,7 +5,7 @@ import Navbar from "../../../components/Navbar";
 import SubFooter from "../../../components/SubFooter";
 import Footer from "../../../components/Footer";
 
-import { sBroccoli } from "../../../Helper/SpanishData";
+import { brocc } from "../../../Helper/SpanishData";
 
 import ArrowBackIosIcon from "@mui/icons-material/ArrowBackIos";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
@@ -17,13 +17,13 @@ function BroccoliSpanish() {
     <div>
       <Navbar />
       {/* BroccoliSpanish */}
-      <div>
+      <div className="produce">
         <div className="carousel">
           <div>Broccoli</div>
           <div
-            src={sBroccoli[currBroc].img}
+            src={brocc[currBroc].img}
             className="carouselInner"
-            style={{ backgroundImage: `url(${sBroccoli[currBroc].img})` }}
+            style={{ backgroundImage: `url(${brocc[currBroc].img})` }}
           >
             <div
               className="left"
@@ -37,7 +37,7 @@ function BroccoliSpanish() {
             <div
               className="right"
               onClick={() => {
-                currBroc < sBroccoli.length - 1 && setCurrBroc(currBroc + 1);
+                currBroc < brocc.length - 1 && setCurrBroc(currBroc + 1);
               }}
             >
               <ArrowForwardIosIcon sx={{ pr: 1.5 }} />
