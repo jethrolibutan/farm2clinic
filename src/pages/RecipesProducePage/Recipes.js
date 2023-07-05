@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import {
   Button,
   Link,
@@ -9,23 +9,6 @@ import {
   Typography,
 } from "@mui/material";
 import Navbar from "../../components/Navbar";
-// import {
-//   images,
-//   cabbage,
-//   cantaloupe,
-//   carrot,
-//   cauliflower,
-//   collard,
-//   cucumber,
-//   greenBean,
-//   kale,
-//   okra,
-//   spinach,
-//   squash,
-//   sweetPotato,
-//   turnip,
-//   whitePotato,
-// } from "../../Helper/CarouselData";
 
 import SubFooter from "../../components/SubFooter";
 import Footer from "../../components/Footer";
@@ -35,22 +18,6 @@ import Footer from "../../components/Footer";
 import "./Recipes.css";
 
 function Recipes() {
-  // const [currImg, setCurrImg] = useState(0);
-  // const [currCabb, setCurrCabb] = useState(0);
-  // const [currCant, setCurrCant] = useState(0);
-  // const [currCarr, setCurrCarr] = useState(0);
-  // const [currCauli, setCurrCauli] = useState(0);
-  // const [currCol, setCurrCol] = useState(0);
-  // const [currCuc, setCurrCuc] = useState(0);
-  // const [currGb, setCurrGb] = useState(0);
-  // const [currKale, setCurrKale] = useState(0);
-  // const [currOk, setCurrOk] = useState(0);
-  // const [currSpin, setCurrSpin] = useState(0);
-  // const [currSquash, setCurrSquash] = useState(0);
-  // const [currSweet, setCurrSweet] = useState(0);
-  // const [currTurn, setCurrTurn] = useState(0);
-  // const [currWhite, setCurrWhite] = useState(0);
-
   return (
     <div className="recipe-whole">
       <Navbar />
@@ -122,7 +89,10 @@ function Recipes() {
                 </Typography>
               </CardContent>
               <CardActions>
-                <Button size="small"> Recipes </Button>
+                <Button component={Link} href="/artichoke" size="small">
+                  {" "}
+                  Recipes{" "}
+                </Button>
               </CardActions>
             </Card>{" "}
           </div>

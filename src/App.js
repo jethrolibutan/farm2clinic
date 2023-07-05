@@ -29,6 +29,8 @@ import SweetPotatoSpanish from "./pages/RecipesProducePage/SweetPotato/SweetPota
 import TurnipSpanish from "./pages/RecipesProducePage/Turnip/TurnipSpanish";
 import ZucchiniSpanish from "./pages/RecipesProducePage/Zucchini/ZucchiniSpanish";
 
+import Artichoke from "./pages/RecipesProducePage/Artichokes/Artichoke";
+
 function App() {
   return (
     <div className="App">
@@ -49,6 +51,7 @@ function App() {
         <Route path="inTheNews" element={<InTheNews />} />
         <Route path="donate" element={<Donate />} />
         <Route path="getInvolved" element={<GetInvolved />} />
+        <Route path="artichoke" element={<Artichoke />} />
         <Route path="asparagusSpanish" element={<AsparagusSpanish />} />
         <Route path="bellpepperSpanish" element={<BellPepperSpanish />} />
         <Route path="broccoliSpanish" element={<BroccoliSpanish />} />
