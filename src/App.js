@@ -39,9 +39,10 @@ import BrusselSprouts from "./pages/RecipesProducePage/BrusselSprouts/BrusselSpr
 import ButternutSquash from "./pages/RecipesProducePage/ButternutSquash/ButternutSquash";
 import Cabbage from "./pages/RecipesProducePage/Cabbage/Cabbage";
 import Carrot from "./pages/RecipesProducePage/Carrot/Carrot";
+import Cantaloupe from "./pages/RecipesProducePage/Cantaloupe/Cantaloupe";
 import Cauliflower from "./pages/RecipesProducePage/Cauliflower/Cauliflower";
 import Collards from "./pages/RecipesProducePage/Collards/Collards";
-import Cucumber from "./pages/RecipesProducePage/Cucumber/CucumberProduce";
+import Cucumber from "./pages/RecipesProducePage/Cucumber/Cucumber";
 import Eggplant from "./pages/RecipesProducePage/Eggplant/Eggplant";
 import GreenPeppers from "./pages/RecipesProducePage/GreenPeppers/GreenPeppers";
 import Kale from "./pages/RecipesProducePage/Kale/Kale";
@@ -54,6 +55,7 @@ import Turnip from "./pages/RecipesProducePage/Turnip/Turnip";
 import Watermelon from "./pages/RecipesProducePage/Watermelon/Watermelon";
 import YellowSquash from "./pages/RecipesProducePage/YellowSquash/YellowSquash";
 import Zucchini from "./pages/RecipesProducePage/Zucchini/Zucchini";
+import Blueberries from "./pages/RecipesProducePage/Blueberries/Blueberries";
 
 function App() {
   return (
@@ -81,11 +83,26 @@ function App() {
         <Route path="bellpepper" element={<BellPepper />} />
         <Route path="broccoli" element={<Broccoli />} />
         <Route path="brusselsprouts" element={<BrusselSprouts />} />
+        <Route path="blueberries" element={<Blueberries />} />
         <Route path="butternutsquash" element={<ButternutSquash />} />
         <Route path="cabbage" element={<Cabbage />} />
-        <Route path="cantaloupe" element={<Cabbage />} />
+        <Route path="cantaloupe" element={<Cantaloupe />} />
         <Route path="carrot" element={<Carrot />} />
         <Route path="cauliflower" element={<Cauliflower />} />
+        <Route path="collards" element={<Collards />} />
+        <Route path="cucumbers" element={<Cucumber />} />
+        <Route path="eggplant" element={<Eggplant />} />
+        <Route path="greenpeppers" element={<GreenPeppers />} />
+        <Route path="kale" element={<Kale />} />
+        <Route path="leeks" element={<Leeks />} />
+        <Route path="okra" element={<Okra />} />
+        <Route path="pumpkin" element={<Pumpkin />} />
+        <Route path="spaghettiSquash" element={<SpaghettiSuqash />} />
+        <Route path="sweetPotato" element={<SweetPotato />} />
+        <Route path="turnips" element={<Turnip />} />
+        <Route path="watermelon" element={<Watermelon />} />
+        <Route path="yellowSquash" element={<YellowSquash />} />
+        <Route path="zucchini" element={<Zucchini />} />
 
         <Route path="asparagusSpanish" element={<AsparagusSpanish />} />
         <Route path="bellpepperSpanish" element={<BellPepperSpanish />} />

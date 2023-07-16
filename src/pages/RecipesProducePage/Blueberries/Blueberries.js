@@ -1,7 +1,7 @@
 import React from "react";
 
 function Blueberries() {
-  return <div>Blueberries</div>;
+  return <div>Blueberrie=s</div>;
 }
 
 export default Blueberries;

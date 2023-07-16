@@ -353,7 +353,7 @@ function Recipes() {
                 </Typography>
               </CardContent>
               <CardActions>
-                <Button component={Link} href="/collard" size="small">
+                <Button component={Link} href="/collards" size="small">
                   {" "}
                   Recipes{" "}
                 </Button>
@@ -375,7 +375,7 @@ function Recipes() {
                 </Typography>
               </CardContent>
               <CardActions>
-                <Button component={Link} href="/cucumber" size="small">
+                <Button component={Link} href="/cucumbers" size="small">
                   {" "}
                   Recipes{" "}
                 </Button>
@@ -638,7 +638,7 @@ function Recipes() {
                 sx={{ height: 120 }}
                 component="img"
                 src="../../images/albemarle.jpeg"
-                title="Zucchini"
+                title="zucchini"
               />
               <CardContent>
                 <Typography gutterBottom variant="h5" component="div">
