@@ -8,7 +8,7 @@ import asp7 from "../images/englishRecipes/asparagusRecipes/asp7.png";
 import asp8 from "../images/englishRecipes/asparagusRecipes/asp8.png";
 import asp9 from "../images/englishRecipes/asparagusRecipes/asp9.png";
 import asp10 from "../images/englishRecipes/asparagusRecipes/asp10.png";
-import brocc1 from "../images/spanishRecipes/broccoliRecipes/brocc1.png";
+import brocc1 from "../images/englishRecipes/broccoliRecipes/brocc1.png";
 import brocc2 from "../images/englishRecipes/broccoliRecipes/brocc2.png";
 import brocc3 from "../images/englishRecipes/broccoliRecipes/brocc3.png";
 import brocc4 from "../images/englishRecipes/broccoliRecipes/brocc4.png";

@@ -1,5 +1,4 @@
 import React from "react";
-import { useState } from "react";
 
 import Navbar from "../../../components/Navbar";
 import SubFooter from "../../../components/SubFooter";
@@ -7,11 +6,7 @@ import Footer from "../../../components/Footer";
 
 import { Button, Link } from "@mui/material";
 
-import { artichoke } from "../../../Helper/EnglishData";
-
 function Artichoke() {
-  const [currArt, setCurrArt] = useState(0);
-
   return (
     <div>
       <Navbar />
