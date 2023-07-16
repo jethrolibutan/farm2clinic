@@ -30,6 +30,13 @@ import TurnipSpanish from "./pages/RecipesProducePage/Turnip/TurnipSpanish";
 import ZucchiniSpanish from "./pages/RecipesProducePage/Zucchini/ZucchiniSpanish";
 
 import Artichoke from "./pages/RecipesProducePage/Artichokes/Artichoke";
+import Asparagus from "./pages/RecipesProducePage/Asparagus/Asparagus";
+import Beets from "./pages/RecipesProducePage/Beets/Beets";
+import BellPepper from "./pages/RecipesProducePage/BellPepper/BellPepper";
+// import BlueBerries from "./pages/RecipesProducePage/Blueberries/BlueBerries";
+import Broccoli from "./pages/RecipesProducePage/Broccoli/Broccoli";
+import BrusselSprouts from "./pages/RecipesProducePage/BrusselSprouts/BrusselSprouts";
+import ButternutSquash from "./pages/RecipesProducePage/ButternutSquash/ButternutSquash";
 
 function App() {
   return (
@@ -52,6 +59,7 @@ function App() {
         <Route path="donate" element={<Donate />} />
         <Route path="getInvolved" element={<GetInvolved />} />
         <Route path="artichoke" element={<Artichoke />} />
+        <Route path="asparagus" element={<Asparagus />} />
         <Route path="asparagusSpanish" element={<AsparagusSpanish />} />
         <Route path="bellpepperSpanish" element={<BellPepperSpanish />} />
         <Route path="broccoliSpanish" element={<BroccoliSpanish />} />

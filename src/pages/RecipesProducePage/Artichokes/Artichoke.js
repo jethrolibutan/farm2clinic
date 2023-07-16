@@ -9,7 +9,7 @@ import { Button, Link } from "@mui/material";
 
 import { artichoke } from "../../../Helper/EnglishData";
 
-function AsparagusSpanish() {
+function Artichoke() {
   const [currArt, setCurrArt] = useState(0);
 
   return (
@@ -42,7 +42,7 @@ function AsparagusSpanish() {
       </div>
 
       <div className="carousel-produce">
-        <img src="../../../images/art1.jpg" alt="hi" />
+        <img src="../../../images/art1.jpg" alt="Artichoke" />
       </div>
 
       <SubFooter />
@@ -51,4 +51,4 @@ function AsparagusSpanish() {
   );
 }
 
-export default AsparagusSpanish;
+export default Artichoke;

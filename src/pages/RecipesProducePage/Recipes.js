@@ -110,7 +110,10 @@ function Recipes() {
                 </Typography>
               </CardContent>
               <CardActions>
-                <Button size="small"> Recipes </Button>
+                <Button component={Link} href="/asparagus" size="small">
+                  {" "}
+                  Recipes{" "}
+                </Button>
               </CardActions>
             </Card>{" "}
           </div>
@@ -128,7 +131,10 @@ function Recipes() {
                 </Typography>
               </CardContent>
               <CardActions>
-                <Button size="small"> Recipes </Button>
+                <Button component={Link} href="/beets" size="small">
+                  {" "}
+                  Recipes{" "}
+                </Button>
               </CardActions>
             </Card>{" "}
           </div>
@@ -146,7 +152,10 @@ function Recipes() {
                 </Typography>
               </CardContent>
               <CardActions>
-                <Button size="small"> Recipes </Button>
+                <Button component={Link} href="/bellPepper" size="small">
+                  {" "}
+                  Recipes{" "}
+                </Button>
               </CardActions>
             </Card>{" "}
           </div>
@@ -164,7 +173,10 @@ function Recipes() {
                 </Typography>
               </CardContent>
               <CardActions>
-                <Button size="small"> Recipes </Button>
+                <Button component={Link} href="/blueberries" size="small">
+                  {" "}
+                  Recipes{" "}
+                </Button>
               </CardActions>
             </Card>{" "}
           </div>
@@ -185,7 +197,10 @@ function Recipes() {
                 </Typography>
               </CardContent>
               <CardActions>
-                <Button size="small"> Recipes </Button>
+                <Button component={Link} href="/broccoli" size="small">
+                  {" "}
+                  Recipes{" "}
+                </Button>
               </CardActions>
             </Card>{" "}
           </div>
@@ -204,7 +219,10 @@ function Recipes() {
                 </Typography>
               </CardContent>
               <CardActions>
-                <Button size="small"> Recipes </Button>
+                <Button component={Link} href="/brusselSprouts" size="small">
+                  {" "}
+                  Recipes{" "}
+                </Button>
               </CardActions>
             </Card>{" "}
           </div>
@@ -215,7 +233,7 @@ function Recipes() {
                 sx={{ height: 120 }}
                 component="img"
                 src="../../images/albemarle.jpeg"
-                title="Leeks"
+                title="Butternut Squash"
               />
               <CardContent>
                 <Typography gutterBottom variant="h5" component="div">
@@ -223,7 +241,10 @@ function Recipes() {
                 </Typography>
               </CardContent>
               <CardActions>
-                <Button size="small"> Recipes </Button>
+                <Button component={Link} href="/butternutSquash" size="small">
+                  {" "}
+                  Recipes{" "}
+                </Button>
               </CardActions>
             </Card>{" "}
           </div>
@@ -234,7 +255,7 @@ function Recipes() {
                 sx={{ height: 120 }}
                 component="img"
                 src="../../images/albemarle.jpeg"
-                title="Leeks"
+                title="Cabbage"
               />
               <CardContent>
                 <Typography gutterBottom variant="h5" component="div">
@@ -242,7 +263,10 @@ function Recipes() {
                 </Typography>
               </CardContent>
               <CardActions>
-                <Button size="small"> Recipes </Button>
+                <Button component={Link} href="/cabbage" size="small">
+                  {" "}
+                  Recipes{" "}
+                </Button>
               </CardActions>
             </Card>{" "}
           </div>
@@ -253,7 +277,7 @@ function Recipes() {
                 sx={{ height: 120 }}
                 component="img"
                 src="../../images/albemarle.jpeg"
-                title="Leeks"
+                title="Cantaloupe"
               />
               <CardContent>
                 <Typography gutterBottom variant="h5" component="div">
@@ -261,7 +285,10 @@ function Recipes() {
                 </Typography>
               </CardContent>
               <CardActions>
-                <Button size="small"> Recipes </Button>
+                <Button component={Link} href="/cantaloupe" size="small">
+                  {" "}
+                  Recipes{" "}
+                </Button>
               </CardActions>
             </Card>{" "}
           </div>
@@ -274,7 +301,7 @@ function Recipes() {
                 sx={{ height: 120 }}
                 component="img"
                 src="../../images/albemarle.jpeg"
-                title="Leeks"
+                title="Carrot"
               />
               <CardContent>
                 <Typography gutterBottom variant="h5" component="div">
@@ -282,7 +309,10 @@ function Recipes() {
                 </Typography>
               </CardContent>
               <CardActions>
-                <Button size="small"> Recipes </Button>
+                <Button component={Link} href="/carrot" size="small">
+                  {" "}
+                  Recipes{" "}
+                </Button>
               </CardActions>
             </Card>{" "}
           </div>
@@ -293,7 +323,7 @@ function Recipes() {
                 sx={{ height: 120 }}
                 component="img"
                 src="../../images/albemarle.jpeg"
-                title="Leeks"
+                title="Cauliflower"
               />
               <CardContent>
                 <Typography gutterBottom variant="h5" component="div">
@@ -301,7 +331,10 @@ function Recipes() {
                 </Typography>
               </CardContent>
               <CardActions>
-                <Button size="small"> Recipes </Button>
+                <Button component={Link} href="/cauliflower" size="small">
+                  {" "}
+                  Recipes{" "}
+                </Button>
               </CardActions>
             </Card>{" "}
           </div>
@@ -312,7 +345,7 @@ function Recipes() {
                 sx={{ height: 120 }}
                 component="img"
                 src="../../images/albemarle.jpeg"
-                title="Leeks"
+                title="Collard"
               />
               <CardContent>
                 <Typography gutterBottom variant="h5" component="div">
@@ -320,7 +353,10 @@ function Recipes() {
                 </Typography>
               </CardContent>
               <CardActions>
-                <Button size="small"> Recipes </Button>
+                <Button component={Link} href="/collard" size="small">
+                  {" "}
+                  Recipes{" "}
+                </Button>
               </CardActions>
             </Card>{" "}
           </div>
@@ -331,7 +367,7 @@ function Recipes() {
                 sx={{ height: 120 }}
                 component="img"
                 src="../../images/albemarle.jpeg"
-                title="Leeks"
+                title="Cucumber"
               />
               <CardContent>
                 <Typography gutterBottom variant="h5" component="div">
@@ -339,7 +375,10 @@ function Recipes() {
                 </Typography>
               </CardContent>
               <CardActions>
-                <Button size="small"> Recipes </Button>
+                <Button component={Link} href="/cucumber" size="small">
+                  {" "}
+                  Recipes{" "}
+                </Button>
               </CardActions>
             </Card>{" "}
           </div>
@@ -350,7 +389,7 @@ function Recipes() {
                 sx={{ height: 120 }}
                 component="img"
                 src="../../images/albemarle.jpeg"
-                title="Leeks"
+                title="Eggplant"
               />
               <CardContent>
                 <Typography gutterBottom variant="h5" component="div">
@@ -358,7 +397,10 @@ function Recipes() {
                 </Typography>
               </CardContent>
               <CardActions>
-                <Button size="small"> Recipes </Button>
+                <Button component={Link} href="/eggplant" size="small">
+                  {" "}
+                  Recipes{" "}
+                </Button>
               </CardActions>
             </Card>{" "}
           </div>
@@ -371,7 +413,7 @@ function Recipes() {
                 sx={{ height: 120 }}
                 component="img"
                 src="../../images/albemarle.jpeg"
-                title="Leeks"
+                title="Green Peppers"
               />
               <CardContent>
                 <Typography gutterBottom variant="h5" component="div">
@@ -379,7 +421,10 @@ function Recipes() {
                 </Typography>
               </CardContent>
               <CardActions>
-                <Button size="small"> Recipes </Button>
+                <Button component={Link} href="/greenPeppers" size="small">
+                  {" "}
+                  Recipes{" "}
+                </Button>
               </CardActions>
             </Card>{" "}
           </div>
@@ -390,7 +435,7 @@ function Recipes() {
                 sx={{ height: 120 }}
                 component="img"
                 src="../../images/albemarle.jpeg"
-                title="Leeks"
+                title="Kale"
               />
               <CardContent>
                 <Typography gutterBottom variant="h5" component="div">
@@ -398,7 +443,10 @@ function Recipes() {
                 </Typography>
               </CardContent>
               <CardActions>
-                <Button size="small"> Recipes </Button>
+                <Button component={Link} href="/kale" size="small">
+                  {" "}
+                  Recipes{" "}
+                </Button>
               </CardActions>
             </Card>{" "}
           </div>
@@ -417,7 +465,10 @@ function Recipes() {
                 </Typography>
               </CardContent>
               <CardActions>
-                <Button size="small"> Recipes </Button>
+                <Button component={Link} href="/leeks" size="small">
+                  {" "}
+                  Recipes{" "}
+                </Button>
               </CardActions>
             </Card>{" "}
           </div>
@@ -428,7 +479,7 @@ function Recipes() {
                 sx={{ height: 120 }}
                 component="img"
                 src="../../images/albemarle.jpeg"
-                title="Leeks"
+                title="Okra"
               />
               <CardContent>
                 <Typography gutterBottom variant="h5" component="div">
@@ -436,7 +487,10 @@ function Recipes() {
                 </Typography>
               </CardContent>
               <CardActions>
-                <Button size="small"> Recipes </Button>
+                <Button component={Link} href="/okra" size="small">
+                  {" "}
+                  Recipes{" "}
+                </Button>
               </CardActions>
             </Card>{" "}
           </div>
@@ -447,7 +501,7 @@ function Recipes() {
                 sx={{ height: 120 }}
                 component="img"
                 src="../../images/albemarle.jpeg"
-                title="Leeks"
+                title="Pumpkin"
               />
               <CardContent>
                 <Typography gutterBottom variant="h5" component="div">
@@ -455,7 +509,10 @@ function Recipes() {
                 </Typography>
               </CardContent>
               <CardActions>
-                <Button size="small"> Recipes </Button>
+                <Button component={Link} href="/pumpkin" size="small">
+                  {" "}
+                  Recipes{" "}
+                </Button>
               </CardActions>
             </Card>{" "}
           </div>
@@ -468,7 +525,7 @@ function Recipes() {
                 sx={{ height: 120 }}
                 component="img"
                 src="../../images/albemarle.jpeg"
-                title="Leeks"
+                title="Spaghetti Squash"
               />
               <CardContent>
                 <Typography gutterBottom variant="h5" component="div">
@@ -476,7 +533,10 @@ function Recipes() {
                 </Typography>
               </CardContent>
               <CardActions>
-                <Button size="small"> Recipes </Button>
+                <Button component={Link} href="/spaghettiSquash" size="small">
+                  {" "}
+                  Recipes{" "}
+                </Button>
               </CardActions>
             </Card>{" "}
           </div>
@@ -487,7 +547,7 @@ function Recipes() {
                 sx={{ height: 120 }}
                 component="img"
                 src="../../images/albemarle.jpeg"
-                title="Leeks"
+                title="Sweet Potato"
               />
               <CardContent>
                 <Typography gutterBottom variant="h5" component="div">
@@ -495,7 +555,10 @@ function Recipes() {
                 </Typography>
               </CardContent>
               <CardActions>
-                <Button size="small"> Recipes </Button>
+                <Button component={Link} href="/sweetPotato" size="small">
+                  {" "}
+                  Recipes{" "}
+                </Button>
               </CardActions>
             </Card>{" "}
           </div>
@@ -506,7 +569,7 @@ function Recipes() {
                 sx={{ height: 120 }}
                 component="img"
                 src="../../images/albemarle.jpeg"
-                title="Leeks"
+                title="Turnips"
               />
               <CardContent>
                 <Typography gutterBottom variant="h5" component="div">
@@ -514,7 +577,10 @@ function Recipes() {
                 </Typography>
               </CardContent>
               <CardActions>
-                <Button size="small"> Recipes </Button>
+                <Button component={Link} href="/turnips" size="small">
+                  {" "}
+                  Recipes{" "}
+                </Button>
               </CardActions>
             </Card>{" "}
           </div>
@@ -525,7 +591,7 @@ function Recipes() {
                 sx={{ height: 120 }}
                 component="img"
                 src="../../images/albemarle.jpeg"
-                title="Leeks"
+                title="Watermelon"
               />
               <CardContent>
                 <Typography gutterBottom variant="h5" component="div">
@@ -533,7 +599,10 @@ function Recipes() {
                 </Typography>
               </CardContent>
               <CardActions>
-                <Button size="small"> Recipes </Button>
+                <Button component={Link} href="/watermelon" size="small">
+                  {" "}
+                  Recipes{" "}
+                </Button>
               </CardActions>
             </Card>{" "}
           </div>
@@ -544,7 +613,7 @@ function Recipes() {
                 sx={{ height: 120 }}
                 component="img"
                 src="../../images/albemarle.jpeg"
-                title="Leeks"
+                title="Yellow Squash"
               />
               <CardContent>
                 <Typography gutterBottom variant="h5" component="div">
@@ -552,7 +621,10 @@ function Recipes() {
                 </Typography>
               </CardContent>
               <CardActions>
-                <Button size="small"> Recipes </Button>
+                <Button component={Link} href="/yellowSquash" size="small">
+                  {" "}
+                  Recipes{" "}
+                </Button>
               </CardActions>
             </Card>{" "}
           </div>
@@ -566,7 +638,7 @@ function Recipes() {
                 sx={{ height: 120 }}
                 component="img"
                 src="../../images/albemarle.jpeg"
-                title="Leeks"
+                title="Zucchini"
               />
               <CardContent>
                 <Typography gutterBottom variant="h5" component="div">
@@ -574,7 +646,10 @@ function Recipes() {
                 </Typography>
               </CardContent>
               <CardActions>
-                <Button size="small"> Recipes </Button>
+                <Button component={Link} href="/Zucchini" size="small">
+                  {" "}
+                  Recipes{" "}
+                </Button>
               </CardActions>
             </Card>{" "}
           </div>
