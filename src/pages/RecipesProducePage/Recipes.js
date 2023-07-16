@@ -78,10 +78,10 @@ function Recipes() {
             {" "}
             <Card sx={{ maxWidth: 225 }}>
               <CardMedia
-                sx={{ height: 120 }}
+                sx={{ height: 200 }}
                 component="img"
-                src="../../images/albemarle.jpeg"
-                title="Leeks"
+                src="../../images/englishVegetableImages/artichoke.png"
+                title="Artichoke"
               />
               <CardContent>
                 <Typography gutterBottom variant="h5" component="div">
@@ -100,10 +100,12 @@ function Recipes() {
             {" "}
             <Card sx={{ maxWidth: 225 }}>
               <CardMedia
-                sx={{ height: 120 }}
-                image="/static/images/cards/contemplative-reptile.jpg"
-                title="Leeks"
+                sx={{ height: 200 }}
+                component="img"
+                src="../../images/englishVegetableImages/asparagus.png"
+                title="Asparagus"
               />
+
               <CardContent>
                 <Typography gutterBottom variant="h5" component="div">
                   Asparagus
@@ -121,9 +123,10 @@ function Recipes() {
             {" "}
             <Card sx={{ maxWidth: 225 }}>
               <CardMedia
-                sx={{ height: 120 }}
-                image="/static/images/cards/contemplative-reptile.jpg"
-                title="Leeks"
+                sx={{ height: 200 }}
+                component="img"
+                src="../../images/englishVegetableImages/beet.png"
+                title="Beets"
               />
               <CardContent>
                 <Typography gutterBottom variant="h5" component="div">
@@ -142,9 +145,10 @@ function Recipes() {
             {" "}
             <Card sx={{ maxWidth: 225 }}>
               <CardMedia
-                sx={{ height: 120 }}
-                image="/static/images/cards/contemplative-reptile.jpg"
-                title="Leeks"
+                sx={{ height: 200 }}
+                component="img"
+                src="../../images/englishVegetableImages/bellPepper.png"
+                title="Bell Pepper"
               />
               <CardContent>
                 <Typography gutterBottom variant="h5" component="div">
@@ -163,9 +167,10 @@ function Recipes() {
             {" "}
             <Card sx={{ maxWidth: 225 }}>
               <CardMedia
-                sx={{ height: 120 }}
-                image="/static/images/cards/contemplative-reptile.jpg"
-                title="Leeks"
+                sx={{ height: 200, width: 200 }}
+                component="img"
+                src="../../images/englishVegetableImages/blueberries.png"
+                title="Blueberries"
               />
               <CardContent>
                 <Typography gutterBottom variant="h5" component="div">
@@ -186,10 +191,10 @@ function Recipes() {
             {" "}
             <Card sx={{ maxWidth: 225 }}>
               <CardMedia
-                sx={{ height: 120 }}
+                sx={{ height: 200 }}
                 component="img"
-                src="../../images/albemarle.jpeg"
-                title="Leeks"
+                src="../../images/englishVegetableImages/broccoli.png"
+                title="Broccoli"
               />
               <CardContent>
                 <Typography gutterBottom variant="h5" component="div">
@@ -206,11 +211,11 @@ function Recipes() {
           </div>
           <div class="one">
             {" "}
-            <Card sx={{ maxWidth: 225 }}>
+            <Card sx={{ maxWidth: 230 }}>
               <CardMedia
-                sx={{ height: 120 }}
+                sx={{ height: 200 }}
                 component="img"
-                src="../../images/albemarle.jpeg"
+                src="../../images/englishVegetableImages/brusselSprouts.png"
                 title="Brussel Sprouts"
               />
               <CardContent>
@@ -230,9 +235,9 @@ function Recipes() {
             {" "}
             <Card sx={{ maxWidth: 225 }}>
               <CardMedia
-                sx={{ height: 120 }}
+                sx={{ height: 200 }}
                 component="img"
-                src="../../images/albemarle.jpeg"
+                src="../../images/englishVegetableImages/butternutSquash.png"
                 title="Butternut Squash"
               />
               <CardContent>
@@ -252,9 +257,9 @@ function Recipes() {
             {" "}
             <Card sx={{ maxWidth: 225 }}>
               <CardMedia
-                sx={{ height: 120 }}
+                sx={{ height: 200 }}
                 component="img"
-                src="../../images/albemarle.jpeg"
+                src="../../images/englishVegetableImages/cabbage.png"
                 title="Cabbage"
               />
               <CardContent>
@@ -274,10 +279,10 @@ function Recipes() {
             {" "}
             <Card sx={{ maxWidth: 225 }}>
               <CardMedia
-                sx={{ height: 120 }}
+                sx={{ height: 200 }}
                 component="img"
-                src="../../images/albemarle.jpeg"
-                title="Cantaloupe"
+                src="../../images/englishVegetableImages/cantaloupe.png"
+                title="cantaloupe"
               />
               <CardContent>
                 <Typography gutterBottom variant="h5" component="div">
@@ -298,9 +303,9 @@ function Recipes() {
             {" "}
             <Card sx={{ maxWidth: 225 }}>
               <CardMedia
-                sx={{ height: 120 }}
+                sx={{ height: 200 }}
                 component="img"
-                src="../../images/albemarle.jpeg"
+                src="../../images/englishVegetableImages/carrot.png"
                 title="Carrot"
               />
               <CardContent>
@@ -320,9 +325,9 @@ function Recipes() {
             {" "}
             <Card sx={{ maxWidth: 225 }}>
               <CardMedia
-                sx={{ height: 120 }}
+                sx={{ height: 225 }}
                 component="img"
-                src="../../images/albemarle.jpeg"
+                src="../../images/englishVegetableImages/cauliflower.png"
                 title="Cauliflower"
               />
               <CardContent>
@@ -342,9 +347,9 @@ function Recipes() {
             {" "}
             <Card sx={{ maxWidth: 225 }}>
               <CardMedia
-                sx={{ height: 120 }}
+                sx={{ height: 225 }}
                 component="img"
-                src="../../images/albemarle.jpeg"
+                src="../../images/englishVegetableImages/collard.png"
                 title="Collard"
               />
               <CardContent>
@@ -364,9 +369,9 @@ function Recipes() {
             {" "}
             <Card sx={{ maxWidth: 225 }}>
               <CardMedia
-                sx={{ height: 120 }}
+                sx={{ height: 220 }}
                 component="img"
-                src="../../images/albemarle.jpeg"
+                src="../../images/englishVegetableImages/cucumber.png"
                 title="Cucumber"
               />
               <CardContent>
@@ -386,9 +391,9 @@ function Recipes() {
             {" "}
             <Card sx={{ maxWidth: 225 }}>
               <CardMedia
-                sx={{ height: 120 }}
+                sx={{ height: 200 }}
                 component="img"
-                src="../../images/albemarle.jpeg"
+                src="../../images/englishVegetableImages/eggplant.png"
                 title="Eggplant"
               />
               <CardContent>
@@ -410,9 +415,9 @@ function Recipes() {
             {" "}
             <Card sx={{ maxWidth: 225 }}>
               <CardMedia
-                sx={{ height: 120 }}
+                sx={{ height: 220 }}
                 component="img"
-                src="../../images/albemarle.jpeg"
+                src="../../images/englishVegetableImages/greenBellPepper.png"
                 title="Green Peppers"
               />
               <CardContent>
@@ -432,9 +437,9 @@ function Recipes() {
             {" "}
             <Card sx={{ maxWidth: 225 }}>
               <CardMedia
-                sx={{ height: 120 }}
+                sx={{ height: 190 }}
                 component="img"
-                src="../../images/albemarle.jpeg"
+                src="../../images/englishVegetableImages/kale.png"
                 title="Kale"
               />
               <CardContent>
@@ -454,9 +459,9 @@ function Recipes() {
             {" "}
             <Card sx={{ maxWidth: 225 }}>
               <CardMedia
-                sx={{ height: 120 }}
+                sx={{ height: 220 }}
                 component="img"
-                src="../../images/albemarle.jpeg"
+                src="../../images/englishVegetableImages/leeks.png"
                 title="Leeks"
               />
               <CardContent>
@@ -476,9 +481,9 @@ function Recipes() {
             {" "}
             <Card sx={{ maxWidth: 225 }}>
               <CardMedia
-                sx={{ height: 120 }}
+                sx={{ height: 240 }}
                 component="img"
-                src="../../images/albemarle.jpeg"
+                src="../../images/englishVegetableImages/okra.png"
                 title="Okra"
               />
               <CardContent>
@@ -498,9 +503,9 @@ function Recipes() {
             {" "}
             <Card sx={{ maxWidth: 225 }}>
               <CardMedia
-                sx={{ height: 120 }}
+                sx={{ height: 220 }}
                 component="img"
-                src="../../images/albemarle.jpeg"
+                src="../../images/englishVegetableImages/pumpkin.png"
                 title="Pumpkin"
               />
               <CardContent>
@@ -522,9 +527,9 @@ function Recipes() {
             {" "}
             <Card sx={{ maxWidth: 225 }}>
               <CardMedia
-                sx={{ height: 120 }}
+                sx={{ height: 220 }}
                 component="img"
-                src="../../images/albemarle.jpeg"
+                src="../../images/englishVegetableImages/spaghettiSquash.png"
                 title="Spaghetti Squash"
               />
               <CardContent>
@@ -544,9 +549,9 @@ function Recipes() {
             {" "}
             <Card sx={{ maxWidth: 225 }}>
               <CardMedia
-                sx={{ height: 120 }}
+                sx={{ height: 220 }}
                 component="img"
-                src="../../images/albemarle.jpeg"
+                src="../../images/englishVegetableImages/sweetPotato.png"
                 title="Sweet Potato"
               />
               <CardContent>
@@ -566,9 +571,9 @@ function Recipes() {
             {" "}
             <Card sx={{ maxWidth: 225 }}>
               <CardMedia
-                sx={{ height: 120 }}
+                sx={{ height: 220 }}
                 component="img"
-                src="../../images/albemarle.jpeg"
+                src="../../images/englishVegetableImages/turnip.png"
                 title="Turnips"
               />
               <CardContent>
@@ -588,9 +593,9 @@ function Recipes() {
             {" "}
             <Card sx={{ maxWidth: 225 }}>
               <CardMedia
-                sx={{ height: 120 }}
+                sx={{ height: 190 }}
                 component="img"
-                src="../../images/albemarle.jpeg"
+                src="../../images/englishVegetableImages/watermelon.png"
                 title="Watermelon"
               />
               <CardContent>
@@ -610,9 +615,9 @@ function Recipes() {
             {" "}
             <Card sx={{ maxWidth: 225 }}>
               <CardMedia
-                sx={{ height: 120 }}
+                sx={{ height: 230 }}
                 component="img"
-                src="../../images/albemarle.jpeg"
+                src="../../images/englishVegetableImages/yellowSquash.png"
                 title="Yellow Squash"
               />
               <CardContent>
@@ -635,9 +640,9 @@ function Recipes() {
             {" "}
             <Card sx={{ maxWidth: 225 }}>
               <CardMedia
-                sx={{ height: 120 }}
+                sx={{ height: 220 }}
                 component="img"
-                src="../../images/albemarle.jpeg"
+                src="../../images/englishVegetableImages/zucchini.png"
                 title="zucchini"
               />
               <CardContent>

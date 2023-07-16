@@ -105,6 +105,18 @@ function Support() {
             </a>
           </div>
         </div>
+
+        <div className="internal-text">
+          {" "}
+          <div className="indent-space">
+            <a
+              href="https://www.flaticon.com/free-icons/fruit"
+              title="fruit icons"
+            >
+              Fruit icons created by Freepik - Flaticon
+            </a>
+          </div>
+        </div>
       </div>
 
       <SubFooter />
