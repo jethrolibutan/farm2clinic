@@ -23,7 +23,7 @@ import CabbageSpanish from "./pages/RecipesProducePage/Cabbage/CabbageSpanish";
 import CarrotSpanish from "./pages/RecipesProducePage/Carrot/CarrotSpanish";
 import CauliflowerSpanish from "./pages/RecipesProducePage/Cauliflower/CauliflowerSpanish";
 import KaleSpanish from "./pages/RecipesProducePage/Kale/KaleSpanish";
-import CollardSpanish from "./pages/RecipesProducePage/Collard/CollardSpanish";
+import CollardSpanish from "./pages/RecipesProducePage/Collards/CollardSpanish";
 import SpaghettiSquashSpanish from "./pages/RecipesProducePage/SpaghettiSquash/SpaghettiSquashSpanish";
 import SweetPotatoSpanish from "./pages/RecipesProducePage/SweetPotato/SweetPotatoSpanish";
 import TurnipSpanish from "./pages/RecipesProducePage/Turnip/TurnipSpanish";
@@ -37,6 +37,23 @@ import BellPepper from "./pages/RecipesProducePage/BellPepper/BellPepper";
 import Broccoli from "./pages/RecipesProducePage/Broccoli/Broccoli";
 import BrusselSprouts from "./pages/RecipesProducePage/BrusselSprouts/BrusselSprouts";
 import ButternutSquash from "./pages/RecipesProducePage/ButternutSquash/ButternutSquash";
+import Cabbage from "./pages/RecipesProducePage/Cabbage/Cabbage";
+import Carrot from "./pages/RecipesProducePage/Carrot/Carrot";
+import Cauliflower from "./pages/RecipesProducePage/Cauliflower/Cauliflower";
+import Collards from "./pages/RecipesProducePage/Collards/Collards";
+import Cucumber from "./pages/RecipesProducePage/Cucumber/CucumberProduce";
+import Eggplant from "./pages/RecipesProducePage/Eggplant/Eggplant";
+import GreenPeppers from "./pages/RecipesProducePage/GreenPeppers/GreenPeppers";
+import Kale from "./pages/RecipesProducePage/Kale/Kale";
+import Leeks from "./pages/RecipesProducePage/Leeks/Leeks";
+import Okra from "./pages/RecipesProducePage/Okra/Okra";
+import Pumpkin from "./pages/RecipesProducePage/Pumpkin/Pumpkin";
+import SpaghettiSuqash from "./pages/RecipesProducePage/SpaghettiSquash/SpaghettiSquash";
+import SweetPotato from "./pages/RecipesProducePage/SweetPotato/SweetPotato";
+import Turnip from "./pages/RecipesProducePage/Turnip/Turnip";
+import Watermelon from "./pages/RecipesProducePage/Watermelon/Watermelon";
+import YellowSquash from "./pages/RecipesProducePage/YellowSquash/YellowSquash";
+import Zucchini from "./pages/RecipesProducePage/Zucchini/Zucchini";
 
 function App() {
   return (
@@ -60,6 +77,16 @@ function App() {
         <Route path="getInvolved" element={<GetInvolved />} />
         <Route path="artichoke" element={<Artichoke />} />
         <Route path="asparagus" element={<Asparagus />} />
+        <Route path="beets" element={<Beets />} />
+        <Route path="bellpepper" element={<BellPepper />} />
+        <Route path="broccoli" element={<Broccoli />} />
+        <Route path="brusselsprouts" element={<BrusselSprouts />} />
+        <Route path="butternutsquash" element={<ButternutSquash />} />
+        <Route path="cabbage" element={<Cabbage />} />
+        <Route path="cantaloupe" element={<Cabbage />} />
+        <Route path="carrot" element={<Carrot />} />
+        <Route path="cauliflower" element={<Cauliflower />} />
+
         <Route path="asparagusSpanish" element={<AsparagusSpanish />} />
         <Route path="bellpepperSpanish" element={<BellPepperSpanish />} />
         <Route path="broccoliSpanish" element={<BroccoliSpanish />} />
