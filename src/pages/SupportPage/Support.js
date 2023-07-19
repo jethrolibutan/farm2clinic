@@ -105,6 +105,18 @@ function Support() {
             </a>
           </div>
         </div>
+
+        <div className="internal-text">
+          {" "}
+          <div className="indent-space">
+            <a
+              href="https://www.flaticon.com/free-icons/workout"
+              title="workout icons"
+            >
+              Workout icons created by ultimatearm - Flaticon
+            </a>
+          </div>
+        </div>
       </div>
 
       <SubFooter />

@@ -1,19 +1,19 @@
 import React from "react";
-import {
-  Button,
-  CardActions,
-  Card,
-  CardContent,
-  CardMedia,
-  Typography,
-  Link,
-} from "@mui/material";
 import Navbar from "../../../components/Navbar";
 import SubFooter from "../../../components/SubFooter";
 import Footer from "../../../components/Footer";
+import {
+  Button,
+  Link,
+  Card,
+  CardContent,
+  CardActions,
+  CardMedia,
+  Typography,
+} from "@mui/material";
 import "../Exercises.css";
 
-function Exercises() {
+function ExercisesInSpanish() {
   return (
     <div>
       <Navbar />
@@ -29,15 +29,6 @@ function Exercises() {
           >
             {" "}
             Exercises in English{" "}
-          </Button>
-          <Button
-            variant="contained"
-            component={Link}
-            href="/exerciseVideosInEnglish"
-            sx={{ mt: "20px", ml: "10px", mr: "10px" }}
-          >
-            {" "}
-            Exercise Videos in English{" "}
           </Button>
           <Button
             variant="contained"
@@ -68,7 +59,7 @@ function Exercises() {
               <CardActions>
                 <Button component={Link} href="/balance-gait" size="small">
                   {" "}
-                  Exercises{" "}
+                  Exercise{" "}
                 </Button>
               </CardActions>
             </Card>{" "}
@@ -90,7 +81,7 @@ function Exercises() {
               <CardActions>
                 <Button component={Link} href="/chronicPain" size="small">
                   {" "}
-                  Exercises{" "}
+                  Recipes{" "}
                 </Button>
               </CardActions>
             </Card>{" "}
@@ -116,7 +107,7 @@ function Exercises() {
                   size="small"
                 >
                   {" "}
-                  Exercises{" "}
+                  Recipes{" "}
                 </Button>
               </CardActions>
             </Card>{" "}
@@ -143,7 +134,7 @@ function Exercises() {
                   size="small"
                 >
                   {" "}
-                  Exercises{" "}
+                  Exercise{" "}
                 </Button>
               </CardActions>
             </Card>{" "}
@@ -165,7 +156,7 @@ function Exercises() {
               <CardActions>
                 <Button component={Link} href="/chronicPain" size="small">
                   {" "}
-                  Exercises{" "}
+                  Recipes{" "}
                 </Button>
               </CardActions>
             </Card>{" "}
@@ -186,7 +177,8 @@ function Exercises() {
               </CardContent>
               <CardActions>
                 <Button component={Link} href="/seatedCardio" size="small">
-                  Exercises{" "}
+                  {" "}
+                  Recipes{" "}
                 </Button>
               </CardActions>
             </Card>{" "}
@@ -209,7 +201,7 @@ function Exercises() {
               <CardActions>
                 <Button component={Link} href="/seatedCore" size="small">
                   {" "}
-                  Exercises{" "}
+                  Exercise{" "}
                 </Button>
               </CardActions>
             </Card>{" "}
@@ -230,7 +222,7 @@ function Exercises() {
               </CardContent>
               <CardActions>
                 <Button component={Link} href="/totalBodyWorkout" size="small">
-                  Exercises{" "}
+                  Exercise
                 </Button>
               </CardActions>
             </Card>{" "}
@@ -252,7 +244,7 @@ function Exercises() {
               <CardActions>
                 <Button component={Link} href="/yoga" size="small">
                   {" "}
-                  Exercises{" "}
+                  Exercise{" "}
                 </Button>
               </CardActions>
             </Card>{" "}
@@ -265,4 +257,4 @@ function Exercises() {
   );
 }
 
-export default Exercises;
+export default ExercisesInSpanish;

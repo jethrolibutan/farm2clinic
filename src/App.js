@@ -10,7 +10,16 @@ import Partners from "./pages/PartnersPage/Partners";
 import Programs from "./pages/ProgramsPage/Programs";
 import Exercises from "./pages/ExercisePage/ExercisesInEnglish/Exercises";
 import ExerciseVideosInEnglish from "./pages/ExercisePage/ExercisesInEnglish/ExerciseVideosInEnglish";
-import ExercisesInSpanish from "./pages/ExercisePage/ExercisesInEnglish/ExercisesInSpanish";
+import Balance from "./pages/ExercisePage/ExercisesInEnglish/Balance";
+import ChronicPain from "./pages/ExercisePage/ExercisesInEnglish/ChronicPain";
+import Flexibility from "./pages/ExercisePage/ExercisesInEnglish/Flexibility";
+import Household from "./pages/ExercisePage/ExercisesInEnglish/HouseHold";
+import Resistance from "./pages/ExercisePage/ExercisesInEnglish/Resistance";
+import SeatedCardio from "./pages/ExercisePage/ExercisesInEnglish/SeatedCardio";
+import SeatedCore from "./pages/ExercisePage/ExercisesInEnglish/SeatedCore";
+import TotalBody from "./pages/ExercisePage/ExercisesInEnglish/TotalBody";
+import Yoga from "./pages/ExercisePage/ExercisesInEnglish/Yoga";
+import ExercisesInSpanish from "./pages/ExercisePage/ExercisesInSpanish/ExercisesInSpanish";
 import Recipes from "./pages/RecipesProducePage/Recipes";
 import Training from "./pages/TrainingPage/Training";
 import Publications from "./pages/PublicationsPage/Publications";
@@ -30,12 +39,10 @@ import SpaghettiSquashSpanish from "./pages/RecipesProducePage/SpaghettiSquash/S
 import SweetPotatoSpanish from "./pages/RecipesProducePage/SweetPotato/SweetPotatoSpanish";
 import TurnipSpanish from "./pages/RecipesProducePage/Turnip/TurnipSpanish";
 import ZucchiniSpanish from "./pages/RecipesProducePage/Zucchini/ZucchiniSpanish";
-
 import Artichoke from "./pages/RecipesProducePage/Artichokes/Artichoke";
 import Asparagus from "./pages/RecipesProducePage/Asparagus/Asparagus";
 import Beets from "./pages/RecipesProducePage/Beets/Beets";
 import BellPepper from "./pages/RecipesProducePage/BellPepper/BellPepper";
-// import BlueBerries from "./pages/RecipesProducePage/Blueberries/BlueBerries";
 import Broccoli from "./pages/RecipesProducePage/Broccoli/Broccoli";
 import BrusselSprouts from "./pages/RecipesProducePage/BrusselSprouts/BrusselSprouts";
 import ButternutSquash from "./pages/RecipesProducePage/ButternutSquash/ButternutSquash";
@@ -79,6 +86,15 @@ function App() {
           element={<ExerciseVideosInEnglish />}
         />
         <Route path="exercisesInSpanish" element={<ExercisesInSpanish />} />
+        <Route path="balance-gait" element={<Balance />} />
+        <Route path="chronicPain" element={<ChronicPain />} />
+        <Route path="flexibilityTraining" element={<Flexibility />} />
+        <Route path="householdResistance" element={<Household />} />
+        <Route path="resistanceWBands" element={<Resistance />} />
+        <Route path="seatedCardio" element={<SeatedCardio />} />
+        <Route path="seatedCore" element={<SeatedCore />} />
+        <Route path="totalBodyWorkout" element={<TotalBody />} />
+        <Route path="yoga" element={<Yoga />} />
 
         <Route path="training" element={<Training />} />
         <Route path="publications" element={<Publications />} />
