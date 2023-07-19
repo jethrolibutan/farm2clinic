@@ -8,7 +8,9 @@ import Support from "./pages/SupportPage/Support";
 import WhatWeDo from "./pages/WhatWeDoPage/WhatWeDo";
 import Partners from "./pages/PartnersPage/Partners";
 import Programs from "./pages/ProgramsPage/Programs";
-import Exercises from "./pages/ExercisePage/Exercises";
+import Exercises from "./pages/ExercisePage/ExercisesInEnglish/Exercises";
+import ExerciseVideosInEnglish from "./pages/ExercisePage/ExercisesInEnglish/ExerciseVideosInEnglish";
+import ExercisesInSpanish from "./pages/ExercisePage/ExercisesInEnglish/ExercisesInSpanish";
 import Recipes from "./pages/RecipesProducePage/Recipes";
 import Training from "./pages/TrainingPage/Training";
 import Publications from "./pages/PublicationsPage/Publications";
@@ -72,6 +74,12 @@ function App() {
         <Route path="recipes" element={<Recipes />} />
         <Route path="spanishRecipes" element={<SpanishRecipes />} />
         <Route path="exercises" element={<Exercises />} />
+        <Route
+          path="exerciseVideosInEnglish"
+          element={<ExerciseVideosInEnglish />}
+        />
+        <Route path="exercisesInSpanish" element={<ExercisesInSpanish />} />
+
         <Route path="training" element={<Training />} />
         <Route path="publications" element={<Publications />} />
         <Route path="inTheNews" element={<InTheNews />} />
@@ -103,7 +111,6 @@ function App() {
         <Route path="watermelon" element={<Watermelon />} />
         <Route path="yellowSquash" element={<YellowSquash />} />
         <Route path="zucchini" element={<Zucchini />} />
-
         <Route path="asparagusSpanish" element={<AsparagusSpanish />} />
         <Route path="bellpepperSpanish" element={<BellPepperSpanish />} />
         <Route path="broccoliSpanish" element={<BroccoliSpanish />} />
