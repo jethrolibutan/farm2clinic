@@ -101,7 +101,7 @@ function Exercises() {
               <CardMedia
                 sx={{ height: 200 }}
                 component="img"
-                src="../../images/exerciseImages/flexibility.png"
+                src="../../images/exerciseImages/flexible.png"
                 title="Flexibility Training"
               />
               <CardContent>
@@ -128,7 +128,7 @@ function Exercises() {
               <CardMedia
                 sx={{ height: 200 }}
                 component="img"
-                src="../../images/exerciseImages/house.png"
+                src="../../images/exerciseImages/home.png"
                 title="Household Resistance"
               />
               <CardContent>
@@ -149,11 +149,11 @@ function Exercises() {
             </Card>{" "}
           </div>
           <div className="exercise">
-            <Card sx={{ maxWidth: 225 }}>
+            <Card sx={{ maxWidth: 215 }}>
               <CardMedia
-                sx={{ height: 200 }}
+                sx={{ height: 230 }}
                 component="img"
-                src="../../images/exerciseImages/resistanceTraining.png"
+                src="../../images/exerciseImages/resistance.png"
                 title="Resistance Training w/ Bands"
               />
 
@@ -172,7 +172,7 @@ function Exercises() {
           </div>
 
           <div className="exercise">
-            <Card sx={{ maxWidth: 200 }}>
+            <Card sx={{ maxWidth: 225 }}>
               <CardMedia
                 sx={{ height: 200 }}
                 component="img"
@@ -194,11 +194,11 @@ function Exercises() {
         </div>
         <div className="exercise-row">
           <div class="exercise">
-            <Card sx={{ maxWidth: 225 }}>
+            <Card sx={{ maxWidth: 250 }}>
               <CardMedia
                 sx={{ height: 200 }}
                 component="img"
-                src="../../images/exerciseImages/chair.png"
+                src="../../images/exerciseImages/seatedCore.png"
                 title="Seated Core"
               />
               <CardContent>
@@ -215,9 +215,9 @@ function Exercises() {
             </Card>{" "}
           </div>
           <div className="exercise">
-            <Card sx={{ maxWidth: 225 }}>
+            <Card sx={{ maxWidth: 230 }}>
               <CardMedia
-                sx={{ height: 200 }}
+                sx={{ height: 240 }}
                 component="img"
                 src="../../images/exerciseImages/totalBodyWorkout.png"
                 title="Total Body Workout"
@@ -225,7 +225,7 @@ function Exercises() {
 
               <CardContent>
                 <Typography gutterBottom variant="h5" component="div">
-                  Resistance Training
+                  Total Body Workout
                 </Typography>
               </CardContent>
               <CardActions>
@@ -237,11 +237,11 @@ function Exercises() {
           </div>
 
           <div className="exercise">
-            <Card sx={{ maxWidth: 200 }}>
+            <Card sx={{ maxWidth: 225 }}>
               <CardMedia
                 sx={{ height: 200 }}
                 component="img"
-                src="../../images/exerciseImages/yoga.png"
+                src="../../images/exerciseImages/yoga1.png"
                 title="Yoga"
               />
               <CardContent>

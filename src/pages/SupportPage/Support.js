@@ -110,10 +110,10 @@ function Support() {
           {" "}
           <div className="indent-space">
             <a
-              href="https://www.flaticon.com/free-icons/workout"
-              title="workout icons"
+              href="https://www.flaticon.com/free-icons/balancing"
+              title="balancing icons"
             >
-              Workout icons created by ultimatearm - Flaticon
+              Exercising icons created by Freepik - Flaticon
             </a>
           </div>
         </div>

@@ -59,7 +59,7 @@ function ExercisesInSpanish() {
               <CardActions>
                 <Button component={Link} href="/balance-gait" size="small">
                   {" "}
-                  Exercise{" "}
+                  Exercises{" "}
                 </Button>
               </CardActions>
             </Card>{" "}
@@ -81,7 +81,7 @@ function ExercisesInSpanish() {
               <CardActions>
                 <Button component={Link} href="/chronicPain" size="small">
                   {" "}
-                  Recipes{" "}
+                  Exercises{" "}
                 </Button>
               </CardActions>
             </Card>{" "}
@@ -92,7 +92,7 @@ function ExercisesInSpanish() {
               <CardMedia
                 sx={{ height: 200 }}
                 component="img"
-                src="../../images/exerciseImages/flexibility.png"
+                src="../../images/exerciseImages/flexible.png"
                 title="Flexibility Training"
               />
               <CardContent>
@@ -107,7 +107,7 @@ function ExercisesInSpanish() {
                   size="small"
                 >
                   {" "}
-                  Recipes{" "}
+                  Exercises{" "}
                 </Button>
               </CardActions>
             </Card>{" "}
@@ -119,7 +119,7 @@ function ExercisesInSpanish() {
               <CardMedia
                 sx={{ height: 200 }}
                 component="img"
-                src="../../images/exerciseImages/house.png"
+                src="../../images/exerciseImages/home.png"
                 title="Household Resistance"
               />
               <CardContent>
@@ -134,17 +134,17 @@ function ExercisesInSpanish() {
                   size="small"
                 >
                   {" "}
-                  Exercise{" "}
+                  Exercises{" "}
                 </Button>
               </CardActions>
             </Card>{" "}
           </div>
           <div className="exercise">
-            <Card sx={{ maxWidth: 225 }}>
+            <Card sx={{ maxWidth: 215 }}>
               <CardMedia
-                sx={{ height: 200 }}
+                sx={{ height: 230 }}
                 component="img"
-                src="../../images/exerciseImages/resistanceTraining.png"
+                src="../../images/exerciseImages/resistance.png"
                 title="Resistance Training w/ Bands"
               />
 
@@ -156,14 +156,14 @@ function ExercisesInSpanish() {
               <CardActions>
                 <Button component={Link} href="/chronicPain" size="small">
                   {" "}
-                  Recipes{" "}
+                  Exercises{" "}
                 </Button>
               </CardActions>
             </Card>{" "}
           </div>
 
           <div className="exercise">
-            <Card sx={{ maxWidth: 200 }}>
+            <Card sx={{ maxWidth: 225 }}>
               <CardMedia
                 sx={{ height: 200 }}
                 component="img"
@@ -177,8 +177,7 @@ function ExercisesInSpanish() {
               </CardContent>
               <CardActions>
                 <Button component={Link} href="/seatedCardio" size="small">
-                  {" "}
-                  Recipes{" "}
+                  Exercises{" "}
                 </Button>
               </CardActions>
             </Card>{" "}
@@ -186,11 +185,11 @@ function ExercisesInSpanish() {
         </div>
         <div className="exercise-row">
           <div class="exercise">
-            <Card sx={{ maxWidth: 225 }}>
+            <Card sx={{ maxWidth: 250 }}>
               <CardMedia
                 sx={{ height: 200 }}
                 component="img"
-                src="../../images/exerciseImages/chair.png"
+                src="../../images/exerciseImages/seatedCore.png"
                 title="Seated Core"
               />
               <CardContent>
@@ -201,15 +200,15 @@ function ExercisesInSpanish() {
               <CardActions>
                 <Button component={Link} href="/seatedCore" size="small">
                   {" "}
-                  Exercise{" "}
+                  Exercises{" "}
                 </Button>
               </CardActions>
             </Card>{" "}
           </div>
           <div className="exercise">
-            <Card sx={{ maxWidth: 225 }}>
+            <Card sx={{ maxWidth: 230 }}>
               <CardMedia
-                sx={{ height: 200 }}
+                sx={{ height: 240 }}
                 component="img"
                 src="../../images/exerciseImages/totalBodyWorkout.png"
                 title="Total Body Workout"
@@ -217,23 +216,23 @@ function ExercisesInSpanish() {
 
               <CardContent>
                 <Typography gutterBottom variant="h5" component="div">
-                  Resistance Training
+                  Total Body Workout
                 </Typography>
               </CardContent>
               <CardActions>
                 <Button component={Link} href="/totalBodyWorkout" size="small">
-                  Exercise
+                  Exercises{" "}
                 </Button>
               </CardActions>
             </Card>{" "}
           </div>
 
           <div className="exercise">
-            <Card sx={{ maxWidth: 200 }}>
+            <Card sx={{ maxWidth: 225 }}>
               <CardMedia
                 sx={{ height: 200 }}
                 component="img"
-                src="../../images/exerciseImages/yoga.png"
+                src="../../images/exerciseImages/yoga1.png"
                 title="Yoga"
               />
               <CardContent>
@@ -244,7 +243,7 @@ function ExercisesInSpanish() {
               <CardActions>
                 <Button component={Link} href="/yoga" size="small">
                   {" "}
-                  Exercise{" "}
+                  Exercises{" "}
                 </Button>
               </CardActions>
             </Card>{" "}
