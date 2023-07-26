@@ -57,7 +57,11 @@ function ExercisesInSpanish() {
                 </Typography>
               </CardContent>
               <CardActions>
-                <Button component={Link} href="/balance-gait" size="small">
+                <Button
+                  component={Link}
+                  href="/balance-gait-spanish"
+                  size="small"
+                >
                   {" "}
                   Exercises{" "}
                 </Button>
@@ -79,7 +83,11 @@ function ExercisesInSpanish() {
                 </Typography>
               </CardContent>
               <CardActions>
-                <Button component={Link} href="/chronicPain" size="small">
+                <Button
+                  component={Link}
+                  href="/chronicPainSpanish"
+                  size="small"
+                >
                   {" "}
                   Exercises{" "}
                 </Button>
@@ -103,7 +111,7 @@ function ExercisesInSpanish() {
               <CardActions>
                 <Button
                   component={Link}
-                  href="/flexibilityTraining"
+                  href="/flexibilityTrainingSpanish"
                   size="small"
                 >
                   {" "}
@@ -130,7 +138,7 @@ function ExercisesInSpanish() {
               <CardActions>
                 <Button
                   component={Link}
-                  href="/householdResistance"
+                  href="/householdResistanceSpanish"
                   size="small"
                 >
                   {" "}
@@ -154,7 +162,11 @@ function ExercisesInSpanish() {
                 </Typography>
               </CardContent>
               <CardActions>
-                <Button component={Link} href="/chronicPain" size="small">
+                <Button
+                  component={Link}
+                  href="/resistanceWBandsSpanish"
+                  size="small"
+                >
                   {" "}
                   Exercises{" "}
                 </Button>
@@ -176,7 +188,11 @@ function ExercisesInSpanish() {
                 </Typography>
               </CardContent>
               <CardActions>
-                <Button component={Link} href="/seatedCardio" size="small">
+                <Button
+                  component={Link}
+                  href="/seatedCardioSpanish"
+                  size="small"
+                >
                   Exercises{" "}
                 </Button>
               </CardActions>
@@ -198,7 +214,7 @@ function ExercisesInSpanish() {
                 </Typography>
               </CardContent>
               <CardActions>
-                <Button component={Link} href="/seatedCore" size="small">
+                <Button component={Link} href="/seatedCoreSpanish" size="small">
                   {" "}
                   Exercises{" "}
                 </Button>
@@ -220,7 +236,11 @@ function ExercisesInSpanish() {
                 </Typography>
               </CardContent>
               <CardActions>
-                <Button component={Link} href="/totalBodyWorkout" size="small">
+                <Button
+                  component={Link}
+                  href="/totalBodyWorkoutSpanish"
+                  size="small"
+                >
                   Exercises{" "}
                 </Button>
               </CardActions>
@@ -241,7 +261,7 @@ function ExercisesInSpanish() {
                 </Typography>
               </CardContent>
               <CardActions>
-                <Button component={Link} href="/yoga" size="small">
+                <Button component={Link} href="/yogaSpanish" size="small">
                   {" "}
                   Exercises{" "}
                 </Button>

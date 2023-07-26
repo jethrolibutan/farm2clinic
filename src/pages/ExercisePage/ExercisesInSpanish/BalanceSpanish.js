@@ -1,7 +1,7 @@
 import React from "react";
 
-function Balance() {
+function BalanceSpanish() {
   return <div>Balance</div>;
 }
 
-export default Balance;
+export default BalanceSpanish;

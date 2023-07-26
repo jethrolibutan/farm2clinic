@@ -1,7 +1,7 @@
 import React from "react";
 
-function Yoga() {
+function YogaSpanish() {
   return <div>Yoga</div>;
 }
 
-export default Yoga;
+export default YogaSpanish;

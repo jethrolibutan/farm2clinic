@@ -20,6 +20,16 @@ import SeatedCore from "./pages/ExercisePage/ExercisesInEnglish/SeatedCore";
 import TotalBody from "./pages/ExercisePage/ExercisesInEnglish/TotalBody";
 import Yoga from "./pages/ExercisePage/ExercisesInEnglish/Yoga";
 import ExercisesInSpanish from "./pages/ExercisePage/ExercisesInSpanish/ExercisesInSpanish";
+import BalanceSpanish from "./pages/ExercisePage/ExercisesInSpanish/BalanceSpanish";
+import ChronicPainSpanish from "./pages/ExercisePage/ExercisesInSpanish/ChronicPainSpanish";
+import FlexibilitySpanish from "./pages/ExercisePage/ExercisesInSpanish/FlexibilitySpanish";
+import HouseholdSpanish from "./pages/ExercisePage/ExercisesInSpanish/HouseHoldSpanish";
+import ResistanceSpanish from "./pages/ExercisePage/ExercisesInSpanish/ResistanceSpanish";
+import SeatedCardioSpanish from "./pages/ExercisePage/ExercisesInSpanish/SeatedCardioSpanish";
+import SeatedCoreSpanish from "./pages/ExercisePage/ExercisesInSpanish/SeatedCoreSpanish";
+import TotalBodySpanish from "./pages/ExercisePage/ExercisesInSpanish/TotalBodySpanish";
+import YogaSpanish from "./pages/ExercisePage/ExercisesInSpanish/YogaSpanish";
+
 import Recipes from "./pages/RecipesProducePage/Recipes";
 import Training from "./pages/TrainingPage/Training";
 import Publications from "./pages/PublicationsPage/Publications";
@@ -95,7 +105,21 @@ function App() {
         <Route path="seatedCore" element={<SeatedCore />} />
         <Route path="totalBodyWorkout" element={<TotalBody />} />
         <Route path="yoga" element={<Yoga />} />
-
+        <Route path="balance-gait-spanish" element={<BalanceSpanish />} />
+        <Route path="chronicPainSpanish" element={<ChronicPainSpanish />} />
+        <Route
+          path="flexibilityTrainingSpanish"
+          element={<FlexibilitySpanish />}
+        />
+        <Route
+          path="householdResistanceSpanish"
+          element={<HouseholdSpanish />}
+        />
+        <Route path="resistanceWBandsSpanish" element={<ResistanceSpanish />} />
+        <Route path="seatedCardioSpanish" element={<SeatedCardioSpanish />} />
+        <Route path="seatedCoreSpanish" element={<SeatedCoreSpanish />} />
+        <Route path="totalBodyWorkoutSpanish" element={<TotalBodySpanish />} />
+        <Route path="yogaSpanish" element={<YogaSpanish />} />
         <Route path="training" element={<Training />} />
         <Route path="publications" element={<Publications />} />
         <Route path="inTheNews" element={<InTheNews />} />
