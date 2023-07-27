@@ -41,6 +41,11 @@ function Balance() {
           </Button>
         </div>
       </div>
+
+      <div className="carousel-produce">
+        <img src="../../../images/balance/balance1.png" alt="Artichoke" />
+      </div>
+
       <SubFooter />
       <Footer />
     </div>

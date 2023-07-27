@@ -1,0 +1,16 @@
+.exercise {
+  display: flex;
+  flex-direction: column;
+
+  vertical-align: middle;
+
+  width: auto;
+  height: 1500px;
+  margin: auto;
+  max-width: 1100px;
+
+  padding-top: 5em;
+  padding-bottom: 5em;
+
+  /* background-color: black; */
+}

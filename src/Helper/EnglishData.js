@@ -38,7 +38,6 @@ import cabb7 from "../images/englishRecipes/cabbageRecipes/cabb7.png";
 import cabb8 from "../images/englishRecipes/cabbageRecipes/cabb8.png";
 import cabb9 from "../images/englishRecipes/cabbageRecipes/cabb9.png";
 import cabb10 from "../images/englishRecipes/cabbageRecipes/cabb10.png";
-
 import carr1 from "../images/englishRecipes/carrotRecipes/carr1.png";
 import carr2 from "../images/englishRecipes/carrotRecipes/carr2.png";
 import carr3 from "../images/englishRecipes/carrotRecipes/carr3.png";
@@ -49,7 +48,6 @@ import carr7 from "../images/englishRecipes/carrotRecipes/carr7.png";
 import carr8 from "../images/englishRecipes/carrotRecipes/carr8.png";
 import carr9 from "../images/englishRecipes/carrotRecipes/carr9.png";
 import carr10 from "../images/englishRecipes/carrotRecipes/carr10.png";
-
 import cauli1 from "../images/englishRecipes/cauliflowerRecipes/cauli1.png";
 import cauli2 from "../images/englishRecipes/cauliflowerRecipes/cauli2.png";
 import cauli3 from "../images/englishRecipes/cauliflowerRecipes/cauli3.png";
@@ -60,7 +58,6 @@ import cauli7 from "../images/englishRecipes/cauliflowerRecipes/cauli7.png";
 import cauli8 from "../images/englishRecipes/cauliflowerRecipes/cauli8.png";
 import cauli9 from "../images/englishRecipes/cauliflowerRecipes/cauli9.png";
 import cauli10 from "../images/englishRecipes/cauliflowerRecipes/cauli10.png";
-
 import kale1 from "../images/englishRecipes/kaleRecipes/kale1.png";
 import kale2 from "../images/englishRecipes/kaleRecipes/kale2.png";
 import kale3 from "../images/englishRecipes/kaleRecipes/kale3.png";
@@ -69,10 +66,8 @@ import kale5 from "../images/englishRecipes/kaleRecipes/kale5.png";
 import kale6 from "../images/englishRecipes/kaleRecipes/kale6.png";
 import kale7 from "../images/englishRecipes/kaleRecipes/kale7.png";
 import kale8 from "../images/englishRecipes/kaleRecipes/kale8.png";
-
 import coll1 from "../images/englishRecipes/collardRecipes/coll1.png";
 import coll2 from "../images/englishRecipes/collardRecipes/coll2.png";
-
 import spagSquash1 from "../images/englishRecipes/spaghettiSquashRecipes/spagsquash1.png";
 import spagSquash2 from "../images/englishRecipes/spaghettiSquashRecipes/spagsquash2.png";
 import spagSquash3 from "../images/englishRecipes/spaghettiSquashRecipes/spagsquash3.png";
@@ -83,7 +78,6 @@ import spagSquash7 from "../images/englishRecipes/spaghettiSquashRecipes/spagsqu
 import spagSquash8 from "../images/englishRecipes/spaghettiSquashRecipes/spagsquash8.png";
 import spagSquash9 from "../images/englishRecipes/spaghettiSquashRecipes/spagsquash9.png";
 import spagSquash10 from "../images/englishRecipes/spaghettiSquashRecipes/spagsquash10.png";
-
 import sweetPot1 from "../images/englishRecipes/sweetPotatoRecipes/sweetPot1.png";
 import sweetPot2 from "../images/englishRecipes/sweetPotatoRecipes/sweetPot2.png";
 import sweetPot3 from "../images/englishRecipes/sweetPotatoRecipes/sweetPot3.png";
@@ -94,7 +88,6 @@ import sweetPot7 from "../images/englishRecipes/sweetPotatoRecipes/sweetPot7.png
 import sweetPot8 from "../images/englishRecipes/sweetPotatoRecipes/sweetPot8.png";
 import sweetPot9 from "../images/englishRecipes/sweetPotatoRecipes/sweetPot9.png";
 import sweetPot10 from "../images/englishRecipes/sweetPotatoRecipes/sweetPot10.png";
-
 import turnip1 from "../images/englishRecipes/turnipRecipes/turn1.png";
 import turnip2 from "../images/englishRecipes/turnipRecipes/turn2.png";
 import turnip3 from "../images/englishRecipes/turnipRecipes/turn3.png";
@@ -105,7 +98,6 @@ import turnip7 from "../images/englishRecipes/turnipRecipes/turn7.png";
 import turnip8 from "../images/englishRecipes/turnipRecipes/turn8.png";
 import turnip9 from "../images/englishRecipes/turnipRecipes/turn9.png";
 import turnip10 from "../images/englishRecipes/turnipRecipes/turn10.png";
-
 import zucc1 from "../images/englishRecipes/zucchiniRecipes/zucc1.png";
 import zucc2 from "../images/englishRecipes/zucchiniRecipes/zucc2.png";
 import zucc3 from "../images/englishRecipes/zucchiniRecipes/zucc3.png";
@@ -116,7 +108,6 @@ import zucc7 from "../images/englishRecipes/zucchiniRecipes/zucc7.png";
 import zucc8 from "../images/englishRecipes/zucchiniRecipes/zucc8.png";
 import zucc9 from "../images/englishRecipes/zucchiniRecipes/zucc9.png";
 import zucc10 from "../images/englishRecipes/zucchiniRecipes/zucc10.png";
-
 import art1 from "../images/englishRecipes/artichokeRecipes/art1.jpg";
 
 export const artichoke = [
