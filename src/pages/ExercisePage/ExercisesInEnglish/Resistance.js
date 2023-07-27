@@ -3,6 +3,7 @@ import Navbar from "../../../components/Navbar";
 import SubFooter from "../../../components/SubFooter";
 import Footer from "../../../components/Footer";
 import { Link, Button } from "@mui/material";
+import "./Exercises.css";
 
 function Resistance() {
   return (
@@ -41,6 +42,12 @@ function Resistance() {
             Exercises in Spanish{" "}
           </Button>
         </div>
+      </div>
+      <div className="exercise">
+        <img
+          src="../../../images/workoutImages/resistance/resistance1.png"
+          alt="Resistance Training with at Home Items"
+        />
       </div>
       <SubFooter />
       <Footer />

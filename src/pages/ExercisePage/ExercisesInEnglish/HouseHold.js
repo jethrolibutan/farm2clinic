@@ -43,7 +43,7 @@ function HouseHold() {
           </Button>
         </div>
       </div>
-      <div className="exercise">
+      <div className="specific-exercise">
         <img
           src="../../../images/workoutImages/house/house1.png"
           alt="Resistance Training with at Home Items"
